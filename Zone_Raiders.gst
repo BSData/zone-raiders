@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="08e6-d63e-4303-2708" name="Zone Raiders" revision="2" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="08e6-d63e-4303-2708" name="Zone Raiders" revision="3" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="7601-9533-236d-0449" name="Core Rulebook"/>
   </publications>
@@ -286,6 +286,9 @@
       <infoLinks>
         <infoLink id="79df-140a-f1e8-780c" name="Scrap Shotgun" publicationId="7601-9533-236d-0449" hidden="false" targetId="317d-dfc2-007f-d792" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="42a2-653c-8aa3-62b8" name="Auto Carbine" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -294,6 +297,9 @@
       <infoLinks>
         <infoLink id="1b27-a38c-b2c5-519a" name="Auto Carbine" publicationId="7601-9533-236d-0449" hidden="false" targetId="474b-6343-ea57-c0e2" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="57a1-5fa2-9b23-7d0a" name="Mechanical Bow" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -302,6 +308,9 @@
       <infoLinks>
         <infoLink id="a118-0ebb-6071-3fa3" name="Mechanical Bow" publicationId="7601-9533-236d-0449" hidden="false" targetId="9df6-7636-b6dd-33aa" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3859-0b30-7d71-cbf3" name="Pneumatic Jezail" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -310,6 +319,9 @@
       <infoLinks>
         <infoLink id="0103-832d-8045-b133" name="Pneumatic Jezail" publicationId="7601-9533-236d-0449" hidden="false" targetId="58d7-c205-45ee-883b" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3dc2-e3c1-1c1d-69c0" name="Pneumatic Hailer" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -318,6 +330,9 @@
       <infoLinks>
         <infoLink id="ed24-3a38-1245-5776" name="Pneumatic Hailer" publicationId="7601-9533-236d-0449" hidden="false" targetId="2e35-b540-40ca-a841" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="82b8-ebe0-ff9b-d942" name="Mag Driver" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -326,6 +341,9 @@
       <infoLinks>
         <infoLink id="9dc2-c6d3-ba3f-1526" name="Mag Driver" publicationId="7601-9533-236d-0449" hidden="false" targetId="2beb-8416-740f-2474" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="465e-635c-fd6a-de96" name="Mag Blitzer" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -334,6 +352,9 @@
       <infoLinks>
         <infoLink id="d390-1e12-1346-cadd" name="Mag Blitzer" publicationId="7601-9533-236d-0449" hidden="false" targetId="6b8a-1d33-7809-f2c8" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8923-b0af-227e-5b76" name="Flechette Hailer" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -342,6 +363,9 @@
       <infoLinks>
         <infoLink id="3b11-8bf6-4b09-59ad" name="Flechette Hailer" publicationId="7601-9533-236d-0449" hidden="false" targetId="48ec-3536-e4f6-4d3b" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="46f8-14f1-6f91-8788" name="Incinerator" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -350,6 +374,9 @@
       <infoLinks>
         <infoLink id="0a7e-02b9-63c5-f368" name="Incinerator" publicationId="7601-9533-236d-0449" hidden="false" targetId="2209-95fa-7307-1713" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f3fc-390c-6714-2625" name="Snub Isotope Cannon" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -358,6 +385,9 @@
       <infoLinks>
         <infoLink id="1a1b-030c-5ac6-0e02" name="Heavy Isotope Cannon" publicationId="7601-9533-236d-0449" hidden="false" targetId="9ca3-90f9-3035-196d" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="963f-477c-7428-c21e" name="Heavy Isotope Cannon" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -366,6 +396,9 @@
       <infoLinks>
         <infoLink id="9690-ea43-5b56-f8fc" name="Heavy Isotope Cannon" publicationId="7601-9533-236d-0449" hidden="false" targetId="9ca3-90f9-3035-196d" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ad89-4edd-6fbc-3bbe" name="Canister Launcher" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -373,6 +406,113 @@
       </constraints>
       <infoLinks>
         <infoLink id="f6bf-6e12-9427-3349" name="Canister Launcher" publicationId="7601-9533-236d-0449" hidden="false" targetId="0d7d-a99c-a07a-2538" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7209-b7fc-f744-6c6b" name="New SelectionEntry" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aad5-80ed-1d9b-5b18" type="max"/>
+      </constraints>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="67c1-a9ad-5de7-46bd" name="Bash" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="434b-29f1-f8f9-f4ba" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="c7d9-128b-f5e9-0056" name="Bash" publicationId="7601-9533-236d-0449" hidden="false" targetId="6e0f-2622-19b2-da72" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="8ff8-d9a7-22ca-7672" name="Scrap Club" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="caa5-927a-1275-cadd" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a86d-e5d1-c450-3b10" name="Scrap Club" publicationId="7601-9533-236d-0449" hidden="false" targetId="5efe-ce08-533d-9f18" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="45b6-ef50-b4ed-ce1c" name="Chaincutter" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c89a-8d3d-aef1-8a83" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="5617-6fd9-54c5-e0de" name="Chaincutter" publicationId="7601-9533-236d-0449" hidden="false" targetId="4ac7-3375-2489-0758" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="b5f1-8360-b9ca-340b" name="Kinetic Gauntlet" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8401-2279-2723-0537" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="21fc-63bf-4ed9-d0f2" name="Kinetic Gauntlet" publicationId="7601-9533-236d-0449" hidden="false" targetId="026c-c03e-ee92-d4bc" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="4986-4b01-20e9-7f94" name="Thermal Lance" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc8c-84a9-4070-d663" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="f93b-a483-e0c8-b8f7" name="Thermal Lance" publicationId="7601-9533-236d-0449" hidden="false" targetId="f3d0-37e7-ca2b-7319" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="db02-73bf-f488-efc1" name="Industrial Claws" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28f3-481c-8080-a93f" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="306f-6bca-cce0-3e21" name="Industrial Claws" publicationId="7601-9533-236d-0449" hidden="false" targetId="c35d-3f90-f101-ba42" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="8e6f-a45c-b6d7-09b2" name="Scrap Pistol" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bbe-2451-4b7e-6f86" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="c8d3-d40d-4c62-cf5b" name="Scrap Pistol" publicationId="7601-9533-236d-0449" hidden="false" targetId="f72d-de42-2e4f-bf34" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="8da9-9cb0-dc02-6714" name="Sawed-Off Slugger" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38c8-2f0b-36f9-7289" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="75c5-9430-df1f-64fb" name="Sawed-Off Slugger" publicationId="7601-9533-236d-0449" hidden="false" targetId="825d-e32e-1dc1-1c11" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="a0ed-1600-1410-d45f" name="Flechette Pistol" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fdc-7f5a-13dd-4ad1" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="529d-cdb9-d3ec-d8fc" name="Flechette Pistol" publicationId="7601-9533-236d-0449" hidden="false" targetId="d842-d5c3-c2c7-da35" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="2481-7b90-9233-b433" name="Needle Pistol" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed1a-4982-9b76-ef14" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="18b6-6896-3882-93e0" name="Needle Pistol" publicationId="7601-9533-236d-0449" hidden="false" targetId="4c6b-7550-0eca-53c7" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="f062-9e0d-32ab-aaea" name="Mag Pulser" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0a4-bb57-6925-c26f" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="16e2-69a1-a578-6bfc" name="Mag-Pulser" publicationId="7601-9533-236d-0449" hidden="false" targetId="cc2b-47b6-3023-f3d7" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="ec03-4c77-dd15-0630" name="Plasma Burner" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6da4-2987-507a-3228" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="3c68-8da1-5cd0-da11" name="Plasma Burner" publicationId="7601-9533-236d-0449" hidden="false" targetId="2df9-5dbc-2578-8668" type="profile"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -508,7 +648,40 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="a88a-ae4e-cb1e-34a1" name="Secondary Ranged Weapons" hidden="false" collective="false" import="true"/>
+    <selectionEntryGroup id="a88a-ae4e-cb1e-34a1" name="Secondary Ranged Weapons" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="8e9d-d7e4-6f04-971d" name="Scrap Pistol" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" targetId="8e6f-a45c-b6d7-09b2" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="0730-be97-40b1-24ac" name="Sawed-Off Slugger" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" targetId="8da9-9cb0-dc02-6714" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="3969-5657-6627-2c96" name="Flechette Pistol" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" targetId="a0ed-1600-1410-d45f" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="8181-ec76-982f-5cdc" name="Needle Pistol" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" targetId="2481-7b90-9233-b433" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="0c53-549c-b575-b6c4" name="Mag Pulser" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" targetId="f062-9e0d-32ab-aaea" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="46bc-6b07-0c3a-5160" name="Plasma Burner" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" targetId="ec03-4c77-dd15-0630" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="10.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
     <selectionEntryGroup id="91e2-7b89-2001-b4ea" name="Melee Weapons" hidden="false" collective="false" import="true">
       <entryLinks>
         <entryLink id="27ff-a5e0-5c2c-c32d" name="Progressive Edge" hidden="false" collective="false" import="true" targetId="1631-cc6f-3156-480b" type="selectionEntry">
@@ -524,6 +697,32 @@
         <entryLink id="e5c9-5eb6-f582-9953" name="Electro-Rod" hidden="false" collective="false" import="true" targetId="82ba-387c-648d-98ca" type="selectionEntry">
           <costs>
             <cost name=" RU" typeId="1082-1dbd-73db-175d" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="07b7-6d3e-0496-a9ca" name="Bash" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" targetId="67c1-a9ad-5de7-46bd" type="selectionEntry"/>
+        <entryLink id="e492-0aaa-a015-86f7" name="Scrap Club" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" targetId="8ff8-d9a7-22ca-7672" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="2dec-eb40-6cdf-243e" name="Chaincutter" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" targetId="45b6-ef50-b4ed-ce1c" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="13e5-357f-b691-0eda" name="Kinetic Gauntlet" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" targetId="b5f1-8360-b9ca-340b" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="15.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="c9d4-79c2-d9b4-822d" name="Thermal Lance" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" targetId="4986-4b01-20e9-7f94" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="20.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="e712-5f50-01ed-fa63" name="Industrial Claws" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" targetId="db02-73bf-f488-efc1" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="20.0"/>
           </costs>
         </entryLink>
       </entryLinks>
@@ -767,6 +966,96 @@ Single Use: May be used only once Per Battle.</characteristic>
         <characteristic name="Strenght" typeId="a9bc-b7ae-b369-f373">6 AP</characteristic>
         <characteristic name="Ammo" typeId="40ed-c516-1950-7265">1</characteristic>
         <characteristic name="Special" typeId="10c9-df75-6e4c-ea71">Blast(2), Bulky</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6e0f-2622-19b2-da72" name="Bash" publicationId="7601-9533-236d-0449" hidden="false" typeId="749b-03cb-a373-262f" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="57e3-e0fd-2d69-6732">Melee</characteristic>
+        <characteristic name="Strength" typeId="7c7c-4d06-ad0a-dab8">0</characteristic>
+        <characteristic name="Special" typeId="d7f5-98c9-9323-e572">Concussive, models may always use this attack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5efe-ce08-533d-9f18" name="Scrap Club" publicationId="7601-9533-236d-0449" hidden="false" typeId="749b-03cb-a373-262f" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="57e3-e0fd-2d69-6732">Melee</characteristic>
+        <characteristic name="Strength" typeId="7c7c-4d06-ad0a-dab8">2</characteristic>
+        <characteristic name="Special" typeId="d7f5-98c9-9323-e572">Concussive</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4ac7-3375-2489-0758" name="Chaincutter" publicationId="7601-9533-236d-0449" hidden="false" typeId="749b-03cb-a373-262f" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="57e3-e0fd-2d69-6732">Melee</characteristic>
+        <characteristic name="Strength" typeId="7c7c-4d06-ad0a-dab8">4 AP</characteristic>
+        <characteristic name="Special" typeId="d7f5-98c9-9323-e572">Rupturing</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="026c-c03e-ee92-d4bc" name="Kinetic Gauntlet" publicationId="7601-9533-236d-0449" hidden="false" typeId="749b-03cb-a373-262f" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="57e3-e0fd-2d69-6732">Melee</characteristic>
+        <characteristic name="Strength" typeId="7c7c-4d06-ad0a-dab8">5</characteristic>
+        <characteristic name="Special" typeId="d7f5-98c9-9323-e572">Concussive</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f3d0-37e7-ca2b-7319" name="Thermal Lance" publicationId="7601-9533-236d-0449" hidden="false" typeId="749b-03cb-a373-262f" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="57e3-e0fd-2d69-6732">Melee</characteristic>
+        <characteristic name="Strength" typeId="7c7c-4d06-ad0a-dab8">4 AP</characteristic>
+        <characteristic name="Special" typeId="d7f5-98c9-9323-e572">Brutal</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c35d-3f90-f101-ba42" name="Industrial Claws" hidden="false" typeId="749b-03cb-a373-262f" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="57e3-e0fd-2d69-6732">Melee</characteristic>
+        <characteristic name="Strength" typeId="7c7c-4d06-ad0a-dab8">6 AP</characteristic>
+        <characteristic name="Special" typeId="d7f5-98c9-9323-e572"></characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f72d-de42-2e4f-bf34" name="Scrap Pistol" publicationId="7601-9533-236d-0449" hidden="false" typeId="3bb5-1ec6-089d-4c48" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="18e3-7f1a-510f-0e79">8</characteristic>
+        <characteristic name="Strenght" typeId="a9bc-b7ae-b369-f373">0</characteristic>
+        <characteristic name="Ammo" typeId="40ed-c516-1950-7265"/>
+        <characteristic name="Special" typeId="10c9-df75-6e4c-ea71"/>
+      </characteristics>
+    </profile>
+    <profile id="825d-e32e-1dc1-1c11" name="Sawed-Off Slugger" publicationId="7601-9533-236d-0449" hidden="false" typeId="3bb5-1ec6-089d-4c48" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="18e3-7f1a-510f-0e79">6</characteristic>
+        <characteristic name="Strenght" typeId="a9bc-b7ae-b369-f373">2</characteristic>
+        <characteristic name="Ammo" typeId="40ed-c516-1950-7265"/>
+        <characteristic name="Special" typeId="10c9-df75-6e4c-ea71">Short-Range, Concussive</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d842-d5c3-c2c7-da35" name="Flechette Pistol" hidden="false" typeId="3bb5-1ec6-089d-4c48" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="18e3-7f1a-510f-0e79">8</characteristic>
+        <characteristic name="Strenght" typeId="a9bc-b7ae-b369-f373">2</characteristic>
+        <characteristic name="Ammo" typeId="40ed-c516-1950-7265"/>
+        <characteristic name="Special" typeId="10c9-df75-6e4c-ea71">Rapid Weapon</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4c6b-7550-0eca-53c7" name="Needle Pistol" publicationId="7601-9533-236d-0449" hidden="false" typeId="3bb5-1ec6-089d-4c48" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="18e3-7f1a-510f-0e79">12</characteristic>
+        <characteristic name="Strenght" typeId="a9bc-b7ae-b369-f373">0</characteristic>
+        <characteristic name="Ammo" typeId="40ed-c516-1950-7265"/>
+        <characteristic name="Special" typeId="10c9-df75-6e4c-ea71"/>
+      </characteristics>
+    </profile>
+    <profile id="cc2b-47b6-3023-f3d7" name="Mag Pulser" publicationId="7601-9533-236d-0449" hidden="false" typeId="3bb5-1ec6-089d-4c48" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="18e3-7f1a-510f-0e79">8</characteristic>
+        <characteristic name="Strenght" typeId="a9bc-b7ae-b369-f373">2 AP</characteristic>
+        <characteristic name="Ammo" typeId="40ed-c516-1950-7265"/>
+        <characteristic name="Special" typeId="10c9-df75-6e4c-ea71"/>
+      </characteristics>
+    </profile>
+    <profile id="2df9-5dbc-2578-8668" name="Plasma Burner" hidden="false" typeId="3bb5-1ec6-089d-4c48" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="18e3-7f1a-510f-0e79">4</characteristic>
+        <characteristic name="Strenght" typeId="a9bc-b7ae-b369-f373">4 AP</characteristic>
+        <characteristic name="Ammo" typeId="40ed-c516-1950-7265"></characteristic>
+        <characteristic name="Special" typeId="10c9-df75-6e4c-ea71">Short-Range</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
