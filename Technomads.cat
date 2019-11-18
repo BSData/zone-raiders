@@ -224,7 +224,7 @@
         <entryLink id="d7a4-9dc4-ade1-2a0b" name="Grenades" hidden="false" collective="false" import="true" targetId="99fc-9f9d-6755-32b0" type="selectionEntryGroup"/>
         <entryLink id="8f24-b001-17e1-6197" name="Primary Ranged Weapons" hidden="false" collective="false" import="true" targetId="7317-2c92-f2e0-04b6" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="8f24-b001-17e1-6197" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baa5-27b3-ed28-2bbf" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baa5-27b3-ed28-2bbf" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="ecae-03a9-9a36-b2a9" name="Nomad Mag Repeater" hidden="false" collective="false" import="true" targetId="c54d-89ed-32bd-9dbf" type="selectionEntry">
