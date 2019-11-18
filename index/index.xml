@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataIndex battleScribeVersion="2.03" name="Zone Raiders" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
+  <dataIndexEntries>
+    <dataIndexEntry filePath="Zone_Raiders.gstz" dataType="gamesystem" dataId="08e6-d63e-4303-2708" dataName="Zone Raiders" dataBattleScribeVersion="2.03" dataRevision="1"/>
+    <dataIndexEntry filePath="Reclaimers.catz" dataType="catalogue" dataId="758d-7c1d-9dd1-3d0a" dataName="Reclaimers" dataBattleScribeVersion="2.03" dataRevision="1"/>
+    <dataIndexEntry filePath="Technomads.catz" dataType="catalogue" dataId="310c-920b-7885-41d2" dataName="Technomads" dataBattleScribeVersion="2.03" dataRevision="1"/>
+  </dataIndexEntries>
+</dataIndex>
