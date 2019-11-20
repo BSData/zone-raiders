@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="08e6-d63e-4303-2708" name="Zone Raiders" revision="4" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="08e6-d63e-4303-2708" name="Zone Raiders" revision="6" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="7601-9533-236d-0449" name="Core Rulebook"/>
   </publications>
@@ -411,14 +411,6 @@
         <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7209-b7fc-f744-6c6b" name="New SelectionEntry" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aad5-80ed-1d9b-5b18" type="max"/>
-      </constraints>
-      <costs>
-        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="67c1-a9ad-5de7-46bd" name="Bash" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="434b-29f1-f8f9-f4ba" type="max"/>
@@ -569,6 +561,9 @@
       <infoLinks>
         <infoLink id="1d6b-b7f4-8211-f2a4" name="Flash Charge" publicationId="7601-9533-236d-0449" hidden="false" targetId="4f02-ac97-9872-fae8" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8208-3921-413f-4353" name="Survival Suit" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -577,6 +572,9 @@
       <infoLinks>
         <infoLink id="5388-28ff-909a-ab34" name="Survival Suit" publicationId="7601-9533-236d-0449" hidden="false" targetId="e62f-bda1-d14d-d053" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="77f1-5a6e-7af7-6612" name="Gantry Runner Rig" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -585,6 +583,9 @@
       <infoLinks>
         <infoLink id="1a44-0818-3c5b-343c" name="Gantry Runner Rig" publicationId="7601-9533-236d-0449" hidden="false" targetId="a7db-bd72-67e7-276b" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7c8f-6a47-4977-6277" name="Excursion Rig" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -593,6 +594,9 @@
       <infoLinks>
         <infoLink id="5a64-439d-2605-f303" name="Excursion Rig" publicationId="7601-9533-236d-0449" hidden="false" targetId="635d-a656-47d6-54cd" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c010-cc50-723d-7efc" name="Hazard Suit" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -601,6 +605,9 @@
       <infoLinks>
         <infoLink id="0c6b-b1a9-4a8d-25f0" name="Hazard Suit" publicationId="7601-9533-236d-0449" hidden="false" targetId="8797-3228-2f79-30de" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="07e3-7165-1a9b-1f98" name="Armored Hazard Suit" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -609,6 +616,9 @@
       <infoLinks>
         <infoLink id="f955-11fa-28de-b6ba" name="Armored Hazard Suit" publicationId="7601-9533-236d-0449" hidden="false" targetId="5a07-2920-e649-ba5f" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1ca2-0915-5a46-8b88" name="Mechanized Exoskeleton" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -617,10 +627,151 @@
       <infoLinks>
         <infoLink id="8c00-a849-7bef-f70a" name="Mechanized Exoskeleton" publicationId="7601-9533-236d-0449" hidden="false" targetId="014b-6975-9386-1a1f" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a2f8-215f-4cbe-55a1" name="Spare Battery" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c35-eeee-9218-f6d4" type="max"/>
+      </constraints>
       <infoLinks>
         <infoLink id="4719-6408-0049-80f8" name="Spare Battery" publicationId="7601-9533-236d-0449" hidden="false" targetId="3c85-7de0-d9bd-552d" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b4ce-e7bf-2952-a609" name="Ballistic Optics" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bc2-36a5-a7eb-dd5f" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="555c-d24d-1875-7856" name="Ballistic Optics" publicationId="7601-9533-236d-0449" hidden="false" targetId="8848-1a57-0de5-184e" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3560-e11b-c947-fe61" name="Auto-Reloader" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c29-255e-aafd-2b35" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e19e-a303-8fd9-b0dc" name="Auto-Reloader" publicationId="7601-9533-236d-0449" hidden="false" targetId="89c2-88aa-3106-e2d2" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6a89-bb1c-88c3-334e" name="Defense Matrix" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d113-d181-c856-c653" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="489b-c7f1-5c39-bda8" name="Defense Matrix" publicationId="7601-9533-236d-0449" hidden="false" targetId="5319-82f5-040a-d577" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5677-ba7b-ffc8-6cdf" name="Cutter Tools" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a0e-f78e-fd7c-8c1e" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="9651-fc93-9544-37f6" name="Cutter Tools" publicationId="7601-9533-236d-0449" hidden="false" targetId="cfd3-8c45-f79e-4a8d" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dda9-daee-5d2d-7838" name="Trauma Kit" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6587-b053-a4c1-6401" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="ecef-27c9-61b7-9733" name="Trauma Kit" publicationId="7601-9533-236d-0449" hidden="false" targetId="87fe-c7f2-c801-0ef8" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="925a-0545-eb08-d7af" name="Nano-Infusion" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="972e-cb5c-0065-fcbc" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="2be1-0d1c-4e77-1964" name="Nano-Infusion" publicationId="7601-9533-236d-0449" hidden="false" targetId="73a2-a047-2ba6-2dbe" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="3969-7b59-e773-6c4f" name="Comms Uplink" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4259-1851-0c9b-4230" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="af65-4c9a-68bc-0bf6" name="Comms Uplink" publicationId="7601-9533-236d-0449" hidden="false" targetId="dbf4-5149-8909-14e5" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="bb2a-a961-2f61-7da2" name="Tech Jammer" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d811-f914-6519-fd80" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="43f7-ce0f-d210-69e4" name="Tech Jammer" publicationId="7601-9533-236d-0449" hidden="false" targetId="af49-9837-2909-18ff" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="25e7-a85c-bed1-322c" name="Magnetic Boots" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31ba-55b2-65cf-b1a8" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="cb60-e5d0-d1fe-51e4" name="Magnetic Boots" hidden="false" targetId="084b-8268-bf30-2c81" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="2c73-aa50-eaf3-868a" name="Compressed Rations" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00bb-6b3d-4386-d694" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="ff2e-cb40-6d12-0c7c" name="Compressed Rations" hidden="false" targetId="0b92-31fc-c1cb-c393" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="8a05-ca25-8e3e-13fc" name="Hazard Inoculation" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b140-1e2e-8ab0-5059" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="4372-48f7-5ab2-b91f" name="Hazard Inoculation" hidden="false" targetId="8f5b-d45b-4e28-68d0" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="4487-ccab-0c0f-2c7a" name="HardLight Emitter" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77f7-c7a0-8f9d-b124" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="d633-ff73-6984-c23e" name="HardLight Emitter" hidden="false" targetId="c98a-b0f9-4b82-feba" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="bcdb-4f11-e560-3199" name="Scouting Sensor" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3de1-f83c-7808-be82" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="38b2-a360-d44f-1610" name="Scouting Sensor" hidden="false" targetId="8ba8-e449-f832-694b" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="96bc-9038-82ab-8445" name="Descent Harness" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4224-7a2b-61cc-24ac" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="135d-3c50-302e-8feb" name="Descent Harness" hidden="false" targetId="f677-05cf-e6d1-3e08" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="e8b7-2b78-e939-71f8" name="Alloy Shield" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ac4-97ec-604b-8ec2" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="8c49-b7a0-2940-239a" name="Alloy Shield" hidden="false" targetId="e8b9-d5fa-6297-0102" type="profile"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -877,12 +1028,12 @@
     </selectionEntryGroup>
     <selectionEntryGroup id="5065-dad0-9ce1-0391" name="Standard Equipment" hidden="false" collective="false" import="true">
       <entryLinks>
-        <entryLink id="f227-3941-dc46-f6b7" name="Interface Deck" hidden="false" collective="false" import="true" targetId="4068-4384-85c1-9b4c" type="selectionEntry">
+        <entryLink id="f227-3941-dc46-f6b7" name="Interface Deck" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" targetId="4068-4384-85c1-9b4c" type="selectionEntry">
           <costs>
             <cost name=" RU" typeId="1082-1dbd-73db-175d" value="15.0"/>
           </costs>
         </entryLink>
-        <entryLink id="f146-ba19-325b-eb41" name="Smoke Canister" hidden="false" collective="false" import="true" targetId="f407-6ca0-660c-31dc" type="selectionEntry">
+        <entryLink id="f146-ba19-325b-eb41" name="Smoke Canister" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" targetId="f407-6ca0-660c-31dc" type="selectionEntry">
           <costs>
             <cost name=" RU" typeId="1082-1dbd-73db-175d" value="10.0"/>
           </costs>
@@ -890,6 +1041,81 @@
         <entryLink id="b7a8-248e-d4e5-e1e8" name="Spare Battery" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" targetId="a2f8-215f-4cbe-55a1" type="selectionEntry">
           <costs>
             <cost name=" RU" typeId="1082-1dbd-73db-175d" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="bd01-9e39-b2bd-52d6" name="Ballistic Optics" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" targetId="b4ce-e7bf-2952-a609" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="ab3c-819e-c3a2-b336" name="Auto-Reloader" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" targetId="3560-e11b-c947-fe61" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="15.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="a44d-7320-07dd-94ea" name="Defense Matrix" publicationId="7601-9533-236d-0449" page="" hidden="false" collective="false" import="true" targetId="6a89-bb1c-88c3-334e" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="20.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="8a98-c998-d274-0b39" name="Cutter Tools" hidden="false" collective="false" import="true" targetId="5677-ba7b-ffc8-6cdf" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="15.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="e198-9fbe-7326-9b4b" name="Trauma Kit" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" targetId="dda9-daee-5d2d-7838" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="15.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="221a-96de-1ef0-524e" name="Nano-Infusion" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" targetId="925a-0545-eb08-d7af" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="622d-a2ce-fa02-4540" name="Comms Uplink" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" targetId="3969-7b59-e773-6c4f" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="30.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="b442-f30e-a46b-1bc5" name="Tech Jammer" hidden="false" collective="false" import="true" targetId="bb2a-a961-2f61-7da2" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="25.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="9269-c2fd-4ec0-e752" name="Magnetic Boots" hidden="false" collective="false" import="true" targetId="25e7-a85c-bed1-322c" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="ee37-dde7-3732-7b16" name="Compressed Rations" hidden="false" collective="false" import="true" targetId="2c73-aa50-eaf3-868a" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="4978-6a1d-c051-4d29" name="Hazard Inoculation" hidden="false" collective="false" import="true" targetId="8a05-ca25-8e3e-13fc" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="a771-44b0-f97f-ef4d" name="HardLight Emitter" hidden="false" collective="false" import="true" targetId="4487-ccab-0c0f-2c7a" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="30.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="7be3-d278-8298-d474" name="Scouting Sensor" hidden="false" collective="false" import="true" targetId="bcdb-4f11-e560-3199" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="15.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="67ea-7e30-30d6-991c" name="Descent Harness" hidden="false" collective="false" import="true" targetId="96bc-9038-82ab-8445" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="f53f-85ec-6da9-dce8" name="Alloy Shield" hidden="false" collective="false" import="true" targetId="e8b7-2b78-e939-71f8" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="15.0"/>
           </costs>
         </entryLink>
       </entryLinks>
@@ -953,7 +1179,7 @@
       <characteristics>
         <characteristic name="Defense Bonus" typeId="02f2-24c5-b212-d080">7</characteristic>
         <characteristic name="Survival Bonus" typeId="42f3-3ca8-eaa3-d87f">2</characteristic>
-        <characteristic name="Mobility Actions" typeId="a6c5-b5d6-f696-39b6"></characteristic>
+        <characteristic name="Mobility Actions" typeId="a6c5-b5d6-f696-39b6"/>
         <characteristic name="Special" typeId="45e2-d07d-e51c-d971"/>
       </characteristics>
     </profile>
@@ -1273,6 +1499,94 @@ Size Profile is now Large</characteristic>
     <profile id="3c85-7de0-d9bd-552d" name="Spare Battery" hidden="false" typeId="889c-0508-5547-a85e" typeName="Equipment">
       <characteristics>
         <characteristic name="Effect" typeId="b65b-562e-9a15-f71e">Each Battery carried grants the carrier 1 Battery Token per game. A Battery Token may be consumed to enhance a Powered equipment item or provide a model with a free single action move per activation</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8848-1a57-0de5-184e" name="Ballistic Optics" publicationId="7601-9533-236d-0449" page="63" hidden="false" typeId="889c-0508-5547-a85e" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Effect" typeId="b65b-562e-9a15-f71e">Allows Aimed Attack Action</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="89c2-88aa-3106-e2d2" name="Auto-Reloader" publicationId="7601-9533-236d-0449" hidden="false" typeId="889c-0508-5547-a85e" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Effect" typeId="b65b-562e-9a15-f71e">This model may remove all of its Out of Ammo tokens as a free action.
+Single Use: May be used only once Per Battle.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5319-82f5-040a-d577" name="Defense Matrix" publicationId="7601-9533-236d-0449" hidden="false" typeId="889c-0508-5547-a85e" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Effect" typeId="b65b-562e-9a15-f71e">Action: Give a friendly model within 8 inches the Hunker Down status. If the chosen friendly model has not yet activated this round, Hunker Down is not removed by its activation this round.
+Excess Power: May spend a battery token to extend range to 16 inches.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cfd3-8c45-f79e-4a8d" name="Cutter Tools" publicationId="7601-9533-236d-0449" hidden="false" typeId="889c-0508-5547-a85e" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Effect" typeId="b65b-562e-9a15-f71e">Action: Cuts open a Medium Profile-sized hole in a wall or floor that is up to 1 inch thick. Leave a Hole token to represent the area removed. A Small or Medium model may move through the hole.
+Single Use: May be used only once Per Battle.
+Powered: May spend a Battery Token for an additional use.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="87fe-c7f2-c801-0ef8" name="Trauma Kit" publicationId="7601-9533-236d-0449" page="62" hidden="false" typeId="889c-0508-5547-a85e" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Effect" typeId="b65b-562e-9a15-f71e">Allows Heal Action
+Single Use: May be used only once Per Battle</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="73a2-a047-2ba6-2dbe" name="Nano-Infusion" hidden="false" typeId="889c-0508-5547-a85e" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Effect" typeId="b65b-562e-9a15-f71e">Free action: Automatically pass all survival stat checks until the end phase.
+Single Use: May be used only once Per Battle.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="dbf4-5149-8909-14e5" name="Comms Uplink" publicationId="7601-9533-236d-0449" hidden="false" typeId="889c-0508-5547-a85e" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Effect" typeId="b65b-562e-9a15-f71e">When this model is Active, you may gain an extra command point at the Preparation Phase of each round.
+Limited: Max One per Team</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="af49-9837-2909-18ff" name="Tech Jammer" hidden="false" typeId="889c-0508-5547-a85e" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Effect" typeId="b65b-562e-9a15-f71e">Action: Spend 1 Battery Token or 1 Command Point: Choose an enemy unit within 8 inches of this model. You may give that unit an Out of Ammo, Suppression or Armor Failure token which is removed at the end of the round.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="084b-8268-bf30-2c81" name="Magnetic Boots" hidden="false" typeId="889c-0508-5547-a85e" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Effect" typeId="b65b-562e-9a15-f71e">You may make an aptitude check to prevent an involuntary fall or push, stopping the model from being moved.
+Excess Power: May spend a battery token to automatically pass this test.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0b92-31fc-c1cb-c393" name="Compressed Rations" hidden="false" typeId="889c-0508-5547-a85e" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Effect" typeId="b65b-562e-9a15-f71e">Gain 1 Reroll on any Survival, Shooting, Melee or Aptitude Check made by this Model.
+Single Use: May be used only once Per Battle.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8f5b-d45b-4e28-68d0" name="Hazard Inoculation" hidden="false" typeId="889c-0508-5547-a85e" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Effect" typeId="b65b-562e-9a15-f71e">May reroll a survival check from Hazard Areas or spend one action to remove the effects of Radiation and Nano-Contamination on itself or a friendly model in base contact.
+Single Use: May be used only once Per Battle.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c98a-b0f9-4b82-feba" name="HardLight Emitter" hidden="false" typeId="889c-0508-5547-a85e" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Effect" typeId="b65b-562e-9a15-f71e">Action: Creates a HardLight Barrier terrain object within 8 inches of the model. The HardLight Barrier is removed when this model is no longer in the Active state.
+Single Use: May be used only once Per Battle.
+Powered: May spend a Battery Token to use an additional time.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8ba8-e449-f832-694b" name="Scouting Sensor" hidden="false" typeId="889c-0508-5547-a85e" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Effect" typeId="b65b-562e-9a15-f71e">+2 bonus to Mark Target actions. This model ignores the Stealth skill on enemies</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f677-05cf-e6d1-3e08" name="Descent Harness" hidden="false" typeId="889c-0508-5547-a85e" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Effect" typeId="b65b-562e-9a15-f71e">The model may fall any distance as part of its activation without penalty or harm</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e8b9-d5fa-6297-0102" name="Alloy Shield" hidden="false" typeId="889c-0508-5547-a85e" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Effect" typeId="b65b-562e-9a15-f71e">This model gains +2 Defense Bonus on top of other Armor bonuses. This model may not use or equip Primary Weapons.
+This model may be used as Cover by other friendly models.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
