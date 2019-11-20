@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="08e6-d63e-4303-2708" name="Zone Raiders" revision="3" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="08e6-d63e-4303-2708" name="Zone Raiders" revision="4" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="7601-9533-236d-0449" name="Core Rulebook"/>
   </publications>
@@ -426,6 +426,9 @@
       <infoLinks>
         <infoLink id="c7d9-128b-f5e9-0056" name="Bash" publicationId="7601-9533-236d-0449" hidden="false" targetId="6e0f-2622-19b2-da72" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8ff8-d9a7-22ca-7672" name="Scrap Club" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -434,6 +437,9 @@
       <infoLinks>
         <infoLink id="a86d-e5d1-c450-3b10" name="Scrap Club" publicationId="7601-9533-236d-0449" hidden="false" targetId="5efe-ce08-533d-9f18" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="45b6-ef50-b4ed-ce1c" name="Chaincutter" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -442,6 +448,9 @@
       <infoLinks>
         <infoLink id="5617-6fd9-54c5-e0de" name="Chaincutter" publicationId="7601-9533-236d-0449" hidden="false" targetId="4ac7-3375-2489-0758" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b5f1-8360-b9ca-340b" name="Kinetic Gauntlet" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -450,6 +459,9 @@
       <infoLinks>
         <infoLink id="21fc-63bf-4ed9-d0f2" name="Kinetic Gauntlet" publicationId="7601-9533-236d-0449" hidden="false" targetId="026c-c03e-ee92-d4bc" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4986-4b01-20e9-7f94" name="Thermal Lance" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -458,6 +470,9 @@
       <infoLinks>
         <infoLink id="f93b-a483-e0c8-b8f7" name="Thermal Lance" publicationId="7601-9533-236d-0449" hidden="false" targetId="f3d0-37e7-ca2b-7319" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="db02-73bf-f488-efc1" name="Industrial Claws" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -466,6 +481,9 @@
       <infoLinks>
         <infoLink id="306f-6bca-cce0-3e21" name="Industrial Claws" publicationId="7601-9533-236d-0449" hidden="false" targetId="c35d-3f90-f101-ba42" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8e6f-a45c-b6d7-09b2" name="Scrap Pistol" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -474,6 +492,9 @@
       <infoLinks>
         <infoLink id="c8d3-d40d-4c62-cf5b" name="Scrap Pistol" publicationId="7601-9533-236d-0449" hidden="false" targetId="f72d-de42-2e4f-bf34" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8da9-9cb0-dc02-6714" name="Sawed-Off Slugger" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -482,6 +503,9 @@
       <infoLinks>
         <infoLink id="75c5-9430-df1f-64fb" name="Sawed-Off Slugger" publicationId="7601-9533-236d-0449" hidden="false" targetId="825d-e32e-1dc1-1c11" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a0ed-1600-1410-d45f" name="Flechette Pistol" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -490,6 +514,9 @@
       <infoLinks>
         <infoLink id="529d-cdb9-d3ec-d8fc" name="Flechette Pistol" publicationId="7601-9533-236d-0449" hidden="false" targetId="d842-d5c3-c2c7-da35" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2481-7b90-9233-b433" name="Needle Pistol" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -498,6 +525,9 @@
       <infoLinks>
         <infoLink id="18b6-6896-3882-93e0" name="Needle Pistol" publicationId="7601-9533-236d-0449" hidden="false" targetId="4c6b-7550-0eca-53c7" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f062-9e0d-32ab-aaea" name="Mag Pulser" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -506,6 +536,9 @@
       <infoLinks>
         <infoLink id="16e2-69a1-a578-6bfc" name="Mag-Pulser" publicationId="7601-9533-236d-0449" hidden="false" targetId="cc2b-47b6-3023-f3d7" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ec03-4c77-dd15-0630" name="Plasma Burner" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -513,6 +546,81 @@
       </constraints>
       <infoLinks>
         <infoLink id="3c68-8da1-5cd0-da11" name="Plasma Burner" publicationId="7601-9533-236d-0449" hidden="false" targetId="2df9-5dbc-2578-8668" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ddb4-c562-6419-5d93" name="Thermal Grenade" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d18-593f-58b7-910b" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e396-9b46-abb6-0f78" name="Thermal Grenade" publicationId="7601-9533-236d-0449" hidden="false" targetId="268f-deb0-b437-710d" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="040c-fc51-3637-dc2d" name="Flash Charge" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26d3-aaad-954b-6fa9" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="1d6b-b7f4-8211-f2a4" name="Flash Charge" publicationId="7601-9533-236d-0449" hidden="false" targetId="4f02-ac97-9872-fae8" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="8208-3921-413f-4353" name="Survival Suit" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09b3-32cc-6e47-261e" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="5388-28ff-909a-ab34" name="Survival Suit" publicationId="7601-9533-236d-0449" hidden="false" targetId="e62f-bda1-d14d-d053" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="77f1-5a6e-7af7-6612" name="Gantry Runner Rig" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51f2-9e03-b335-a263" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="1a44-0818-3c5b-343c" name="Gantry Runner Rig" publicationId="7601-9533-236d-0449" hidden="false" targetId="a7db-bd72-67e7-276b" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="7c8f-6a47-4977-6277" name="Excursion Rig" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c1f-4714-830e-a484" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="5a64-439d-2605-f303" name="Excursion Rig" publicationId="7601-9533-236d-0449" hidden="false" targetId="635d-a656-47d6-54cd" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="c010-cc50-723d-7efc" name="Hazard Suit" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85f1-60db-4e08-e825" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="0c6b-b1a9-4a8d-25f0" name="Hazard Suit" publicationId="7601-9533-236d-0449" hidden="false" targetId="8797-3228-2f79-30de" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="07e3-7165-1a9b-1f98" name="Armored Hazard Suit" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7199-69f8-48fe-86d5" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="f955-11fa-28de-b6ba" name="Armored Hazard Suit" publicationId="7601-9533-236d-0449" hidden="false" targetId="5a07-2920-e649-ba5f" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="1ca2-0915-5a46-8b88" name="Mechanized Exoskeleton" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="985c-b606-34ec-292f" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="8c00-a849-7bef-f70a" name="Mechanized Exoskeleton" publicationId="7601-9533-236d-0449" hidden="false" targetId="014b-6975-9386-1a1f" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="a2f8-215f-4cbe-55a1" name="Spare Battery" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4719-6408-0049-80f8" name="Spare Battery" publicationId="7601-9533-236d-0449" hidden="false" targetId="3c85-7de0-d9bd-552d" type="profile"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -527,6 +635,16 @@
         <entryLink id="ea1d-dc6a-62bb-5ef3" name="Concussion Grenade" hidden="false" collective="false" import="true" targetId="5fde-7e87-b196-a34f" type="selectionEntry">
           <costs>
             <cost name=" RU" typeId="1082-1dbd-73db-175d" value="15.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="e7a2-56e8-eb32-52a4" name="Thermal Grenade" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" targetId="ddb4-c562-6419-5d93" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="15.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="19ee-47b9-619d-102a" name="Flash Charge" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" targetId="040c-fc51-3637-dc2d" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="10.0"/>
           </costs>
         </entryLink>
       </entryLinks>
@@ -560,6 +678,36 @@
           </categoryLinks>
           <costs>
             <cost name=" RU" typeId="1082-1dbd-73db-175d" value="20.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="d444-083a-d0bf-8d6e" name="Survival Suit" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" targetId="8208-3921-413f-4353" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="01b6-e3ea-c0a2-7f79" name="Gantry Runner Rig" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" targetId="77f1-5a6e-7af7-6612" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="a67e-19f0-130f-04c4" name="Excursion Rig" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" targetId="7c8f-6a47-4977-6277" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="0783-c313-5522-d6e1" name="Hazard Suit" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" targetId="c010-cc50-723d-7efc" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="25.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="f4c4-db6b-87ba-9310" name="Armored Hazard Suit" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" targetId="07e3-7165-1a9b-1f98" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="50.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="dc86-16f0-2d29-f1f7" name="Mechanized Exoskeleton" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" targetId="1ca2-0915-5a46-8b88" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="80.0"/>
           </costs>
         </entryLink>
       </entryLinks>
@@ -739,6 +887,11 @@
             <cost name=" RU" typeId="1082-1dbd-73db-175d" value="10.0"/>
           </costs>
         </entryLink>
+        <entryLink id="b7a8-248e-d4e5-e1e8" name="Spare Battery" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" targetId="a2f8-215f-4cbe-55a1" type="selectionEntry">
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="10.0"/>
+          </costs>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -800,7 +953,7 @@
       <characteristics>
         <characteristic name="Defense Bonus" typeId="02f2-24c5-b212-d080">7</characteristic>
         <characteristic name="Survival Bonus" typeId="42f3-3ca8-eaa3-d87f">2</characteristic>
-        <characteristic name="Mobility Actions" typeId="a6c5-b5d6-f696-39b6"/>
+        <characteristic name="Mobility Actions" typeId="a6c5-b5d6-f696-39b6"></characteristic>
         <characteristic name="Special" typeId="45e2-d07d-e51c-d971"/>
       </characteristics>
     </profile>
@@ -865,11 +1018,6 @@ Single Use: May be used only once Per Battle.</characteristic>
         <characteristic name="Strenght" typeId="a9bc-b7ae-b369-f373">0</characteristic>
         <characteristic name="Ammo" typeId="40ed-c516-1950-7265">Auto</characteristic>
         <characteristic name="Special" typeId="10c9-df75-6e4c-ea71"/>
-      </characteristics>
-    </profile>
-    <profile id="5520-e317-5ba5-5503" name="New Profile" hidden="false" typeId="889c-0508-5547-a85e" typeName="Equipment">
-      <characteristics>
-        <characteristic name="Effect" typeId="b65b-562e-9a15-f71e"/>
       </characteristics>
     </profile>
     <profile id="317d-dfc2-007f-d792" name="Scrap Shotgun" publicationId="7601-9533-236d-0449" hidden="false" typeId="3bb5-1ec6-089d-4c48" typeName="Ranged Weapon">
@@ -1007,7 +1155,7 @@ Single Use: May be used only once Per Battle.</characteristic>
       <characteristics>
         <characteristic name="Range" typeId="57e3-e0fd-2d69-6732">Melee</characteristic>
         <characteristic name="Strength" typeId="7c7c-4d06-ad0a-dab8">6 AP</characteristic>
-        <characteristic name="Special" typeId="d7f5-98c9-9323-e572"></characteristic>
+        <characteristic name="Special" typeId="d7f5-98c9-9323-e572"/>
       </characteristics>
     </profile>
     <profile id="f72d-de42-2e4f-bf34" name="Scrap Pistol" publicationId="7601-9533-236d-0449" hidden="false" typeId="3bb5-1ec6-089d-4c48" typeName="Ranged Weapon">
@@ -1054,8 +1202,77 @@ Single Use: May be used only once Per Battle.</characteristic>
       <characteristics>
         <characteristic name="Range" typeId="18e3-7f1a-510f-0e79">4</characteristic>
         <characteristic name="Strenght" typeId="a9bc-b7ae-b369-f373">4 AP</characteristic>
-        <characteristic name="Ammo" typeId="40ed-c516-1950-7265"></characteristic>
+        <characteristic name="Ammo" typeId="40ed-c516-1950-7265"/>
         <characteristic name="Special" typeId="10c9-df75-6e4c-ea71">Short-Range</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="268f-deb0-b437-710d" name="Thermal Grenade" publicationId="7601-9533-236d-0449" hidden="false" typeId="2e76-7576-40cd-f843" typeName="Grenade">
+      <characteristics>
+        <characteristic name="Range" typeId="cf87-a292-005b-9876">6</characteristic>
+        <characteristic name="Strength" typeId="ec2a-4362-cef1-bcb0">2 AP</characteristic>
+        <characteristic name="Special" typeId="c3c5-4934-0967-2d24">Blast(1), Brutal, Grenade</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4f02-ac97-9872-fae8" name="Flash Charge" publicationId="7601-9533-236d-0449" hidden="false" typeId="2e76-7576-40cd-f843" typeName="Grenade">
+      <characteristics>
+        <characteristic name="Range" typeId="cf87-a292-005b-9876">10</characteristic>
+        <characteristic name="Strength" typeId="ec2a-4362-cef1-bcb0">N/A</characteristic>
+        <characteristic name="Special" typeId="c3c5-4934-0967-2d24">Blast(3), Grenade, Targets hit lose Hunker Down and Overwatch
+Inflicts no Damage. +4 Bonus to the Attack Roll</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e62f-bda1-d14d-d053" name="Survival Suit" publicationId="7601-9533-236d-0449" hidden="false" typeId="e1f2-aad1-a776-457a" typeName="Armor">
+      <characteristics>
+        <characteristic name="Defense Bonus" typeId="02f2-24c5-b212-d080">0</characteristic>
+        <characteristic name="Survival Bonus" typeId="42f3-3ca8-eaa3-d87f">4</characteristic>
+        <characteristic name="Mobility Actions" typeId="a6c5-b5d6-f696-39b6"/>
+        <characteristic name="Special" typeId="45e2-d07d-e51c-d971"/>
+      </characteristics>
+    </profile>
+    <profile id="a7db-bd72-67e7-276b" name="Gantry Runner Rig" publicationId="7601-9533-236d-0449" hidden="false" typeId="e1f2-aad1-a776-457a" typeName="Armor">
+      <characteristics>
+        <characteristic name="Defense Bonus" typeId="02f2-24c5-b212-d080">2</characteristic>
+        <characteristic name="Survival Bonus" typeId="42f3-3ca8-eaa3-d87f">2</characteristic>
+        <characteristic name="Mobility Actions" typeId="a6c5-b5d6-f696-39b6">Leap</characteristic>
+        <characteristic name="Special" typeId="45e2-d07d-e51c-d971">+1 Speed</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="635d-a656-47d6-54cd" name="Excursion Rig" publicationId="7601-9533-236d-0449" hidden="false" typeId="e1f2-aad1-a776-457a" typeName="Armor">
+      <characteristics>
+        <characteristic name="Defense Bonus" typeId="02f2-24c5-b212-d080">2</characteristic>
+        <characteristic name="Survival Bonus" typeId="42f3-3ca8-eaa3-d87f">2</characteristic>
+        <characteristic name="Mobility Actions" typeId="a6c5-b5d6-f696-39b6">Wallrun, Leap</characteristic>
+        <characteristic name="Special" typeId="45e2-d07d-e51c-d971"/>
+      </characteristics>
+    </profile>
+    <profile id="8797-3228-2f79-30de" name="Hazard Suit" publicationId="7601-9533-236d-0449" hidden="false" typeId="e1f2-aad1-a776-457a" typeName="Armor">
+      <characteristics>
+        <characteristic name="Defense Bonus" typeId="02f2-24c5-b212-d080">3</characteristic>
+        <characteristic name="Survival Bonus" typeId="42f3-3ca8-eaa3-d87f">4</characteristic>
+        <characteristic name="Mobility Actions" typeId="a6c5-b5d6-f696-39b6">Wallrun</characteristic>
+        <characteristic name="Special" typeId="45e2-d07d-e51c-d971">2 Survival vs Hazards</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5a07-2920-e649-ba5f" name="Armored Hazard Suit" publicationId="7601-9533-236d-0449" hidden="false" typeId="e1f2-aad1-a776-457a" typeName="Armor">
+      <characteristics>
+        <characteristic name="Defense Bonus" typeId="02f2-24c5-b212-d080">6</characteristic>
+        <characteristic name="Survival Bonus" typeId="42f3-3ca8-eaa3-d87f">4</characteristic>
+        <characteristic name="Mobility Actions" typeId="a6c5-b5d6-f696-39b6">Wallrun</characteristic>
+        <characteristic name="Special" typeId="45e2-d07d-e51c-d971">+2 Survival vs Hazards</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="014b-6975-9386-1a1f" name="Mechanized Exoskeleton" publicationId="7601-9533-236d-0449" hidden="false" typeId="e1f2-aad1-a776-457a" typeName="Armor">
+      <characteristics>
+        <characteristic name="Defense Bonus" typeId="02f2-24c5-b212-d080">10</characteristic>
+        <characteristic name="Survival Bonus" typeId="42f3-3ca8-eaa3-d87f">0</characteristic>
+        <characteristic name="Mobility Actions" typeId="a6c5-b5d6-f696-39b6">Leap</characteristic>
+        <characteristic name="Special" typeId="45e2-d07d-e51c-d971">1 Speed. Weapons lose ‘Bulky’
+Size Profile is now Large</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3c85-7de0-d9bd-552d" name="Spare Battery" hidden="false" typeId="889c-0508-5547-a85e" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Effect" typeId="b65b-562e-9a15-f71e">Each Battery carried grants the carrier 1 Battery Token per game. A Battery Token may be consumed to enhance a Powered equipment item or provide a model with a free single action move per activation</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
