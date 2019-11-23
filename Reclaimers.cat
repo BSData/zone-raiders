@@ -52,6 +52,8 @@
         <entryLink id="0e2a-9c5c-d181-bdfa" name="Weapons" hidden="false" collective="false" import="true" targetId="3220-781f-8e41-d231" type="selectionEntryGroup"/>
         <entryLink id="299d-c051-6a7c-d718" name="Equipment" hidden="false" collective="false" import="true" targetId="654a-bb52-6887-15c4" type="selectionEntryGroup"/>
         <entryLink id="a45e-5df1-6582-da0e" name="Armor" hidden="false" collective="false" import="true" targetId="02da-651a-8409-0e40" type="selectionEntryGroup"/>
+        <entryLink id="39b7-b261-b05f-76f8" name="Level" hidden="false" collective="false" import="true" targetId="330c-a9cc-e150-810e" type="selectionEntry"/>
+        <entryLink id="e759-e65d-2b82-c0cf" name="XP" hidden="false" collective="false" import="true" targetId="bca5-281a-80e0-61d2" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
@@ -137,6 +139,8 @@
         <entryLink id="9ce6-b096-fa8f-3d6d" name="Equipment" hidden="false" collective="false" import="true" targetId="654a-bb52-6887-15c4" type="selectionEntryGroup"/>
         <entryLink id="12e1-3432-845f-88b0" name="Weapons" hidden="false" collective="false" import="true" targetId="3220-781f-8e41-d231" type="selectionEntryGroup"/>
         <entryLink id="0654-796a-3751-6bf0" name="Armor" hidden="false" collective="false" import="true" targetId="02da-651a-8409-0e40" type="selectionEntryGroup"/>
+        <entryLink id="0ef0-a971-c935-4f18" name="Level" hidden="false" collective="false" import="true" targetId="330c-a9cc-e150-810e" type="selectionEntry"/>
+        <entryLink id="88ff-1d79-2e8c-9433" name="XP" hidden="false" collective="false" import="true" targetId="bca5-281a-80e0-61d2" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" RU" typeId="1082-1dbd-73db-175d" value="40.0"/>
@@ -183,6 +187,8 @@
         <entryLink id="f210-731b-f44f-a023" name="Armor" hidden="false" collective="false" import="true" targetId="02da-651a-8409-0e40" type="selectionEntryGroup"/>
         <entryLink id="bb1b-ff06-4ee4-510a" name="Equipment" hidden="false" collective="false" import="true" targetId="654a-bb52-6887-15c4" type="selectionEntryGroup"/>
         <entryLink id="8d4b-daa2-ae13-f3d4" name="Weapons" hidden="false" collective="false" import="true" targetId="3220-781f-8e41-d231" type="selectionEntryGroup"/>
+        <entryLink id="011b-0806-477a-6eee" name="Level" hidden="false" collective="false" import="true" targetId="330c-a9cc-e150-810e" type="selectionEntry"/>
+        <entryLink id="1311-99f0-faa3-3f68" name="XP" hidden="false" collective="false" import="true" targetId="bca5-281a-80e0-61d2" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
@@ -196,6 +202,8 @@
         <entryLink id="2c4c-5851-dce9-808f" name="Armor" hidden="false" collective="false" import="true" targetId="02da-651a-8409-0e40" type="selectionEntryGroup"/>
         <entryLink id="a765-40c5-89ed-4123" name="Equipment" hidden="false" collective="false" import="true" targetId="654a-bb52-6887-15c4" type="selectionEntryGroup"/>
         <entryLink id="fb31-716d-b101-761b" name="Weapons" hidden="false" collective="false" import="true" targetId="3220-781f-8e41-d231" type="selectionEntryGroup"/>
+        <entryLink id="6960-d76a-323b-f3e4" name="Level" hidden="false" collective="false" import="true" targetId="330c-a9cc-e150-810e" type="selectionEntry"/>
+        <entryLink id="d501-a643-4c88-dbc3" name="XP" hidden="false" collective="false" import="true" targetId="bca5-281a-80e0-61d2" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
@@ -209,6 +217,8 @@
         <entryLink id="507f-ee92-693a-7050" name="Armor" hidden="false" collective="false" import="true" targetId="02da-651a-8409-0e40" type="selectionEntryGroup"/>
         <entryLink id="a199-aac7-e01f-1e47" name="Equipment" hidden="false" collective="false" import="true" targetId="654a-bb52-6887-15c4" type="selectionEntryGroup"/>
         <entryLink id="f12c-a13a-ca9d-bc9e" name="Weapons" hidden="false" collective="false" import="true" targetId="3220-781f-8e41-d231" type="selectionEntryGroup"/>
+        <entryLink id="4105-b10f-2b78-9241" name="Level" hidden="false" collective="false" import="true" targetId="330c-a9cc-e150-810e" type="selectionEntry"/>
+        <entryLink id="2ab9-9ea5-9ad3-2258" name="XP" hidden="false" collective="false" import="true" targetId="bca5-281a-80e0-61d2" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>

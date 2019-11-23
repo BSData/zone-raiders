@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="08e6-d63e-4303-2708" name="Zone Raiders" revision="6" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="08e6-d63e-4303-2708" name="Zone Raiders" revision="1" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="7601-9533-236d-0449" name="Core Rulebook"/>
   </publications>
@@ -693,6 +693,9 @@
       <infoLinks>
         <infoLink id="ecef-27c9-61b7-9733" name="Trauma Kit" publicationId="7601-9533-236d-0449" hidden="false" targetId="87fe-c7f2-c801-0ef8" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="925a-0545-eb08-d7af" name="Nano-Infusion" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -701,6 +704,9 @@
       <infoLinks>
         <infoLink id="2be1-0d1c-4e77-1964" name="Nano-Infusion" publicationId="7601-9533-236d-0449" hidden="false" targetId="73a2-a047-2ba6-2dbe" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3969-7b59-e773-6c4f" name="Comms Uplink" publicationId="7601-9533-236d-0449" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -709,6 +715,9 @@
       <infoLinks>
         <infoLink id="af65-4c9a-68bc-0bf6" name="Comms Uplink" publicationId="7601-9533-236d-0449" hidden="false" targetId="dbf4-5149-8909-14e5" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="bb2a-a961-2f61-7da2" name="Tech Jammer" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -717,6 +726,9 @@
       <infoLinks>
         <infoLink id="43f7-ce0f-d210-69e4" name="Tech Jammer" publicationId="7601-9533-236d-0449" hidden="false" targetId="af49-9837-2909-18ff" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="25e7-a85c-bed1-322c" name="Magnetic Boots" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -725,6 +737,9 @@
       <infoLinks>
         <infoLink id="cb60-e5d0-d1fe-51e4" name="Magnetic Boots" hidden="false" targetId="084b-8268-bf30-2c81" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2c73-aa50-eaf3-868a" name="Compressed Rations" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -733,6 +748,9 @@
       <infoLinks>
         <infoLink id="ff2e-cb40-6d12-0c7c" name="Compressed Rations" hidden="false" targetId="0b92-31fc-c1cb-c393" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8a05-ca25-8e3e-13fc" name="Hazard Inoculation" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -741,6 +759,9 @@
       <infoLinks>
         <infoLink id="4372-48f7-5ab2-b91f" name="Hazard Inoculation" hidden="false" targetId="8f5b-d45b-4e28-68d0" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4487-ccab-0c0f-2c7a" name="HardLight Emitter" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -749,6 +770,9 @@
       <infoLinks>
         <infoLink id="d633-ff73-6984-c23e" name="HardLight Emitter" hidden="false" targetId="c98a-b0f9-4b82-feba" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="bcdb-4f11-e560-3199" name="Scouting Sensor" hidden="false" collective="false" import="true" type="model">
       <constraints>
@@ -757,6 +781,9 @@
       <infoLinks>
         <infoLink id="38b2-a360-d44f-1610" name="Scouting Sensor" hidden="false" targetId="8ba8-e449-f832-694b" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="96bc-9038-82ab-8445" name="Descent Harness" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -765,6 +792,9 @@
       <infoLinks>
         <infoLink id="135d-3c50-302e-8feb" name="Descent Harness" hidden="false" targetId="f677-05cf-e6d1-3e08" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e8b7-2b78-e939-71f8" name="Alloy Shield" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -773,7 +803,12 @@
       <infoLinks>
         <infoLink id="8c49-b7a0-2940-239a" name="Alloy Shield" hidden="false" targetId="e8b9-d5fa-6297-0102" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
     </selectionEntry>
+    <selectionEntry id="330c-a9cc-e150-810e" name="Level" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="bca5-281a-80e0-61d2" name="XP" hidden="false" collective="false" import="true" type="upgrade"/>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="99fc-9f9d-6755-32b0" name="Grenades" hidden="false" collective="false" import="true">
