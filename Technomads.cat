@@ -69,6 +69,12 @@
         <entryLink id="0e2a-9c5c-d181-bdfa" name="Weapons" hidden="false" collective="false" import="true" targetId="3220-781f-8e41-d231" type="selectionEntryGroup"/>
         <entryLink id="299d-c051-6a7c-d718" name="Equipment" hidden="false" collective="false" import="true" targetId="654a-bb52-6887-15c4" type="selectionEntryGroup"/>
         <entryLink id="a45e-5df1-6582-da0e" name="Armor" hidden="false" collective="false" import="true" targetId="02da-651a-8409-0e40" type="selectionEntryGroup"/>
+        <entryLink id="af05-e466-26f8-d00d" name="Level" hidden="false" collective="false" import="true" targetId="330c-a9cc-e150-810e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="902b-0aec-afcc-b8fd" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b61e-5a2c-6d29-d95c" name="XP" hidden="false" collective="false" import="true" targetId="bca5-281a-80e0-61d2" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
@@ -82,6 +88,12 @@
         <entryLink id="9ce6-b096-fa8f-3d6d" name="Equipment" hidden="false" collective="false" import="true" targetId="654a-bb52-6887-15c4" type="selectionEntryGroup"/>
         <entryLink id="12e1-3432-845f-88b0" name="Weapons" hidden="false" collective="false" import="true" targetId="3220-781f-8e41-d231" type="selectionEntryGroup"/>
         <entryLink id="0654-796a-3751-6bf0" name="Armor" hidden="false" collective="false" import="true" targetId="02da-651a-8409-0e40" type="selectionEntryGroup"/>
+        <entryLink id="377d-19fe-8530-83c1" name="Level" hidden="false" collective="false" import="true" targetId="330c-a9cc-e150-810e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1faf-29a2-f12d-5a4b" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="00a3-8380-06ab-70eb" name="XP" hidden="false" collective="false" import="true" targetId="bca5-281a-80e0-61d2" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
@@ -95,6 +107,12 @@
         <entryLink id="f210-731b-f44f-a023" name="Armor" hidden="false" collective="false" import="true" targetId="02da-651a-8409-0e40" type="selectionEntryGroup"/>
         <entryLink id="bb1b-ff06-4ee4-510a" name="Equipment" hidden="false" collective="false" import="true" targetId="654a-bb52-6887-15c4" type="selectionEntryGroup"/>
         <entryLink id="8d4b-daa2-ae13-f3d4" name="Weapons" hidden="false" collective="false" import="true" targetId="3220-781f-8e41-d231" type="selectionEntryGroup"/>
+        <entryLink id="a01b-a49d-995e-ff89" name="Level" hidden="false" collective="false" import="true" targetId="330c-a9cc-e150-810e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94df-b20b-7ca7-5336" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f95f-5d0d-870f-fb7a" name="XP" hidden="false" collective="false" import="true" targetId="bca5-281a-80e0-61d2" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
@@ -108,6 +126,8 @@
         <entryLink id="2c4c-5851-dce9-808f" name="Armor" hidden="false" collective="false" import="true" targetId="02da-651a-8409-0e40" type="selectionEntryGroup"/>
         <entryLink id="a765-40c5-89ed-4123" name="Equipment" hidden="false" collective="false" import="true" targetId="654a-bb52-6887-15c4" type="selectionEntryGroup"/>
         <entryLink id="fb31-716d-b101-761b" name="Weapons" hidden="false" collective="false" import="true" targetId="3220-781f-8e41-d231" type="selectionEntryGroup"/>
+        <entryLink id="358c-455a-9dc0-5546" name="Level" hidden="false" collective="false" import="true" targetId="330c-a9cc-e150-810e" type="selectionEntry"/>
+        <entryLink id="dbfb-e7d4-9403-b123" name="XP" hidden="false" collective="false" import="true" targetId="bca5-281a-80e0-61d2" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
@@ -121,6 +141,12 @@
         <entryLink id="507f-ee92-693a-7050" name="Armor" hidden="false" collective="false" import="true" targetId="02da-651a-8409-0e40" type="selectionEntryGroup"/>
         <entryLink id="a199-aac7-e01f-1e47" name="Equipment" hidden="false" collective="false" import="true" targetId="654a-bb52-6887-15c4" type="selectionEntryGroup"/>
         <entryLink id="f12c-a13a-ca9d-bc9e" name="Weapons" hidden="false" collective="false" import="true" targetId="3220-781f-8e41-d231" type="selectionEntryGroup"/>
+        <entryLink id="5af7-9e5f-dc4e-943e" name="Level" hidden="false" collective="false" import="true" targetId="330c-a9cc-e150-810e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da62-cc81-14ed-4f81" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="acec-8280-182d-3714" name="XP" hidden="false" collective="false" import="true" targetId="bca5-281a-80e0-61d2" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
