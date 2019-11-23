@@ -46,24 +46,7 @@
     <selectionEntry id="83ad-2a00-f19e-254a" name="Armiger-Captain" publicationId="7601-9533-236d-0449" page="90" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="9506-e5e9-36bd-8798" name="Tactical Sense" hidden="false" targetId="2f89-0e57-fcfb-9696" type="profile"/>
-        <infoLink id="f97c-c1a1-b7be-8937" name="Armiger-Captain" hidden="false" targetId="d7af-226e-f730-ffc7" type="profile">
-          <modifierGroups>
-            <modifierGroup>
-              <modifiers>
-                <modifier type="append" field="61e8-6d7c-17b2-40bb" value="(+3)">
-                  <conditions>
-                    <condition field="selections" scope="83ad-2a00-f19e-254a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="229b-6c2a-5dbd-24c8" type="atLeast"/>
-                  </conditions>
-                </modifier>
-                <modifier type="append" field="f5ea-b03b-756d-443b" value="(+2)">
-                  <conditions>
-                    <condition field="selections" scope="83ad-2a00-f19e-254a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dbc9-c83a-e086-383e" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </modifierGroup>
-          </modifierGroups>
-        </infoLink>
+        <infoLink id="f97c-c1a1-b7be-8937" name="Armiger-Captain" hidden="false" targetId="d7af-226e-f730-ffc7" type="profile"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="0e2a-9c5c-d181-bdfa" name="Weapons" hidden="false" collective="false" import="true" targetId="3220-781f-8e41-d231" type="selectionEntryGroup"/>
