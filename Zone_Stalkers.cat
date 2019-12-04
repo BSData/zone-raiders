@@ -147,6 +147,94 @@
         <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="3a3f-1552-d558-4f91" name="N-3 Charges" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a54b-2e2f-5c8f-2073" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="6b33-2c96-39ed-7f3b" name="N-3 Charges" hidden="false" targetId="ee7b-e123-6293-7b6c" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c27d-e285-3cb3-5eb0" name="Vesper Rifle" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8414-7f6a-1f93-7801" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e7fd-502c-b06c-7b2b" name="Vesper Rifle" hidden="false" targetId="f8b6-775b-157e-ec81" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b848-a6e6-1d03-66ee" name="Interdiction Rifle" publicationId="7601-9533-236d-0449" page="86" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13ec-47d5-916c-3f17" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="0573-0213-e016-fed9" name="Interdiction Rifle" hidden="false" targetId="8784-4a1b-6cc0-f87b" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3c90-bcf6-29ad-7173" name="Ambusher Camouflage" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0061-8e03-a991-391b" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="52e8-74d5-7b7d-1a33" name="Ambusher Camouflage" hidden="false" targetId="a32e-1c93-a84a-6f93" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8a1f-f986-587d-239e" name="Intrusion Suit" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ee1-ac0c-5cd4-261e" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a761-7614-1abf-1bbf" name="Intrusion Suit" hidden="false" targetId="0de6-0621-cd8a-0b26" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5744-b266-b0d1-7f93" name="Explosive Trap" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a7b-e902-c46c-39f6" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="d107-e55f-0cfb-7dbe" name="Explosive Trap" hidden="false" targetId="1e88-8c05-504a-0b99" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="19dd-ec48-b064-98c9" name="Self-Replenishing (SR)  Smoke" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64cc-3e87-33b5-7b23" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="0486-f556-18d2-34d4" name="Self-Replenishing (SR)  Smoke" hidden="false" targetId="13ed-f022-13b4-fcb5" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c130-83d5-5e35-86e7" name="Rangefinder Scope" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72e7-6118-9f55-dbc5" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="fe82-02a9-9b17-e5bc" name="Rangefinder Scope" hidden="false" targetId="dfdb-d8a1-5e09-09e9" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="25.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="3220-781f-8e41-d231" name="Weapons" hidden="false" collective="false" import="true">
@@ -154,11 +242,23 @@
         <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ca0-5892-e794-0137" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="d7a4-9dc4-ade1-2a0b" name="Grenades" hidden="false" collective="false" import="true" targetId="99fc-9f9d-6755-32b0" type="selectionEntryGroup"/>
+        <entryLink id="d7a4-9dc4-ade1-2a0b" name="Grenades" hidden="false" collective="false" import="true" targetId="99fc-9f9d-6755-32b0" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="8465-e19c-fe07-3a84" name="N-3 Charges" hidden="false" collective="false" import="true" targetId="3a3f-1552-d558-4f91" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99ce-ff24-f23d-e89a" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
         <entryLink id="8f24-b001-17e1-6197" name="Primary Ranged Weapons" hidden="false" collective="false" import="true" targetId="7317-2c92-f2e0-04b6" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baa5-27b3-ed28-2bbf" type="max"/>
           </constraints>
+          <entryLinks>
+            <entryLink id="3cda-1673-4f19-9370" name="Vesper Rifle" hidden="false" collective="false" import="true" targetId="c27d-e285-3cb3-5eb0" type="selectionEntry"/>
+            <entryLink id="b408-2932-0ce8-fa02" name="Interdiction Rifle" hidden="false" collective="false" import="true" targetId="b848-a6e6-1d03-66ee" type="selectionEntry"/>
+          </entryLinks>
         </entryLink>
         <entryLink id="9731-e204-2d71-0a42" name="Secondary Ranged Weapons" hidden="false" collective="false" import="true" targetId="a88a-ae4e-cb1e-34a1" type="selectionEntryGroup"/>
         <entryLink id="3905-8bcf-f3be-69ef" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="91e2-7b89-2001-b4ea" type="selectionEntryGroup"/>
@@ -169,7 +269,13 @@
         <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17cd-788c-f1a9-fba5" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="2e59-95e7-389d-8d30" name="Faction Equipment" hidden="false" collective="false" import="true"/>
+        <selectionEntryGroup id="2e59-95e7-389d-8d30" name="Faction Equipment" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="6c95-50d6-22c4-8983" name="Explosive Trap" hidden="false" collective="false" import="true" targetId="5744-b266-b0d1-7f93" type="selectionEntry"/>
+            <entryLink id="ddea-458e-9915-b715" name="Self-Replenishing (SR)  Smoke" hidden="false" collective="false" import="true" targetId="19dd-ec48-b064-98c9" type="selectionEntry"/>
+            <entryLink id="5285-8e05-c7ce-8686" name="Rangefinder Scope" hidden="false" collective="false" import="true" targetId="c130-83d5-5e35-86e7" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="085a-3711-cf08-317e" name="Standard Equipment" hidden="false" collective="false" import="true" targetId="5065-dad0-9ce1-0391" type="selectionEntryGroup"/>
@@ -180,7 +286,12 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5d0a-c68b-fc3b-8081" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="8314-78d0-97c0-4a06" name="Faction Armor" hidden="false" collective="false" import="true"/>
+        <selectionEntryGroup id="8314-78d0-97c0-4a06" name="Faction Armor" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="35ee-fb41-b64f-a085" name="Ambusher Camouflage" hidden="false" collective="false" import="true" targetId="3c90-bcf6-29ad-7173" type="selectionEntry"/>
+            <entryLink id="a8ad-b678-f74a-4f6e" name="Intrusion Suit" hidden="false" collective="false" import="true" targetId="8a1f-f986-587d-239e" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="008c-d6a0-581b-6d84" name="Standard Armor" hidden="false" collective="false" import="true" targetId="5172-0d32-1fe2-5059" type="selectionEntryGroup"/>
@@ -236,6 +347,62 @@
         <characteristic name="Defense" typeId="61e8-6d7c-17b2-40bb">6</characteristic>
         <characteristic name="Survival" typeId="f5ea-b03b-756d-443b">7</characteristic>
         <characteristic name="Aptitude" typeId="449e-43bb-bd94-c1aa">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ee7b-e123-6293-7b6c" name="N-3 Charges" hidden="false" typeId="2e76-7576-40cd-f843" typeName="Grenade">
+      <characteristics>
+        <characteristic name="Range" typeId="cf87-a292-005b-9876">6</characteristic>
+        <characteristic name="Strength" typeId="ec2a-4362-cef1-bcb0">4 AP</characteristic>
+        <characteristic name="Special" typeId="c3c5-4934-0967-2d24">Blast(2), Brutal</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f8b6-775b-157e-ec81" name="Vesper Rifle" hidden="false" typeId="3bb5-1ec6-089d-4c48" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="18e3-7f1a-510f-0e79">18</characteristic>
+        <characteristic name="Strenght" typeId="a9bc-b7ae-b369-f373">3 AP</characteristic>
+        <characteristic name="Ammo" typeId="40ed-c516-1950-7265">Auto</characteristic>
+        <characteristic name="Special" typeId="10c9-df75-6e4c-ea71">On a 12+, Shooting attacks do not cause Stealth to be lost.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8784-4a1b-6cc0-f87b" name="Interdiction Rifle" hidden="false" typeId="3bb5-1ec6-089d-4c48" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="18e3-7f1a-510f-0e79">24</characteristic>
+        <characteristic name="Strenght" typeId="a9bc-b7ae-b369-f373">5 AP</characteristic>
+        <characteristic name="Ammo" typeId="40ed-c516-1950-7265">Auto</characteristic>
+        <characteristic name="Special" typeId="10c9-df75-6e4c-ea71">Bulky</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a32e-1c93-a84a-6f93" name="Ambusher Camouflage" hidden="false" typeId="e1f2-aad1-a776-457a" typeName="Armor">
+      <characteristics>
+        <characteristic name="Defense Bonus" typeId="02f2-24c5-b212-d080">0</characteristic>
+        <characteristic name="Survival Bonus" typeId="42f3-3ca8-eaa3-d87f">3</characteristic>
+        <characteristic name="Mobility Actions" typeId="a6c5-b5d6-f696-39b6">Grapple</characteristic>
+        <characteristic name="Special" typeId="45e2-d07d-e51c-d971">Action: Make an aptitude check to gain or regain Stealth.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0de6-0621-cd8a-0b26" name="Intrusion Suit" hidden="false" typeId="e1f2-aad1-a776-457a" typeName="Armor">
+      <characteristics>
+        <characteristic name="Defense Bonus" typeId="02f2-24c5-b212-d080">3</characteristic>
+        <characteristic name="Survival Bonus" typeId="42f3-3ca8-eaa3-d87f">3</characteristic>
+        <characteristic name="Mobility Actions" typeId="a6c5-b5d6-f696-39b6">Grapple, Dash</characteristic>
+        <characteristic name="Special" typeId="45e2-d07d-e51c-d971">Taking Out an Enemy grants an immediate basic move action</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1e88-8c05-504a-0b99" name="Explosive Trap" hidden="false" typeId="889c-0508-5547-a85e" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Effect" typeId="b65b-562e-9a15-f71e">Action: Place a Trap token in base contact with the model. Any enemy model that moves within 4 inches and LOS of the Trap token suffers an automatic Shooting attack from an N-3 Charges weapon using a Shooting stat of 8, then remove the token from play. 
+Single Use: May be used only once Per Battle.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="13ed-f022-13b4-fcb5" name="Self-Replenishing (SR)  Smoke" hidden="false" typeId="889c-0508-5547-a85e" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Effect" typeId="b65b-562e-9a15-f71e">Operates as the Smoke Canisters equipment item, but the Cloud is only removed on a roll of 17+.  
+Single Use: May be used only once Per Battle. </characteristic>
+      </characteristics>
+    </profile>
+    <profile id="dfdb-d8a1-5e09-09e9" name="Rangefinder Scope" hidden="false" typeId="889c-0508-5547-a85e" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Effect" typeId="b65b-562e-9a15-f71e">Allows Aimed Attack Action with an additional 6-inch range bonus to Primary Weapons.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
