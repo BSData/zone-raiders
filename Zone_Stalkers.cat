@@ -46,6 +46,8 @@
     <selectionEntry id="83ad-2a00-f19e-254a" name="Trespasser" publicationId="7601-9533-236d-0449" page="86" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="4035-11c2-2adb-34b0" name="Trespasser" hidden="false" targetId="9260-dc95-4707-c5d2" type="profile"/>
+        <infoLink id="345a-caeb-fbfd-a0a6" name="Stealth" hidden="false" targetId="e5ad-16c4-c09f-4b29" type="profile"/>
+        <infoLink id="8b33-a5bf-117b-b320" name="Counter-Attack" hidden="false" targetId="f190-d01a-9636-96da" type="profile"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="0e2a-9c5c-d181-bdfa" name="Weapons" hidden="false" collective="false" import="true" targetId="3220-781f-8e41-d231" type="selectionEntryGroup"/>
@@ -65,6 +67,7 @@
     <selectionEntry id="aa15-3446-aa05-8dc5" name="Scout Stalker" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="565a-24ba-ee63-75bc" name="Scout Stalker" hidden="false" targetId="6bd3-4947-205a-6ba3" type="profile"/>
+        <infoLink id="da11-6683-6af4-cc7d" name="Stealth" hidden="false" targetId="e5ad-16c4-c09f-4b29" type="profile"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="9ce6-b096-fa8f-3d6d" name="Equipment" hidden="false" collective="false" import="true" targetId="654a-bb52-6887-15c4" type="selectionEntryGroup"/>
@@ -84,6 +87,8 @@
     <selectionEntry id="2e21-2c60-a73e-ff95" name="Jaeger" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="ccda-f41e-68ba-1f57" name="Jaeger" hidden="false" targetId="87ce-0b52-36ad-f9c9" type="profile"/>
+        <infoLink id="c715-492d-2da0-c4dc" name="Superior Stealth" hidden="false" targetId="64ed-7bdb-5a76-8b76" type="profile"/>
+        <infoLink id="1383-373a-c4e8-af24" name="Fire Coordinator" hidden="false" targetId="aa18-1952-b16f-dfab" type="profile"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="f210-731b-f44f-a023" name="Armor" hidden="false" collective="false" import="true" targetId="02da-651a-8409-0e40" type="selectionEntryGroup"/>
@@ -91,7 +96,7 @@
         <entryLink id="8d4b-daa2-ae13-f3d4" name="Weapons" hidden="false" collective="false" import="true" targetId="3220-781f-8e41-d231" type="selectionEntryGroup"/>
         <entryLink id="a01b-a49d-995e-ff89" name="Level" hidden="false" collective="false" import="true" targetId="330c-a9cc-e150-810e" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94df-b20b-7ca7-5336" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94df-b20b-7ca7-5336" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="f95f-5d0d-870f-fb7a" name="XP" hidden="false" collective="false" import="true" targetId="bca5-281a-80e0-61d2" type="selectionEntry"/>
@@ -103,6 +108,8 @@
     <selectionEntry id="8336-f7a5-419b-6df5" name="Zone Warden" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="cfc7-de2c-2d4a-9aac" name="Zone Warden" hidden="false" targetId="f05f-f0fb-091f-f080" type="profile"/>
+        <infoLink id="d197-9a09-5f63-df7f" name="Stealth" hidden="false" targetId="e5ad-16c4-c09f-4b29" type="profile"/>
+        <infoLink id="5a27-2558-c99a-f62e" name="Skirmisher" hidden="false" targetId="d3e3-1119-c11a-65ab" type="profile"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="2c4c-5851-dce9-808f" name="Armor" hidden="false" collective="false" import="true" targetId="02da-651a-8409-0e40" type="selectionEntryGroup"/>
@@ -122,6 +129,8 @@
     <selectionEntry id="fbe6-ccb3-67be-0550" name="Troubleshooter" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="bf7f-f243-f56f-9eab" name="Troubleshooter" hidden="false" targetId="6367-30f7-a9f9-dadd" type="profile"/>
+        <infoLink id="7bdb-3a45-bb50-9f39" name="Stealth" hidden="false" targetId="e5ad-16c4-c09f-4b29" type="profile"/>
+        <infoLink id="bf53-fc91-8053-9241" name="Tech Affinity" hidden="false" targetId="ef8f-0458-f0a5-75ea" type="profile"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="507f-ee92-693a-7050" name="Armor" hidden="false" collective="false" import="true" targetId="02da-651a-8409-0e40" type="selectionEntryGroup"/>

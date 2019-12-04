@@ -807,8 +807,16 @@
         <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="330c-a9cc-e150-810e" name="Level" hidden="false" collective="false" import="true" type="upgrade"/>
-    <selectionEntry id="bca5-281a-80e0-61d2" name="XP" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="330c-a9cc-e150-810e" name="Level" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bca5-281a-80e0-61d2" name="XP" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="99fc-9f9d-6755-32b0" name="Grenades" hidden="false" collective="false" import="true">
@@ -1622,6 +1630,47 @@ Powered: May spend a Battery Token to use an additional time.</characteristic>
       <characteristics>
         <characteristic name="Effect" typeId="b65b-562e-9a15-f71e">This model gains +2 Defense Bonus on top of other Armor bonuses. This model may not use or equip Primary Weapons.
 This model may be used as Cover by other friendly models.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e5ad-16c4-c09f-4b29" name="Stealth" hidden="false" typeId="e503-8c3d-b077-8bbf" typeName="Skills">
+      <characteristics>
+        <characteristic name="Effect" typeId="7e4f-52cc-f34d-159b">This model cannot be targeted by enemy attacks or actions from over 12 inches away. The model loses all benefits of stealth after it is targeted or it makes a Shooting attack. </characteristic>
+        <characteristic name=" Pre-Requisites" typeId="b496-dbaf-7923-374a"/>
+      </characteristics>
+    </profile>
+    <profile id="65e9-6f20-81a8-7f3f" name="Counter-Attack" hidden="false" typeId="889c-0508-5547-a85e" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Effect" typeId="b65b-562e-9a15-f71e"/>
+      </characteristics>
+    </profile>
+    <profile id="d3e3-1119-c11a-65ab" name="Skirmisher" hidden="false" typeId="e503-8c3d-b077-8bbf" typeName="Skills">
+      <characteristics>
+        <characteristic name="Effect" typeId="7e4f-52cc-f34d-159b">Making a Shooting attack no longer ends the turn for this model. It may not make another Shooting attack this turn with that weapon unless it is using weapon with the Rapid Weapon ability. </characteristic>
+        <characteristic name=" Pre-Requisites" typeId="b496-dbaf-7923-374a"/>
+      </characteristics>
+    </profile>
+    <profile id="ef8f-0458-f0a5-75ea" name="Tech Affinity" hidden="false" typeId="e503-8c3d-b077-8bbf" typeName="Skills">
+      <characteristics>
+        <characteristic name="Effect" typeId="7e4f-52cc-f34d-159b"> Interface and Mark Target actions are at +2 Aptitude. This model may use Interface Action.</characteristic>
+        <characteristic name=" Pre-Requisites" typeId="b496-dbaf-7923-374a"/>
+      </characteristics>
+    </profile>
+    <profile id="64ed-7bdb-5a76-8b76" name="Superior Stealth" hidden="false" typeId="e503-8c3d-b077-8bbf" typeName="Skills">
+      <characteristics>
+        <characteristic name="Effect" typeId="7e4f-52cc-f34d-159b">This model cannot be targeted by enemy attacks or actions from over 8 inches away. The model loses all benefits of Superior Stealth after it is targeted or it makes a Shooting attack. Replaces Stealth.</characteristic>
+        <characteristic name=" Pre-Requisites" typeId="b496-dbaf-7923-374a"/>
+      </characteristics>
+    </profile>
+    <profile id="aa18-1952-b16f-dfab" name="Fire Coordinator" hidden="false" typeId="e503-8c3d-b077-8bbf" typeName="Skills">
+      <characteristics>
+        <characteristic name="Effect" typeId="7e4f-52cc-f34d-159b">+4 to Mark Target aptitude checks</characteristic>
+        <characteristic name=" Pre-Requisites" typeId="b496-dbaf-7923-374a"/>
+      </characteristics>
+    </profile>
+    <profile id="f190-d01a-9636-96da" name="Counter-Attack" hidden="false" typeId="e503-8c3d-b077-8bbf" typeName="Skills">
+      <characteristics>
+        <characteristic name="Effect" typeId="7e4f-52cc-f34d-159b">When missed by an enemy melee attack, this model may immediately make a free melee attack targeting the enemy model that missed instead of moving. </characteristic>
+        <characteristic name=" Pre-Requisites" typeId="b496-dbaf-7923-374a"/>
       </characteristics>
     </profile>
   </sharedProfiles>
