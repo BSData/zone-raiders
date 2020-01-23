@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="468f-5b61-a16e-a275" name="NthGens" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="08e6-d63e-4303-2708" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="4dbf-f4b4-97e7-4610" name="Armiger-Captain" hidden="false" collective="false" import="true" targetId="83ad-2a00-f19e-254a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="88f1-4464-3ae7-2c23" name="Roster" hidden="false" targetId="69d3-c793-1f05-1af6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="40.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="be31-4c3b-515c-0fe9" name="Dragoon-Sergeant" publicationId="7601-9533-236d-0449" page="90" hidden="false" collective="false" import="true" targetId="aa15-3446-aa05-8dc5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f6ec-01c9-6f6b-4894" name="Roster" hidden="false" targetId="69d3-c793-1f05-1af6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="40.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="a76d-7e14-702d-d543" name="Lancer" hidden="false" collective="false" import="true" targetId="2e21-2c60-a73e-ff95" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="970e-f235-4854-a633" name="Roster" hidden="false" targetId="69d3-c793-1f05-1af6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="100.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="2cca-8c68-e245-d46d" name="Cuirassier" hidden="false" collective="false" import="true" targetId="8336-f7a5-419b-6df5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2893-82f6-cb63-bcfe" name="Roster" hidden="false" targetId="69d3-c793-1f05-1af6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="80.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="bcb8-b066-cab8-d927" name="Sapper-Specialist" hidden="false" collective="false" import="true" targetId="fbe6-ccb3-67be-0550" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3fae-ebfa-73c8-23f4" name="Roster" hidden="false" targetId="69d3-c793-1f05-1af6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="60.0"/>
+      </costs>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="83ad-2a00-f19e-254a" name="Production Gen" publicationId="7601-9533-236d-0449" page="90" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="f97c-c1a1-b7be-8937" name="Armiger-Captain" hidden="false" targetId="d7af-226e-f730-ffc7" type="profile">
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="append" field="61e8-6d7c-17b2-40bb" value="(+3)">
+                  <conditions>
+                    <condition field="selections" scope="83ad-2a00-f19e-254a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="229b-6c2a-5dbd-24c8" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" field="f5ea-b03b-756d-443b" value="(+2)">
+                  <conditions>
+                    <condition field="selections" scope="83ad-2a00-f19e-254a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dbc9-c83a-e086-383e" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+        </infoLink>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="0e2a-9c5c-d181-bdfa" name="Weapons" hidden="false" collective="false" import="true" targetId="3220-781f-8e41-d231" type="selectionEntryGroup"/>
+        <entryLink id="299d-c051-6a7c-d718" name="Equipment" hidden="false" collective="false" import="true" targetId="654a-bb52-6887-15c4" type="selectionEntryGroup"/>
+        <entryLink id="a45e-5df1-6582-da0e" name="Armor" hidden="false" collective="false" import="true" targetId="02da-651a-8409-0e40" type="selectionEntryGroup"/>
+        <entryLink id="af05-e466-26f8-d00d" name="Level" hidden="false" collective="false" import="true" targetId="330c-a9cc-e150-810e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="902b-0aec-afcc-b8fd" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b61e-5a2c-6d29-d95c" name="XP" hidden="false" collective="false" import="true" targetId="bca5-281a-80e0-61d2" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="aa15-3446-aa05-8dc5" name="Last Gen" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="565a-24ba-ee63-75bc" name="Dragoon-Sergeant" hidden="false" targetId="3803-5288-b964-0b4b" type="profile"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="9ce6-b096-fa8f-3d6d" name="Equipment" hidden="false" collective="false" import="true" targetId="654a-bb52-6887-15c4" type="selectionEntryGroup"/>
+        <entryLink id="12e1-3432-845f-88b0" name="Weapons" hidden="false" collective="false" import="true" targetId="3220-781f-8e41-d231" type="selectionEntryGroup"/>
+        <entryLink id="0654-796a-3751-6bf0" name="Armor" hidden="false" collective="false" import="true" targetId="02da-651a-8409-0e40" type="selectionEntryGroup"/>
+        <entryLink id="377d-19fe-8530-83c1" name="Level" hidden="false" collective="false" import="true" targetId="330c-a9cc-e150-810e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1faf-29a2-f12d-5a4b" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="00a3-8380-06ab-70eb" name="XP" hidden="false" collective="false" import="true" targetId="bca5-281a-80e0-61d2" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2e21-2c60-a73e-ff95" name="The Prototype" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="ccda-f41e-68ba-1f57" name="Lancer" hidden="false" targetId="862c-49bc-1190-6583" type="profile"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="f210-731b-f44f-a023" name="Armor" hidden="false" collective="false" import="true" targetId="02da-651a-8409-0e40" type="selectionEntryGroup"/>
+        <entryLink id="bb1b-ff06-4ee4-510a" name="Equipment" hidden="false" collective="false" import="true" targetId="654a-bb52-6887-15c4" type="selectionEntryGroup"/>
+        <entryLink id="8d4b-daa2-ae13-f3d4" name="Weapons" hidden="false" collective="false" import="true" targetId="3220-781f-8e41-d231" type="selectionEntryGroup"/>
+        <entryLink id="a01b-a49d-995e-ff89" name="Level" hidden="false" collective="false" import="true" targetId="330c-a9cc-e150-810e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94df-b20b-7ca7-5336" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f95f-5d0d-870f-fb7a" name="XP" hidden="false" collective="false" import="true" targetId="bca5-281a-80e0-61d2" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8336-f7a5-419b-6df5" name="Heavy Variant" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="cfc7-de2c-2d4a-9aac" name="Cuirassier" hidden="false" targetId="c0bb-001c-2786-009d" type="profile"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="2c4c-5851-dce9-808f" name="Armor" hidden="false" collective="false" import="true" targetId="02da-651a-8409-0e40" type="selectionEntryGroup"/>
+        <entryLink id="a765-40c5-89ed-4123" name="Equipment" hidden="false" collective="false" import="true" targetId="654a-bb52-6887-15c4" type="selectionEntryGroup"/>
+        <entryLink id="fb31-716d-b101-761b" name="Weapons" hidden="false" collective="false" import="true" targetId="3220-781f-8e41-d231" type="selectionEntryGroup"/>
+        <entryLink id="358c-455a-9dc0-5546" name="Level" hidden="false" collective="false" import="true" targetId="330c-a9cc-e150-810e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6eb-d80a-ea69-0428" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="dbfb-e7d4-9403-b123" name="XP" hidden="false" collective="false" import="true" targetId="bca5-281a-80e0-61d2" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fbe6-ccb3-67be-0550" name="Next Gen" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="bf7f-f243-f56f-9eab" name="Sapper-Specialist" hidden="false" targetId="cfe4-b04d-76cd-c51c" type="profile"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="507f-ee92-693a-7050" name="Armor" hidden="false" collective="false" import="true" targetId="02da-651a-8409-0e40" type="selectionEntryGroup"/>
+        <entryLink id="a199-aac7-e01f-1e47" name="Equipment" hidden="false" collective="false" import="true" targetId="654a-bb52-6887-15c4" type="selectionEntryGroup"/>
+        <entryLink id="f12c-a13a-ca9d-bc9e" name="Weapons" hidden="false" collective="false" import="true" targetId="3220-781f-8e41-d231" type="selectionEntryGroup"/>
+        <entryLink id="5af7-9e5f-dc4e-943e" name="Level" hidden="false" collective="false" import="true" targetId="330c-a9cc-e150-810e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da62-cc81-14ed-4f81" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="acec-8280-182d-3714" name="XP" hidden="false" collective="false" import="true" targetId="bca5-281a-80e0-61d2" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c54d-89ed-32bd-9dbf" name="Rapid Kinetic Weapon" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="396e-720f-b799-818e" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e49c-3c21-17f3-eae9" name="Rapid Kinetic Weapon" hidden="false" targetId="056f-9aaf-64d9-fa15" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="3220-781f-8e41-d231" name="Weapons" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ca0-5892-e794-0137" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="d7a4-9dc4-ade1-2a0b" name="Grenades" hidden="false" collective="false" import="true" targetId="99fc-9f9d-6755-32b0" type="selectionEntryGroup"/>
+        <entryLink id="8f24-b001-17e1-6197" name="Primary Ranged Weapons" hidden="false" collective="false" import="true" targetId="7317-2c92-f2e0-04b6" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baa5-27b3-ed28-2bbf" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="ecae-03a9-9a36-b2a9" name="Nomad Mag Repeater" hidden="false" collective="false" import="true" targetId="c54d-89ed-32bd-9dbf" type="selectionEntry">
+              <costs>
+                <cost name=" RU" typeId="1082-1dbd-73db-175d" value="40.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="9731-e204-2d71-0a42" name="Secondary Ranged Weapons" hidden="false" collective="false" import="true" targetId="a88a-ae4e-cb1e-34a1" type="selectionEntryGroup"/>
+        <entryLink id="3905-8bcf-f3be-69ef" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="91e2-7b89-2001-b4ea" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="654a-bb52-6887-15c4" name="Equipment" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17cd-788c-f1a9-fba5" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2e59-95e7-389d-8d30" name="Faction Equipment" hidden="false" collective="false" import="true"/>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="085a-3711-cf08-317e" name="Standard Equipment" hidden="false" collective="false" import="true" targetId="5065-dad0-9ce1-0391" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="02da-651a-8409-0e40" name="Armor" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5d0a-c68b-fc3b-8081" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8314-78d0-97c0-4a06" name="Faction Armor" hidden="false" collective="false" import="true"/>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="008c-d6a0-581b-6d84" name="Standard Armor" hidden="false" collective="false" import="true" targetId="5172-0d32-1fe2-5059" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedProfiles>
+    <profile id="d7af-226e-f730-ffc7" name="Production Gen" publicationId="7601-9533-236d-0449" page="102" hidden="false" typeId="6068-703b-a954-4708" typeName="Model">
+      <characteristics>
+        <characteristic name="Speed" typeId="5e18-0e74-095d-f336">-1</characteristic>
+        <characteristic name="Shooting" typeId="3abe-8e8f-ad12-e813">-3</characteristic>
+        <characteristic name="Melee" typeId="9e9f-4065-0c26-cfdd">-3</characteristic>
+        <characteristic name="Defense" typeId="61e8-6d7c-17b2-40bb">-2</characteristic>
+        <characteristic name="Survival" typeId="f5ea-b03b-756d-443b">+0</characteristic>
+        <characteristic name="Aptitude" typeId="449e-43bb-bd94-c1aa">-3</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3803-5288-b964-0b4b" name="Last Gen" publicationId="7601-9533-236d-0449" page="102" hidden="false" typeId="6068-703b-a954-4708" typeName="Model">
+      <characteristics>
+        <characteristic name="Speed" typeId="5e18-0e74-095d-f336">-2</characteristic>
+        <characteristic name="Shooting" typeId="3abe-8e8f-ad12-e813">-4</characteristic>
+        <characteristic name="Melee" typeId="9e9f-4065-0c26-cfdd">-4</characteristic>
+        <characteristic name="Defense" typeId="61e8-6d7c-17b2-40bb">-3</characteristic>
+        <characteristic name="Survival" typeId="f5ea-b03b-756d-443b">+0</characteristic>
+        <characteristic name="Aptitude" typeId="449e-43bb-bd94-c1aa">-4</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="862c-49bc-1190-6583" name="The Prototype " publicationId="7601-9533-236d-0449" page="102" hidden="false" typeId="6068-703b-a954-4708" typeName="Model">
+      <characteristics>
+        <characteristic name="Speed" typeId="5e18-0e74-095d-f336">6</characteristic>
+        <characteristic name="Shooting" typeId="3abe-8e8f-ad12-e813">11</characteristic>
+        <characteristic name="Melee" typeId="9e9f-4065-0c26-cfdd">11</characteristic>
+        <characteristic name="Defense" typeId="61e8-6d7c-17b2-40bb">9</characteristic>
+        <characteristic name="Survival" typeId="f5ea-b03b-756d-443b">6</characteristic>
+        <characteristic name="Aptitude" typeId="449e-43bb-bd94-c1aa">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c0bb-001c-2786-009d" name="Heavy Variant" publicationId="7601-9533-236d-0449" page="102" hidden="false" typeId="6068-703b-a954-4708" typeName="Model">
+      <characteristics>
+        <characteristic name="Speed" typeId="5e18-0e74-095d-f336">-2</characteristic>
+        <characteristic name="Shooting" typeId="3abe-8e8f-ad12-e813">-2</characteristic>
+        <characteristic name="Melee" typeId="9e9f-4065-0c26-cfdd">-2</characteristic>
+        <characteristic name="Defense" typeId="61e8-6d7c-17b2-40bb">+6</characteristic>
+        <characteristic name="Survival" typeId="f5ea-b03b-756d-443b">+4</characteristic>
+        <characteristic name="Aptitude" typeId="449e-43bb-bd94-c1aa">-3</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cfe4-b04d-76cd-c51c" name="Next Gen" publicationId="7601-9533-236d-0449" page="102" hidden="false" typeId="6068-703b-a954-4708" typeName="Model">
+      <characteristics>
+        <characteristic name="Speed" typeId="5e18-0e74-095d-f336">-1</characteristic>
+        <characteristic name="Shooting" typeId="3abe-8e8f-ad12-e813">-2</characteristic>
+        <characteristic name="Melee" typeId="9e9f-4065-0c26-cfdd">-2</characteristic>
+        <characteristic name="Defense" typeId="61e8-6d7c-17b2-40bb">-1</characteristic>
+        <characteristic name="Survival" typeId="f5ea-b03b-756d-443b">+0</characteristic>
+        <characteristic name="Aptitude" typeId="449e-43bb-bd94-c1aa">-2</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="056f-9aaf-64d9-fa15" name="Rapid Kinetic Weapon" hidden="false" typeId="3bb5-1ec6-089d-4c48" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="18e3-7f1a-510f-0e79">18</characteristic>
+        <characteristic name="Strenght" typeId="a9bc-b7ae-b369-f373">2</characteristic>
+        <characteristic name="Ammo" typeId="40ed-c516-1950-7265">Auto</characteristic>
+        <characteristic name="Special" typeId="10c9-df75-6e4c-ea71">Sustained Burst(2)</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
