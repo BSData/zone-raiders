@@ -166,6 +166,68 @@
         <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="ed72-4d83-55f9-78b1" name="Optimal Photon Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da0e-6aef-fe56-b9da" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a3fe-eccc-dd08-ae97" name="Optimal Photon Cannon" hidden="false" targetId="8f3a-c014-8084-5e1b" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="520e-280e-49ef-81e1" name="Electro-Defense Mesh" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e575-4d2d-a0a2-d81c" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="56dd-6683-f33e-9c3a" name="Electro-Defense Mesh" hidden="false" targetId="3fa1-7523-e194-3b13" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6239-bb82-59eb-ba3b" name="Integral Armor Configuration" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a221-5dd3-6e19-694e" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="843f-c860-3922-16e9" name="Integral Armor Configuration" hidden="false" targetId="30b4-36df-fc5c-c272" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="a717-bb4b-dc1a-b5ec" name="Resilience Armor Configuration" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b23f-aa68-ee56-3cbc" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="90ad-6200-3b18-de93" name="Resilience Armor Configuration" hidden="false" targetId="47fc-e08d-d28b-d847" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="4969-6d6d-f554-6010" name="Situation Processor" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d994-fa6e-b61b-2c8c" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="14a4-e906-c367-4d69" name="Situation Processor" hidden="false" targetId="a663-7e9a-86c7-58a0" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="040d-cfff-8eb4-ebc4" name="Secure Datalink" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2afb-66fa-2461-d7fa" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="7101-a0dc-32c5-902b" name="Secure Datalink" hidden="false" targetId="56c3-3729-9a62-87aa" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="1bb4-3b3d-80d9-0054" name="Neuralgrid Backup" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a5a-9033-c92d-36a1" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="8e2b-69de-5566-2359" name="Neuralgrid Backup" hidden="false" targetId="b5e5-6c66-568a-7a99" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="3220-781f-8e41-d231" name="Weapons" hidden="false" collective="false" import="true">
@@ -184,10 +246,26 @@
                 <cost name=" RU" typeId="1082-1dbd-73db-175d" value="40.0"/>
               </costs>
             </entryLink>
+            <entryLink id="cd84-2ca1-9cef-bf9d" name="Optimal Photon Cannon" hidden="false" collective="false" import="true" targetId="ed72-4d83-55f9-78b1" type="selectionEntry">
+              <costs>
+                <cost name=" RU" typeId="1082-1dbd-73db-175d" value="55.0"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </entryLink>
         <entryLink id="9731-e204-2d71-0a42" name="Secondary Ranged Weapons" hidden="false" collective="false" import="true" targetId="a88a-ae4e-cb1e-34a1" type="selectionEntryGroup"/>
-        <entryLink id="3905-8bcf-f3be-69ef" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="91e2-7b89-2001-b4ea" type="selectionEntryGroup"/>
+        <entryLink id="3905-8bcf-f3be-69ef" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="91e2-7b89-2001-b4ea" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="2c5e-3ea4-c73d-6bdd" name="Electro-Defense Mesh" hidden="false" collective="false" import="true" targetId="520e-280e-49ef-81e1" type="selectionEntry">
+              <costs>
+                <cost name=" RU" typeId="1082-1dbd-73db-175d" value="15.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="15.0"/>
+          </costs>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="654a-bb52-6887-15c4" name="Equipment" hidden="false" collective="false" import="true">
@@ -195,7 +273,25 @@
         <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17cd-788c-f1a9-fba5" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="2e59-95e7-389d-8d30" name="Faction Equipment" hidden="false" collective="false" import="true"/>
+        <selectionEntryGroup id="2e59-95e7-389d-8d30" name="Faction Equipment" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="215d-7137-8ff0-97d9" name="Secure Datalink" hidden="false" collective="false" import="true" targetId="040d-cfff-8eb4-ebc4" type="selectionEntry">
+              <costs>
+                <cost name=" RU" typeId="1082-1dbd-73db-175d" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="8f31-de08-2a46-5e6a" name="Situation Processor" hidden="false" collective="false" import="true" targetId="4969-6d6d-f554-6010" type="selectionEntry">
+              <costs>
+                <cost name=" RU" typeId="1082-1dbd-73db-175d" value="35.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="fffe-1a37-b416-99eb" name="Neuralgrid Backup" hidden="false" collective="false" import="true" targetId="1bb4-3b3d-80d9-0054" type="selectionEntry">
+              <costs>
+                <cost name=" RU" typeId="1082-1dbd-73db-175d" value="50.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="085a-3711-cf08-317e" name="Standard Equipment" hidden="false" collective="false" import="true" targetId="5065-dad0-9ce1-0391" type="selectionEntryGroup"/>
@@ -206,7 +302,20 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5d0a-c68b-fc3b-8081" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="8314-78d0-97c0-4a06" name="Faction Armor" hidden="false" collective="false" import="true"/>
+        <selectionEntryGroup id="8314-78d0-97c0-4a06" name="Faction Armor" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="5c4d-10b4-88a5-c02a" name="Integral Armor Configuration" hidden="false" collective="false" import="true" targetId="6239-bb82-59eb-ba3b" type="selectionEntry">
+              <costs>
+                <cost name=" RU" typeId="1082-1dbd-73db-175d" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="e2ed-3b59-97eb-2c15" name="Resilience Armor Configuration" hidden="false" collective="false" import="true" targetId="a717-bb4b-dc1a-b5ec" type="selectionEntry">
+              <costs>
+                <cost name=" RU" typeId="1082-1dbd-73db-175d" value="70.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="008c-d6a0-581b-6d84" name="Standard Armor" hidden="false" collective="false" import="true" targetId="5172-0d32-1fe2-5059" type="selectionEntryGroup"/>
@@ -270,6 +379,52 @@
         <characteristic name="Strenght" typeId="a9bc-b7ae-b369-f373">2</characteristic>
         <characteristic name="Ammo" typeId="40ed-c516-1950-7265">Auto</characteristic>
         <characteristic name="Special" typeId="10c9-df75-6e4c-ea71">Sustained Burst(2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8f3a-c014-8084-5e1b" name="Optimal Photon Cannon" publicationId="7601-9533-236d-0449" page="102" hidden="false" typeId="3bb5-1ec6-089d-4c48" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="18e3-7f1a-510f-0e79">24</characteristic>
+        <characteristic name="Strenght" typeId="a9bc-b7ae-b369-f373">6 AP</characteristic>
+        <characteristic name="Ammo" typeId="40ed-c516-1950-7265">1</characteristic>
+        <characteristic name="Special" typeId="10c9-df75-6e4c-ea71">Beam</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3fa1-7523-e194-3b13" name="Electro-Defense Mesh" publicationId="7601-9533-236d-0449" page="102" hidden="false" typeId="749b-03cb-a373-262f" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="57e3-e0fd-2d69-6732">Melee</characteristic>
+        <characteristic name="Strength" typeId="7c7c-4d06-ad0a-dab8">0 AP</characteristic>
+        <characteristic name="Special" typeId="d7f5-98c9-9323-e572">Concussive, Stunning, Grants Counter-Attack. +4 Bonus to Melee Attack Rolls</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="30b4-36df-fc5c-c272" name="Integral Armor Configuration" publicationId="7601-9533-236d-0449" page="103" hidden="false" typeId="e1f2-aad1-a776-457a" typeName="Armor">
+      <characteristics>
+        <characteristic name="Defense Bonus" typeId="02f2-24c5-b212-d080">2</characteristic>
+        <characteristic name="Survival Bonus" typeId="42f3-3ca8-eaa3-d87f">2</characteristic>
+        <characteristic name="Mobility Actions" typeId="a6c5-b5d6-f696-39b6">Wallrun, Dash</characteristic>
+        <characteristic name="Special" typeId="45e2-d07d-e51c-d971">Does not Suffer Armor Failure</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="47fc-e08d-d28b-d847" name="Resilience Armor Configuration" publicationId="7601-9533-236d-0449" page="103" hidden="false" typeId="e1f2-aad1-a776-457a" typeName="Armor">
+      <characteristics>
+        <characteristic name="Defense Bonus" typeId="02f2-24c5-b212-d080">8</characteristic>
+        <characteristic name="Survival Bonus" typeId="42f3-3ca8-eaa3-d87f">0</characteristic>
+        <characteristic name="Mobility Actions" typeId="a6c5-b5d6-f696-39b6">Wallrun</characteristic>
+        <characteristic name="Special" typeId="45e2-d07d-e51c-d971">Grants the Die-Hard skill</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="56c3-3729-9a62-87aa" name="Secure Datalink" publicationId="7601-9533-236d-0449" page="103" hidden="false" typeId="889c-0508-5547-a85e" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Effect" typeId="b65b-562e-9a15-f71e">While the model carrying it is Active, the team is immune to the effects of Tech Jammer Equipment while within 18 inches of the Secure Datalink. Gain +4 to Interface Aptitude Checks.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a663-7e9a-86c7-58a0" name="Situation Processor" publicationId="7601-9533-236d-0449" page="103" hidden="false" typeId="889c-0508-5547-a85e" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Effect" typeId="b65b-562e-9a15-f71e">2 Actions: When this model can see at least one enemy model, it may grant a single action to any friendly model that must be used immediately. This does not count as their activation. </characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b5e5-6c66-568a-7a99" name="Neuralgrid Backup" publicationId="7601-9533-236d-0449" page="103" hidden="false" typeId="889c-0508-5547-a85e" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Effect" typeId="b65b-562e-9a15-f71e">When this model is killed, it can be resurrected with all skills and stats kept by paying its initial recruiting cost, though equipment may still be lost. </characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
