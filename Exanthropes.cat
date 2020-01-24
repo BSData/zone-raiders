@@ -44,25 +44,44 @@
         <infoLink id="ccda-f41e-68ba-1f57" name="Lancer" hidden="false" targetId="862c-49bc-1190-6583" type="profile">
           <modifiers>
             <modifier type="increment" field="5e18-0e74-095d-f336" value="1">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="2e21-2c60-a73e-ff95" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1fd4-f9b8-2eea-9d40" type="equalTo"/>
-                    <condition field="selections" scope="2e21-2c60-a73e-ff95" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1fec-08b5-c836-3e6d" type="equalTo"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <conditions>
+                <condition field="selections" scope="2e21-2c60-a73e-ff95" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1fd4-f9b8-2eea-9d40" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="5e18-0e74-095d-f336" value="1">
+              <conditions>
+                <condition field="selections" scope="2e21-2c60-a73e-ff95" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1fec-08b5-c836-3e6d" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="3abe-8e8f-ad12-e813" value="2">
+              <conditions>
+                <condition field="selections" scope="2e21-2c60-a73e-ff95" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1fd4-f9b8-2eea-9d40" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="3abe-8e8f-ad12-e813" value="2">
+              <conditions>
+                <condition field="selections" scope="2e21-2c60-a73e-ff95" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1fec-08b5-c836-3e6d" type="equalTo"/>
+              </conditions>
             </modifier>
           </modifiers>
         </infoLink>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="8782-3221-d79e-727e" name="Campaign" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="8782-3221-d79e-727e" name=" Campaign" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="1fec-08b5-c836-3e6d" name="Upgrade to Ascendant" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1fec-08b5-c836-3e6d" name="2 - Upgrade to Ascendant" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="2e21-2c60-a73e-ff95" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4261-f762-795c-7215" type="atLeast"/>
+                        <condition field="selections" scope="2e21-2c60-a73e-ff95" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1fd4-f9b8-2eea-9d40" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="063d-8f47-5c20-6df2" type="max"/>
               </constraints>
@@ -70,27 +89,80 @@
                 <cost name=" RU" typeId="1082-1dbd-73db-175d" value="60.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1fd4-f9b8-2eea-9d40" name="Upgrade to Champion" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1fd4-f9b8-2eea-9d40" name="1 - Upgrade to Champion" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="2e21-2c60-a73e-ff95" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4261-f762-795c-7215" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46db-959e-c6d2-0ed7" type="max"/>
               </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="00bd-b5dc-c682-a2bb" name="Select 4 upgrades" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="641a-9b53-d9ca-8fb8" type="min"/>
+                    <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9f1-b354-516b-21e2" type="min"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="6bf2-837d-33c4-6c5a" name="Shooting" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2e6-bcb8-f5d9-19b9" type="max"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry id="1fda-7dbf-c760-9006" name="Speed" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="334c-fb1a-106b-0c4e" type="max"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry id="dc4e-cd7c-2a43-73a5" name="Melee" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b50-0156-a755-2f03" type="max"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry id="e1e1-3ff6-b947-8dae" name="Defense" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0d0-96ee-d7ba-66fd" type="max"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry id="af4e-7ca2-e43b-e659" name="Survival" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cda-88cf-38ad-ce9e" type="max"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry id="5b83-a3a9-6e74-54de" name="Aptitude" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac71-0803-aad3-fa0c" type="max"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <costs>
                 <cost name=" RU" typeId="1082-1dbd-73db-175d" value="40.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="4261-f762-795c-7215" name="Level" hidden="false" collective="false" import="true" targetId="330c-a9cc-e150-810e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a9d-6986-05aa-053b" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="7b91-f9c7-06e8-3c11" name="XP" hidden="false" collective="false" import="true" targetId="bca5-281a-80e0-61d2" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="f210-731b-f44f-a023" name="Armor" hidden="false" collective="false" import="true" targetId="02da-651a-8409-0e40" type="selectionEntryGroup"/>
         <entryLink id="bb1b-ff06-4ee4-510a" name="Equipment" hidden="false" collective="false" import="true" targetId="654a-bb52-6887-15c4" type="selectionEntryGroup"/>
         <entryLink id="8d4b-daa2-ae13-f3d4" name="Weapons" hidden="false" collective="false" import="true" targetId="3220-781f-8e41-d231" type="selectionEntryGroup"/>
-        <entryLink id="a01b-a49d-995e-ff89" name="Level" hidden="false" collective="false" import="true" targetId="330c-a9cc-e150-810e" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94df-b20b-7ca7-5336" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="f95f-5d0d-870f-fb7a" name="XP" hidden="false" collective="false" import="true" targetId="bca5-281a-80e0-61d2" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
