@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="2c31-8d03-0634-b33d" name="Exanthropes" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="08e6-d63e-4303-2708" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="a76d-7e14-702d-d543" name="Lancer" hidden="false" collective="false" import="true" targetId="2e21-2c60-a73e-ff95" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="970e-f235-4854-a633" name="Roster" hidden="false" targetId="69d3-c793-1f05-1af6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="80.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="a7dd-915a-de40-3be1" name="Combat Automata" hidden="false" collective="false" import="true" targetId="78e2-e050-f6bd-aa9d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="20a9-4391-a1d7-9612" name="Roster" hidden="false" targetId="69d3-c793-1f05-1af6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="20.0"/>
+      </costs>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="2e21-2c60-a73e-ff95" name="Aspirant" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="ccda-f41e-68ba-1f57" name="Lancer" hidden="false" targetId="862c-49bc-1190-6583" type="profile"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="f210-731b-f44f-a023" name="Armor" hidden="false" collective="false" import="true" targetId="02da-651a-8409-0e40" type="selectionEntryGroup"/>
+        <entryLink id="bb1b-ff06-4ee4-510a" name="Equipment" hidden="false" collective="false" import="true" targetId="654a-bb52-6887-15c4" type="selectionEntryGroup"/>
+        <entryLink id="8d4b-daa2-ae13-f3d4" name="Weapons" hidden="false" collective="false" import="true" targetId="3220-781f-8e41-d231" type="selectionEntryGroup"/>
+        <entryLink id="a01b-a49d-995e-ff89" name="Level" hidden="false" collective="false" import="true" targetId="330c-a9cc-e150-810e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94df-b20b-7ca7-5336" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f95f-5d0d-870f-fb7a" name="XP" hidden="false" collective="false" import="true" targetId="bca5-281a-80e0-61d2" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c54d-89ed-32bd-9dbf" name="Micro-Laser Array" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="396e-720f-b799-818e" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e49c-3c21-17f3-eae9" name="Rapid Kinetic Weapon" hidden="false" targetId="056f-9aaf-64d9-fa15" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="520e-280e-49ef-81e1" name="High-Frequency Blades" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e575-4d2d-a0a2-d81c" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="56dd-6683-f33e-9c3a" name="Electro-Defense Mesh" hidden="false" targetId="3fa1-7523-e194-3b13" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6239-bb82-59eb-ba3b" name="Duelist Panoply" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a221-5dd3-6e19-694e" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="843f-c860-3922-16e9" name="Integral Armor Configuration" hidden="false" targetId="30b4-36df-fc5c-c272" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4969-6d6d-f554-6010" name="Autochronicler" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d994-fa6e-b61b-2c8c" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="14a4-e906-c367-4d69" name="Situation Processor" hidden="false" targetId="a663-7e9a-86c7-58a0" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ec81-d72b-fdc6-b03f" name="Alloy Pilum" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23f7-54bf-2670-1f94" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="dfd2-0018-7d80-6265" name="Alloy Pilum" hidden="false" targetId="22a9-67aa-78ce-c187" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b669-ee5e-0ba7-2140" name="Arsenal Panoply" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb06-5424-2922-9e5a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="8a4f-25b6-f836-8c54" name="Arsenal Panoply" hidden="false" targetId="cb75-615f-7800-860f" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0822-f876-bff2-0e30" name="Guardian AI" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33c0-cc97-e078-6b91" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="572e-73b6-c629-8c3c" name="Guardian AI" hidden="false" targetId="8ca6-003e-20f5-a96f" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="09d8-cc4a-47d0-55e4" name="Combat Sims" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e43a-b0fe-2941-d74e" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="aea6-4c25-da1f-b844" name="Combat Sims" hidden="false" targetId="6455-1f57-5c5c-6ff5" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="78e2-e050-f6bd-aa9d" name="Combat Automata" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="948f-5a59-939a-1012" name="Combat Automata" hidden="false" targetId="3cc2-3b02-97d7-7540" type="profile"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="7e83-9021-e65f-b614" name="Armor" hidden="false" collective="false" import="true" targetId="02da-651a-8409-0e40" type="selectionEntryGroup"/>
+        <entryLink id="60a5-ace6-df34-095f" name="Equipment" hidden="false" collective="false" import="true" targetId="654a-bb52-6887-15c4" type="selectionEntryGroup"/>
+        <entryLink id="18e9-6f67-80ae-4a23" name="Weapons" hidden="false" collective="false" import="true" targetId="3220-781f-8e41-d231" type="selectionEntryGroup"/>
+        <entryLink id="5012-edbc-626a-55ff" name="XP" hidden="false" collective="false" import="true" targetId="bca5-281a-80e0-61d2" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="3220-781f-8e41-d231" name="Weapons" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ca0-5892-e794-0137" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="d7a4-9dc4-ade1-2a0b" name="Grenades" hidden="false" collective="false" import="true" targetId="99fc-9f9d-6755-32b0" type="selectionEntryGroup"/>
+        <entryLink id="8f24-b001-17e1-6197" name="Primary Ranged Weapons" hidden="false" collective="false" import="true" targetId="7317-2c92-f2e0-04b6" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baa5-27b3-ed28-2bbf" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="ecae-03a9-9a36-b2a9" name="Nomad Mag Repeater" hidden="false" collective="false" import="true" targetId="c54d-89ed-32bd-9dbf" type="selectionEntry">
+              <costs>
+                <cost name=" RU" typeId="1082-1dbd-73db-175d" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="2b0e-f813-822c-5067" name="Alloy Pilum" hidden="false" collective="false" import="true" targetId="ec81-d72b-fdc6-b03f" type="selectionEntry">
+              <costs>
+                <cost name=" RU" typeId="1082-1dbd-73db-175d" value="30.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+        <entryLink id="9731-e204-2d71-0a42" name="Secondary Ranged Weapons" hidden="false" collective="false" import="true" targetId="a88a-ae4e-cb1e-34a1" type="selectionEntryGroup"/>
+        <entryLink id="3905-8bcf-f3be-69ef" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="91e2-7b89-2001-b4ea" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="2c5e-3ea4-c73d-6bdd" name="Electro-Defense Mesh" hidden="false" collective="false" import="true" targetId="520e-280e-49ef-81e1" type="selectionEntry">
+              <costs>
+                <cost name=" RU" typeId="1082-1dbd-73db-175d" value="35.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name=" RU" typeId="1082-1dbd-73db-175d" value="15.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="654a-bb52-6887-15c4" name="Equipment" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17cd-788c-f1a9-fba5" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2e59-95e7-389d-8d30" name="Faction Equipment" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="8f31-de08-2a46-5e6a" name="Situation Processor" hidden="false" collective="false" import="true" targetId="4969-6d6d-f554-6010" type="selectionEntry">
+              <costs>
+                <cost name=" RU" typeId="1082-1dbd-73db-175d" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="7dc8-d56f-3009-becb" name="Guardian AI" hidden="false" collective="false" import="true" targetId="0822-f876-bff2-0e30" type="selectionEntry">
+              <costs>
+                <cost name=" RU" typeId="1082-1dbd-73db-175d" value="30.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="7cf2-3701-4b69-d4ff" name="Combat Sims" hidden="false" collective="false" import="true" targetId="09d8-cc4a-47d0-55e4" type="selectionEntry">
+              <costs>
+                <cost name=" RU" typeId="1082-1dbd-73db-175d" value="30.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="085a-3711-cf08-317e" name="Standard Equipment" hidden="false" collective="false" import="true" targetId="5065-dad0-9ce1-0391" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="02da-651a-8409-0e40" name="Armor" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5d0a-c68b-fc3b-8081" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8314-78d0-97c0-4a06" name="Faction Armor" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="5c4d-10b4-88a5-c02a" name="Integral Armor Configuration" hidden="false" collective="false" import="true" targetId="6239-bb82-59eb-ba3b" type="selectionEntry">
+              <costs>
+                <cost name=" RU" typeId="1082-1dbd-73db-175d" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="f935-fb36-3823-6a30" name="Arsenal Panoply" hidden="false" collective="false" import="true" targetId="b669-ee5e-0ba7-2140" type="selectionEntry">
+              <costs>
+                <cost name=" RU" typeId="1082-1dbd-73db-175d" value="80.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="008c-d6a0-581b-6d84" name="Standard Armor" hidden="false" collective="false" import="true" targetId="5172-0d32-1fe2-5059" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedProfiles>
+    <profile id="862c-49bc-1190-6583" name="Aspirant" publicationId="7601-9533-236d-0449" page="106" hidden="false" typeId="6068-703b-a954-4708" typeName="Model">
+      <characteristics>
+        <characteristic name="Speed" typeId="5e18-0e74-095d-f336">5</characteristic>
+        <characteristic name="Shooting" typeId="3abe-8e8f-ad12-e813">9</characteristic>
+        <characteristic name="Melee" typeId="9e9f-4065-0c26-cfdd">12</characteristic>
+        <characteristic name="Defense" typeId="61e8-6d7c-17b2-40bb">7</characteristic>
+        <characteristic name="Survival" typeId="f5ea-b03b-756d-443b">9</characteristic>
+        <characteristic name="Aptitude" typeId="449e-43bb-bd94-c1aa">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="056f-9aaf-64d9-fa15" name="Micro-Laser Array" hidden="false" typeId="3bb5-1ec6-089d-4c48" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="18e3-7f1a-510f-0e79">8</characteristic>
+        <characteristic name="Strenght" typeId="a9bc-b7ae-b369-f373">1 AP</characteristic>
+        <characteristic name="Ammo" typeId="40ed-c516-1950-7265">1</characteristic>
+        <characteristic name="Special" typeId="10c9-df75-6e4c-ea71">Burst(3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3fa1-7523-e194-3b13" name="High-Frequency Blades" publicationId="7601-9533-236d-0449" page="106" hidden="false" typeId="749b-03cb-a373-262f" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="57e3-e0fd-2d69-6732">Melee</characteristic>
+        <characteristic name="Strength" typeId="7c7c-4d06-ad0a-dab8">8 AP</characteristic>
+        <characteristic name="Special" typeId="d7f5-98c9-9323-e572"/>
+      </characteristics>
+    </profile>
+    <profile id="30b4-36df-fc5c-c272" name="Duelist Panoply" publicationId="7601-9533-236d-0449" page="106" hidden="false" typeId="e1f2-aad1-a776-457a" typeName="Armor">
+      <characteristics>
+        <characteristic name="Defense Bonus" typeId="02f2-24c5-b212-d080">4</characteristic>
+        <characteristic name="Survival Bonus" typeId="42f3-3ca8-eaa3-d87f">3</characteristic>
+        <characteristic name="Mobility Actions" typeId="a6c5-b5d6-f696-39b6">Leap, Dash, Wallrun</characteristic>
+        <characteristic name="Special" typeId="45e2-d07d-e51c-d971">Enemy Melee attacks against this model 
+suffer a -2 penalty.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a663-7e9a-86c7-58a0" name="Autochronicler" publicationId="7601-9533-236d-0449" page="106" hidden="false" typeId="889c-0508-5547-a85e" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Effect" typeId="b65b-562e-9a15-f71e">If the model is Active at the end of the game where it has Taken Out any enemy, it gains +1 XP at the end of the battle.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="22a9-67aa-78ce-c187" name="Alloy Pilum" hidden="false" typeId="3bb5-1ec6-089d-4c48" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="18e3-7f1a-510f-0e79">12</characteristic>
+        <characteristic name="Strenght" typeId="a9bc-b7ae-b369-f373">6 AP</characteristic>
+        <characteristic name="Ammo" typeId="40ed-c516-1950-7265">1</characteristic>
+        <characteristic name="Special" typeId="10c9-df75-6e4c-ea71">Concussive</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cb75-615f-7800-860f" name="Arsenal Panoply" publicationId="7601-9533-236d-0449" page="106" hidden="false" typeId="e1f2-aad1-a776-457a" typeName="Armor">
+      <characteristics>
+        <characteristic name="Defense Bonus" typeId="02f2-24c5-b212-d080">7</characteristic>
+        <characteristic name="Survival Bonus" typeId="42f3-3ca8-eaa3-d87f">2</characteristic>
+        <characteristic name="Mobility Actions" typeId="a6c5-b5d6-f696-39b6">Leap, Wallrun</characteristic>
+        <characteristic name="Special" typeId="45e2-d07d-e51c-d971">Weapons lose ‘Bulky’</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8ca6-003e-20f5-a96f" name="Guardian AI" publicationId="7601-9533-236d-0449" page="107" hidden="false" typeId="889c-0508-5547-a85e" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Effect" typeId="b65b-562e-9a15-f71e">Enemy Shooting attacks against this model may be retargeted to friendly Combat Automata models within 2 inches of this model when they are declared. The new target is hit automatically.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6455-1f57-5c5c-6ff5" name="Combat Sims" hidden="false" typeId="889c-0508-5547-a85e" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Effect" typeId="b65b-562e-9a15-f71e">This model ignores all penalties for being in melee with multiple opponents. This model may reroll any failed melee attack by spending a Command Point. </characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3cc2-3b02-97d7-7540" name="Combat Automata" publicationId="7601-9533-236d-0449" page="106" hidden="false" typeId="6068-703b-a954-4708" typeName="Model">
+      <characteristics>
+        <characteristic name="Speed" typeId="5e18-0e74-095d-f336">5</characteristic>
+        <characteristic name="Shooting" typeId="3abe-8e8f-ad12-e813">6</characteristic>
+        <characteristic name="Melee" typeId="9e9f-4065-0c26-cfdd">6</characteristic>
+        <characteristic name="Defense" typeId="61e8-6d7c-17b2-40bb">8</characteristic>
+        <characteristic name="Survival" typeId="f5ea-b03b-756d-443b">4</characteristic>
+        <characteristic name="Aptitude" typeId="449e-43bb-bd94-c1aa">7</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
