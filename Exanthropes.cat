@@ -20,9 +20,67 @@
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="2e21-2c60-a73e-ff95" name="Aspirant" hidden="false" collective="false" import="true" type="model">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="name" value="Champion">
+              <conditions>
+                <condition field="selections" scope="2e21-2c60-a73e-ff95" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1fd4-f9b8-2eea-9d40" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="name" value="Ascendant">
+              <conditions>
+                <condition field="selections" scope="2e21-2c60-a73e-ff95" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1fec-08b5-c836-3e6d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
       <infoLinks>
-        <infoLink id="ccda-f41e-68ba-1f57" name="Lancer" hidden="false" targetId="862c-49bc-1190-6583" type="profile"/>
+        <infoLink id="ccda-f41e-68ba-1f57" name="Lancer" hidden="false" targetId="862c-49bc-1190-6583" type="profile">
+          <modifiers>
+            <modifier type="increment" field="5e18-0e74-095d-f336" value="1">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="2e21-2c60-a73e-ff95" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1fd4-f9b8-2eea-9d40" type="equalTo"/>
+                    <condition field="selections" scope="2e21-2c60-a73e-ff95" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1fec-08b5-c836-3e6d" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8782-3221-d79e-727e" name="Campaign" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="1fec-08b5-c836-3e6d" name="Upgrade to Ascendant" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="063d-8f47-5c20-6df2" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" RU" typeId="1082-1dbd-73db-175d" value="60.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1fd4-f9b8-2eea-9d40" name="Upgrade to Champion" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46db-959e-c6d2-0ed7" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" RU" typeId="1082-1dbd-73db-175d" value="40.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="f210-731b-f44f-a023" name="Armor" hidden="false" collective="false" import="true" targetId="02da-651a-8409-0e40" type="selectionEntryGroup"/>
         <entryLink id="bb1b-ff06-4ee4-510a" name="Equipment" hidden="false" collective="false" import="true" targetId="654a-bb52-6887-15c4" type="selectionEntryGroup"/>

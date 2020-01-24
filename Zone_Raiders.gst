@@ -61,18 +61,6 @@
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="69d3-c793-1f05-1af6" name="Roster" hidden="false"/>
-    <categoryEntry id="415b-2c34-56f8-69ad" name="Primary Ranged Weapons" hidden="false"/>
-    <categoryEntry id="dbc9-c83a-e086-383e" name="Survival +3" hidden="true"/>
-    <categoryEntry id="707d-6b1e-edfb-c3cf" name="Defense +7" hidden="true"/>
-    <categoryEntry id="8e31-cef9-1363-b17f" name="Defense +9" hidden="true"/>
-    <categoryEntry id="229b-6c2a-5dbd-24c8" name="Defense +3" hidden="true"/>
-    <categoryEntry id="b5ad-96ad-3422-6f26" name="Defense +2" hidden="true"/>
-    <categoryEntry id="b1d5-63b3-7d24-d824" name="Defense +4" hidden="true"/>
-    <categoryEntry id="e9a9-5544-5cc2-2a0b" name="Defense +5" hidden="true"/>
-    <categoryEntry id="6947-0265-e47f-14c7" name="Defense +6" hidden="true"/>
-    <categoryEntry id="8df8-70c5-5077-c006" name="Defense +10" hidden="true"/>
-    <categoryEntry id="e2e9-c367-ff17-cf5b" name="Survival +4" hidden="true"/>
-    <categoryEntry id="140e-0103-63aa-8691" name="Survival +2" hidden="true"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="459c-ce3e-9d80-43c3" name="Team" hidden="false">
@@ -89,10 +77,6 @@
       <infoLinks>
         <infoLink id="8ede-6c0f-612e-b483" name="Mobility Frame" hidden="false" targetId="6896-2aba-9880-d7ea" type="profile"/>
       </infoLinks>
-      <categoryLinks>
-        <categoryLink id="db40-05ad-b42d-a386" name="Defense +3" hidden="false" targetId="229b-6c2a-5dbd-24c8" primary="false"/>
-        <categoryLink id="9509-46ce-2a79-8e5c" name="Survival +2" hidden="false" targetId="dbc9-c83a-e086-383e" primary="false"/>
-      </categoryLinks>
       <costs>
         <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
       </costs>
@@ -115,9 +99,6 @@
       <infoLinks>
         <infoLink id="7890-0a84-f690-cd40" name="Flechette Shotgun" hidden="false" targetId="fe40-ac0d-31b8-25f5" type="profile"/>
       </infoLinks>
-      <categoryLinks>
-        <categoryLink id="f694-5f3b-bd93-0da2" name="Primary Ranged Weapons" hidden="false" targetId="415b-2c34-56f8-69ad" primary="false"/>
-      </categoryLinks>
       <costs>
         <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
       </costs>
@@ -129,9 +110,6 @@
       <infoLinks>
         <infoLink id="f7db-c3b8-420d-0bdd" name="Light Exoskeleton" hidden="false" targetId="6e1a-1b2a-9bcd-dcd7" type="profile"/>
       </infoLinks>
-      <categoryLinks>
-        <categoryLink id="e631-5e07-1614-dcb7" name="Defense +7" hidden="false" targetId="707d-6b1e-edfb-c3cf" primary="false"/>
-      </categoryLinks>
       <costs>
         <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
       </costs>
@@ -143,9 +121,6 @@
       <infoLinks>
         <infoLink id="c413-f0a0-7108-2069" name="Heavy Mag Driver" hidden="false" targetId="3fef-0ea3-74a9-a4e9" type="profile"/>
       </infoLinks>
-      <categoryLinks>
-        <categoryLink id="3f6c-7619-8a65-3291" name="Primary Ranged Weapons" hidden="false" targetId="415b-2c34-56f8-69ad" primary="false"/>
-      </categoryLinks>
       <costs>
         <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
       </costs>
@@ -179,10 +154,6 @@
       <infoLinks>
         <infoLink id="9231-8e65-7e47-4a8d" name="Armored Carapace" hidden="false" targetId="6060-d43b-5593-6742" type="profile"/>
       </infoLinks>
-      <categoryLinks>
-        <categoryLink id="4e06-4646-bee7-78db" name="Defense +7" hidden="false" targetId="707d-6b1e-edfb-c3cf" primary="false"/>
-        <categoryLink id="6683-8ace-2ade-7cff" name="Survival +2" hidden="false" targetId="dbc9-c83a-e086-383e" primary="false"/>
-      </categoryLinks>
       <costs>
         <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
       </costs>
@@ -227,10 +198,6 @@
       <infoLinks>
         <infoLink id="794c-b6c2-6337-a0ae" name="Light Carapace" hidden="false" targetId="a973-f527-d718-5ef6" type="profile"/>
       </infoLinks>
-      <categoryLinks>
-        <categoryLink id="c455-0247-28e2-cb85" name="Defense +5" hidden="false" targetId="e9a9-5544-5cc2-2a0b" primary="false"/>
-        <categoryLink id="f345-883b-5d56-383c" name="Survival +2" hidden="false" targetId="dbc9-c83a-e086-383e" primary="false"/>
-      </categoryLinks>
       <costs>
         <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
       </costs>
@@ -866,10 +833,6 @@
           </costs>
         </entryLink>
         <entryLink id="3fae-1224-78c6-3ad2" name="Skirmisher Frame" hidden="false" collective="false" import="true" targetId="b8fa-b7ae-d220-f2de" type="selectionEntry">
-          <categoryLinks>
-            <categoryLink id="c919-7fd4-8947-d1c7" name="Defense +4" hidden="false" targetId="b1d5-63b3-7d24-d824" primary="false"/>
-            <categoryLink id="5432-c78c-85fb-2647" name="Survival +2" hidden="false" targetId="140e-0103-63aa-8691" primary="false"/>
-          </categoryLinks>
           <costs>
             <cost name=" RU" typeId="1082-1dbd-73db-175d" value="20.0"/>
           </costs>

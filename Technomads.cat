@@ -314,18 +314,11 @@
         <selectionEntryGroup id="8314-78d0-97c0-4a06" name="Faction Armor" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="bedf-fd67-5016-e517" name="Nomad Dynamic Frame" hidden="false" collective="false" import="true" targetId="38a6-83c9-22a9-ade0" type="selectionEntry">
-              <categoryLinks>
-                <categoryLink id="fc20-222d-7712-0c66" name="Defense +4" hidden="false" targetId="b1d5-63b3-7d24-d824" primary="false"/>
-              </categoryLinks>
               <costs>
                 <cost name=" RU" typeId="1082-1dbd-73db-175d" value="40.0"/>
               </costs>
             </entryLink>
             <entryLink id="d2b5-5ba6-3f3a-024f" name="Nomad Hazard Frame" hidden="false" collective="false" import="true" targetId="e7af-8f19-8020-ecd9" type="selectionEntry">
-              <categoryLinks>
-                <categoryLink id="b96a-1f75-93c9-be0a" name="Defense +4" hidden="false" targetId="b1d5-63b3-7d24-d824" primary="false"/>
-                <categoryLink id="d6e1-7c45-8333-9f8c" name="Survival +4" hidden="false" targetId="e2e9-c367-ff17-cf5b" primary="false"/>
-              </categoryLinks>
               <costs>
                 <cost name=" RU" typeId="1082-1dbd-73db-175d" value="45.0"/>
               </costs>

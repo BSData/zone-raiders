@@ -84,9 +84,6 @@
       <infoLinks>
         <infoLink id="b3e3-6be7-9368-1093" name="Ancestral Gauss Rifle" hidden="false" targetId="62a8-722d-3ebe-c275" type="profile"/>
       </infoLinks>
-      <categoryLinks>
-        <categoryLink id="4d8c-173d-a438-846c" name="Primary Ranged Weapons" hidden="false" targetId="415b-2c34-56f8-69ad" primary="false"/>
-      </categoryLinks>
       <costs>
         <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
       </costs>
@@ -98,9 +95,6 @@
       <infoLinks>
         <infoLink id="837a-48ce-67c4-283a" name="Ancestral Explosive Launcher" hidden="false" targetId="450e-5cd1-1eab-802f" type="profile"/>
       </infoLinks>
-      <categoryLinks>
-        <categoryLink id="f32e-fb01-f873-1fed" name="Primary Ranged Weapons" hidden="false" targetId="415b-2c34-56f8-69ad" primary="false"/>
-      </categoryLinks>
       <costs>
         <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
       </costs>
@@ -112,10 +106,6 @@
       <infoLinks>
         <infoLink id="6a28-648f-3808-6c17" name="Reclaimator Powered Armor" hidden="false" targetId="d639-5380-e4fe-e3d6" type="profile"/>
       </infoLinks>
-      <categoryLinks>
-        <categoryLink id="cdd0-019f-fe41-d29e" name="Defense +7" hidden="false" targetId="707d-6b1e-edfb-c3cf" primary="false"/>
-        <categoryLink id="ed03-40c9-ca67-692c" name="Survival +2" hidden="false" targetId="dbc9-c83a-e086-383e" primary="false"/>
-      </categoryLinks>
       <costs>
         <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
       </costs>
@@ -127,10 +117,6 @@
       <infoLinks>
         <infoLink id="aeb8-1ff5-f100-3ad4" name="Guardian Exoframe" hidden="false" targetId="3957-1d56-17a5-6128" type="profile"/>
       </infoLinks>
-      <categoryLinks>
-        <categoryLink id="5097-f3f1-125d-5aea" name="Defense +7" hidden="false" targetId="707d-6b1e-edfb-c3cf" primary="false"/>
-        <categoryLink id="a044-c566-a936-930a" name="Survival +2" hidden="false" targetId="dbc9-c83a-e086-383e" primary="false"/>
-      </categoryLinks>
       <costs>
         <cost name=" RU" typeId="1082-1dbd-73db-175d" value="0.0"/>
       </costs>
