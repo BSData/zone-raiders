@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="78e8-0f27-6a44-f698" name="Atropics" revision="1" battleScribeVersion="2.02" library="false" gameSystemId="05fa-7f5b-80b0-f115" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="112c-96f3-c814-d134" name="Apex Overseer" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="4017-65fe-aa35-f6e3" name="Apex Overseer" hidden="false" typeId="dbe7-2754-358b-1829" typeName="Model">
+          <characteristics>
+            <characteristic name="Speed" typeId="83ef-338d-1317-7d8c">6</characteristic>
+            <characteristic name="Shooting" typeId="8dbb-f9b3-e11b-bc19">9</characteristic>
+            <characteristic name="Melee" typeId="6b38-717b-2dd5-0dad">14</characteristic>
+            <characteristic name="Defence" typeId="172c-d0af-a3ba-c889">8</characteristic>
+            <characteristic name="Survival" typeId="589c-af0c-03e2-e7ed">10</characteristic>
+            <characteristic name="Aptitude" typeId="597a-266a-352f-08f5">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a360-d072-48a1-d7b0" name="Killer Instinct" hidden="false" targetId="f4d6-6737-c3da-e382" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5e74-c0ae-4945-2d01" name="Raiders" hidden="false" targetId="bf5f-aaed-2bd1-8a44" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f3de-6069-8511-b00b" name="Experience Levels" hidden="false" collective="false" targetId="df5e-be65-4077-5bcf" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2137-f0c6-25ca-3853" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d4db-25bf-23a5-2076" name="Level Bonus" hidden="false" collective="false" targetId="ddd0-4f87-12c9-77da" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="decrement" field="b6a3-5c2b-37e8-0414" value="4.0"/>
+            <modifier type="decrement" field="6c38-275a-5f27-6731" value="4.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="ea63-8c47-087a-32d5" name="XP" hidden="false" collective="false" targetId="ffb6-3a4a-6d2a-9672" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="120.0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eca4-d5c5-9658-f30f" name="Class-3 Alpha" hidden="false" collective="false" type="model">
+      <infoLinks>
+        <infoLink id="3e36-225d-7256-420b" name="Mutation" hidden="false" targetId="51cd-33dc-b951-b733" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b425-3a02-f6fc-8b54" name="Raider" hidden="false" targetId="bf5f-aaed-2bd1-8a44" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="aacf-64de-c499-4a21" name="Biomatter" hidden="false" collective="false" targetId="605d-d4ff-cae2-7ca6" type="selectionEntry"/>
+        <entryLink id="02d4-1dee-f17d-5208" name="Experience Levels" hidden="false" collective="false" targetId="df5e-be65-4077-5bcf" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc17-f316-7968-b2fa" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="43c4-478f-dba6-75e6" name="Level Bonus" hidden="false" collective="false" targetId="ddd0-4f87-12c9-77da" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="decrement" field="b6a3-5c2b-37e8-0414" value="2.0"/>
+            <modifier type="decrement" field="6c38-275a-5f27-6731" value="2.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="1eb7-4c5b-2565-b529" name="XP" hidden="false" collective="false" targetId="ffb6-3a4a-6d2a-9672" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="80.0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a824-202d-482f-e8d2" name="Class-X Recombinant" publicationId="f426-d1c5-b242-a927" page="98" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="eb6c-3b42-78ec-62ec" name="Class-X Recombinant" publicationId="f426-d1c5-b242-a927" page="98" hidden="false" typeId="e5d1-2677-a5b4-41ae" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="b7e0-084a-dc28-8cc3">Can only be recruited once per enemy model killed after fighting you. All stats are as the killed model&apos;s stats but modified as above.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b14f-206f-67ba-6931" name="Mutation" hidden="false" targetId="51cd-33dc-b951-b733" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="72f2-6402-5bef-12d5" name="Raider" hidden="false" targetId="bf5f-aaed-2bd1-8a44" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1fa9-0eb8-9faf-39ab" name="Experience Levels" hidden="false" collective="false" targetId="df5e-be65-4077-5bcf" type="selectionEntry"/>
+        <entryLink id="2900-98fc-82fc-804c" name="Biomatter" hidden="false" collective="false" targetId="605d-d4ff-cae2-7ca6" type="selectionEntry"/>
+        <entryLink id="cab4-fa9b-defd-39cd" name="XP" hidden="false" collective="false" targetId="ffb6-3a4a-6d2a-9672" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="20.0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d223-c875-7f8f-1380" name="Class-2 Warrior" hidden="false" collective="false" type="upgrade">
+      <infoLinks>
+        <infoLink id="bc0d-53d3-477e-70af" name="Mutation" hidden="false" targetId="51cd-33dc-b951-b733" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="38ed-143b-b324-7974" name="Raider" hidden="false" targetId="bf5f-aaed-2bd1-8a44" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="fa03-8adc-073f-1b5b" name="Biomatter" hidden="false" collective="false" targetId="605d-d4ff-cae2-7ca6" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="7107-f563-b7eb-e3e6" name="Raider" hidden="false" targetId="bf5f-aaed-2bd1-8a44" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="a7a1-8a28-338e-a82f" name="Level Bonus" hidden="false" collective="false" targetId="ddd0-4f87-12c9-77da" type="selectionEntryGroup"/>
+        <entryLink id="743c-4cdc-d5b8-9dd3" name="XP" hidden="false" collective="false" targetId="ffb6-3a4a-6d2a-9672" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="40.0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4f03-e5d6-b0b0-5c3e" name="Class-1 Worker" hidden="false" collective="false" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="4f4c-b00d-1fa2-408b" name="Raider" hidden="false" targetId="bf5f-aaed-2bd1-8a44" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e459-1522-2262-9b0f" name="Level Bonus" hidden="false" collective="false" targetId="ddd0-4f87-12c9-77da" type="selectionEntryGroup"/>
+        <entryLink id="ece4-c7a8-6249-9773" name="XP" hidden="false" collective="false" targetId="ffb6-3a4a-6d2a-9672" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="20.0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2e0d-d6c1-6ab8-143d" name="Unequipped Gear" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e3e-1026-b13a-98f8" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e58-8976-e1ab-573f" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="60bc-aea7-d1f6-cd72" name="Gear Reserve" hidden="false" targetId="16d4-49c0-ef22-e381" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="220c-d06d-06e6-5f1b" name="Armor" hidden="false" collective="false" targetId="5c52-665c-94de-7cd4" type="selectionEntryGroup"/>
+        <entryLink id="13ea-a2bd-25e9-91b4" name="Equipment" hidden="false" collective="false" targetId="e451-3612-f46f-c64b" type="selectionEntryGroup"/>
+        <entryLink id="b55a-5565-7cc1-cbf0" name="Weapons" hidden="false" collective="false" targetId="c404-bb44-54c0-da1f" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="605d-d4ff-cae2-7ca6" name="Biomatter" hidden="false" collective="false" type="upgrade">
+      <costs>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="5c52-665c-94de-7cd4" name="Armor" hidden="false" collective="false">
+      <entryLinks>
+        <entryLink id="47ed-1db1-9375-7cb4" name="Artifact Armor" hidden="false" collective="false" targetId="731d-1c09-8a50-e966" type="selectionEntryGroup"/>
+        <entryLink id="2110-f863-8594-6c4b" name="Standard Armor" hidden="false" collective="false" targetId="4c0e-5515-95d8-e960" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="c404-bb44-54c0-da1f" name="Weapons" hidden="false" collective="false">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3981-1c42-8a68-4120" name="Ranged Weapons" hidden="false" collective="false">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="e353-bf35-453b-fbc4" name="Primary Weapons" hidden="false" collective="false">
+              <entryLinks>
+                <entryLink id="865f-514b-7364-2047" name="Standard Primary Ranged Weapons" hidden="false" collective="false" targetId="668b-bdec-98d9-2f4d" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="0cb9-4509-227f-d5c0" name="Secondary Weapons" hidden="false" collective="false">
+              <entryLinks>
+                <entryLink id="6ec8-a446-9c96-2bf6" name="Standard Secondary Ranged Weapons" hidden="false" collective="false" targetId="0fc5-2161-b637-f257" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5e3c-7a3f-fcf8-b168" name="Grenades" hidden="false" collective="false">
+          <entryLinks>
+            <entryLink id="cf83-6bbe-d835-24fa" name="Standard Grenades" hidden="false" collective="false" targetId="421e-b485-2083-047d" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ca3d-c0fa-4650-2e9c" name="Melee Weapons" hidden="false" collective="false">
+          <entryLinks>
+            <entryLink id="65e6-e273-edcc-04e9" name="Standard Melee Weapons" hidden="false" collective="false" targetId="2a43-759a-c315-076d" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="20e2-b195-c736-1101" name="Artifact Weapons" hidden="false" collective="false" targetId="258f-ecce-5c0a-2c4c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e451-3612-f46f-c64b" name="Equipment" hidden="false" collective="false">
+      <entryLinks>
+        <entryLink id="ca60-7390-ca41-0d4e" name="Artifact Equipment" hidden="false" collective="false" targetId="ea80-d3a4-7963-2ed4" type="selectionEntryGroup"/>
+        <entryLink id="d598-66d6-b768-600b" name="Standard Equipment" hidden="false" collective="false" targetId="ebf8-fa47-23c0-890a" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedProfiles>
+    <profile id="51cd-33dc-b951-b733" name="Mutation" publicationId="f426-d1c5-b242-a927" page="98" hidden="false" typeId="e5d1-2677-a5b4-41ae" typeName="Ability">
+      <characteristics>
+        <characteristic name="Description" typeId="b7e0-084a-dc28-8cc3">May spend 3 Biomatter Samples to be upgraded to the next higher class.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
