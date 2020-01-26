@@ -8,7 +8,7 @@
             <characteristic name="Speed" typeId="83ef-338d-1317-7d8c">6</characteristic>
             <characteristic name="Shooting" typeId="8dbb-f9b3-e11b-bc19">9</characteristic>
             <characteristic name="Melee" typeId="6b38-717b-2dd5-0dad">14</characteristic>
-            <characteristic name="Defence" typeId="172c-d0af-a3ba-c889">8</characteristic>
+            <characteristic name="Defense" typeId="172c-d0af-a3ba-c889">8</characteristic>
             <characteristic name="Survival" typeId="589c-af0c-03e2-e7ed">10</characteristic>
             <characteristic name="Aptitude" typeId="597a-266a-352f-08f5">8</characteristic>
           </characteristics>
@@ -35,7 +35,7 @@
         <entryLink id="ea63-8c47-087a-32d5" name="XP" hidden="false" collective="false" targetId="ffb6-3a4a-6d2a-9672" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="120.0"/>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="120.0"/>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -62,7 +62,7 @@
         <entryLink id="1eb7-4c5b-2565-b529" name="XP" hidden="false" collective="false" targetId="ffb6-3a4a-6d2a-9672" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="80.0"/>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="80.0"/>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -86,7 +86,7 @@
         <entryLink id="cab4-fa9b-defd-39cd" name="XP" hidden="false" collective="false" targetId="ffb6-3a4a-6d2a-9672" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="20.0"/>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="20.0"/>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -107,7 +107,7 @@
         <entryLink id="743c-4cdc-d5b8-9dd3" name="XP" hidden="false" collective="false" targetId="ffb6-3a4a-6d2a-9672" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="40.0"/>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="40.0"/>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -120,7 +120,7 @@
         <entryLink id="ece4-c7a8-6249-9773" name="XP" hidden="false" collective="false" targetId="ffb6-3a4a-6d2a-9672" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="20.0"/>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="20.0"/>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -138,7 +138,7 @@
         <entryLink id="b55a-5565-7cc1-cbf0" name="Weapons" hidden="false" collective="false" targetId="c404-bb44-54c0-da1f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -146,7 +146,7 @@
   <sharedSelectionEntries>
     <selectionEntry id="605d-d4ff-cae2-7ca6" name="Biomatter" hidden="false" collective="false" type="upgrade">
       <costs>
-        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
