@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="958a-bd8b-eeff-67ef" name="Exanthropes" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="05fa-7f5b-80b0-f115" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profileTypes>
+    <profileType id="2c28-368d-65eb-d7fb" name="Augment Capacity">
+      <characteristicTypes>
+        <characteristicType id="8f4a-1606-1ed0-3a2b" name="Augment Capacity"/>
+      </characteristicTypes>
+    </profileType>
+  </profileTypes>
   <selectionEntries>
     <selectionEntry id="2a33-7aca-b890-2194" name="Combat Automata" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
@@ -90,6 +97,20 @@
             <modifier type="increment" field="8dbb-f9b3-e11b-bc19" value="2">
               <conditions>
                 <condition field="selections" scope="68a2-25f1-a03e-2e2c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="735b-86ce-9886-6f89" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="e947-0cb2-4a41-a3b2" name="Augment Capacity 1" hidden="true" targetId="b2ea-d818-1fae-5e49" type="profile">
+          <modifiers>
+            <modifier type="set" field="8f4a-1606-1ed0-3a2b" value="2">
+              <conditions>
+                <condition field="selections" scope="68a2-25f1-a03e-2e2c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="424b-5a70-cfe9-783f" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8f4a-1606-1ed0-3a2b" value="3">
+              <conditions>
+                <condition field="selections" scope="68a2-25f1-a03e-2e2c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5aad-42ba-df11-2bf5" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -192,8 +213,17 @@
                 <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1de9-604e-d254-4559" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6e3-c44b-e4e1-edba" type="max"/>
               </constraints>
+              <costs>
+                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
+                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+              </costs>
             </selectionEntry>
-            <selectionEntry id="daba-2e19-1472-e3c7" name="Xp" hidden="false" collective="false" import="true" type="upgrade"/>
+            <selectionEntry id="daba-2e19-1472-e3c7" name="Xp" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
+                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+              </costs>
+            </selectionEntry>
             <selectionEntry id="2153-9917-29d9-bf2f" name="Level Bonus" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="adda-1162-1a91-9ca2" name="Level-Up Bonus" publicationId="f426-d1c5-b242-a927" page="74" hidden="false" collective="false" import="true">
@@ -260,6 +290,10 @@
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <costs>
+                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
+                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="5aad-42ba-df11-2bf5" name=" Upgrade Champion to Ascendant" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -270,6 +304,7 @@
                         <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="424b-5a70-cfe9-783f" type="atLeast"/>
                         <condition field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="06ab-3e49-cb9b-2931" type="atLeast"/>
                         <condition field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a334-4cac-4654-7039" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="df5e-be65-4077-5bcf" type="atLeast"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -278,6 +313,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d07f-59b7-5582-77cb" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="daf4-a032-343e-b8e1" name="Tough" hidden="false" targetId="7181-ecc8-6b51-9220" type="profile"/>
+              </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="07b9-2aaa-1756-2866" name="Select 4 upgrades" hidden="false" collective="false" import="true">
                   <constraints>
@@ -362,6 +400,7 @@
       </entryLinks>
       <costs>
         <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="80.0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="29b5-007e-3c12-adcb" name="Unequipped Gear" hidden="false" collective="false" import="true" type="upgrade">
@@ -462,6 +501,7 @@ A model may spend an augment token once per turn to take an additional action im
       </infoLinks>
       <costs>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="520e-280e-49ef-81e1" name="High-Frequency Blades" hidden="false" collective="false" import="true" type="upgrade">
@@ -473,6 +513,7 @@ A model may spend an augment token once per turn to take an additional action im
       </infoLinks>
       <costs>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6239-bb82-59eb-ba3b" name="Duelist Panoply" hidden="false" collective="false" import="true" type="upgrade">
@@ -484,6 +525,7 @@ A model may spend an augment token once per turn to take an additional action im
       </infoLinks>
       <costs>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4969-6d6d-f554-6010" name="Autochronicler" hidden="false" collective="false" import="true" type="upgrade">
@@ -495,6 +537,7 @@ A model may spend an augment token once per turn to take an additional action im
       </infoLinks>
       <costs>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ec81-d72b-fdc6-b03f" name="Alloy Pilum" hidden="false" collective="false" import="true" type="upgrade">
@@ -506,6 +549,7 @@ A model may spend an augment token once per turn to take an additional action im
       </infoLinks>
       <costs>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b669-ee5e-0ba7-2140" name="Arsenal Panoply" hidden="false" collective="false" import="true" type="upgrade">
@@ -517,6 +561,7 @@ A model may spend an augment token once per turn to take an additional action im
       </infoLinks>
       <costs>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0822-f876-bff2-0e30" name="Guardian AI" hidden="false" collective="false" import="true" type="upgrade">
@@ -528,6 +573,7 @@ A model may spend an augment token once per turn to take an additional action im
       </infoLinks>
       <costs>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="09d8-cc4a-47d0-55e4" name="Combat Sims" hidden="false" collective="false" import="true" type="upgrade">
@@ -539,6 +585,7 @@ A model may spend an augment token once per turn to take an additional action im
       </infoLinks>
       <costs>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -892,6 +939,11 @@ suffer a -2 penalty.</characteristic>
         <characteristic name="Defense" typeId="172c-d0af-a3ba-c889">8</characteristic>
         <characteristic name="Survival" typeId="589c-af0c-03e2-e7ed">4</characteristic>
         <characteristic name="Aptitude" typeId="597a-266a-352f-08f5">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b2ea-d818-1fae-5e49" name="Augment Capacity" hidden="false" typeId="2c28-368d-65eb-d7fb" typeName="Augment Capacity">
+      <characteristics>
+        <characteristic name="Augment Capacity" typeId="8f4a-1606-1ed0-3a2b">1</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
