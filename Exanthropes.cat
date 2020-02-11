@@ -364,6 +364,87 @@
         <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="80.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="29b5-007e-3c12-adcb" name="Unequipped Gear" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d63e-b677-f405-8023" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a09d-e9ee-8d73-586e" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e3dc-d6b4-677a-5f24" name="Gear Reserve" hidden="false" targetId="16d4-49c0-ef22-e381" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="34c5-6bf2-a237-c6b7" name="Armor" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="c8b5-c315-31ee-0664" name="Artifact Armor" hidden="false" collective="false" import="true" targetId="731d-1c09-8a50-e966" type="selectionEntryGroup"/>
+            <entryLink id="a250-d25c-3141-ca87" name="Faction Armor" hidden="false" collective="false" import="true" targetId="7340-41b1-a0dc-6e52" type="selectionEntryGroup">
+              <entryLinks>
+                <entryLink id="c48f-cd31-847c-a954" name="Arsenal Panoply" hidden="false" collective="false" import="true" targetId="b669-ee5e-0ba7-2140" type="selectionEntry"/>
+                <entryLink id="b194-e471-596e-ed4b" name="Duelist Panoply" hidden="false" collective="false" import="true" targetId="6239-bb82-59eb-ba3b" type="selectionEntry"/>
+              </entryLinks>
+            </entryLink>
+            <entryLink id="6bb7-70a9-bf73-70da" name="Standard Armor" hidden="false" collective="false" import="true" targetId="4c0e-5515-95d8-e960" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="fe29-37e6-ed10-2a38" name="Equipment" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="0408-f4f1-3331-1a04" name="Artifact Equipment" hidden="false" collective="false" import="true" targetId="ea80-d3a4-7963-2ed4" type="selectionEntryGroup"/>
+            <entryLink id="9265-8644-b50e-6cec" name="Faction Equipment" hidden="false" collective="false" import="true" targetId="4e06-a471-6154-d164" type="selectionEntryGroup">
+              <entryLinks>
+                <entryLink id="80ce-fc6b-ce1b-c699" name="Combat Sims" hidden="false" collective="false" import="true" targetId="09d8-cc4a-47d0-55e4" type="selectionEntry"/>
+                <entryLink id="0d70-e9bc-606b-7ce6" name="Guardian AI" hidden="false" collective="false" import="true" targetId="0822-f876-bff2-0e30" type="selectionEntry"/>
+                <entryLink id="db45-e527-cd0b-8bf8" name="Autochronicler" hidden="false" collective="false" import="true" targetId="4969-6d6d-f554-6010" type="selectionEntry"/>
+              </entryLinks>
+            </entryLink>
+            <entryLink id="f351-b6bd-000f-e86d" name="Standard Equipment" hidden="false" collective="false" import="true" targetId="ebf8-fa47-23c0-890a" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c2ab-739f-22a6-9b28" name="Weapons" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="9776-3fe7-420c-73d2" name="Grenades" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="4424-1c2c-9179-b2f1" name="Artifact Grenades" hidden="false" collective="false" import="true" targetId="9b20-fd1b-8694-5724" type="selectionEntryGroup"/>
+                <entryLink id="cbaa-3224-1aaf-8c25" name="Faction Grenades" hidden="false" collective="false" import="true" targetId="bd23-762e-823c-2e6d" type="selectionEntryGroup"/>
+                <entryLink id="17e2-6428-63dc-eb64" name="Standard Grenades" hidden="false" collective="false" import="true" targetId="421e-b485-2083-047d" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="1e86-5efd-2d25-3ec7" name="Melee Weapons" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="b650-3feb-43e8-d041" name="Artifact Melee Weapons" hidden="false" collective="false" import="true" targetId="34c3-b426-19f7-f385" type="selectionEntryGroup"/>
+                <entryLink id="fdb2-bb77-108b-4173" name="Faction Melee Weapons" hidden="false" collective="false" import="true" targetId="5c05-e9da-02f1-1b03" type="selectionEntryGroup">
+                  <entryLinks>
+                    <entryLink id="353d-0713-f50d-2dfe" name="High-Frequency Blades" hidden="false" collective="false" import="true" targetId="520e-280e-49ef-81e1" type="selectionEntry"/>
+                  </entryLinks>
+                </entryLink>
+                <entryLink id="81a5-121a-8192-a8ac" name="Standard Melee Weapons" hidden="false" collective="false" import="true" targetId="2a43-759a-c315-076d" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="323b-94d2-9805-eb7d" name="Primary Weapons" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="01a2-66dc-ac32-04a2" name="Artifact Primary Weapons" hidden="false" collective="false" import="true" targetId="043e-140f-291f-19b7" type="selectionEntryGroup"/>
+                <entryLink id="bcaa-6e2a-b146-c8a2" name="Faction Primary Weapons" hidden="false" collective="false" import="true" targetId="33f0-da63-d4e5-8db2" type="selectionEntryGroup">
+                  <entryLinks>
+                    <entryLink id="d027-541b-fc01-befe" name="Micro-Laser Array" hidden="false" collective="false" import="true" targetId="c54d-89ed-32bd-9dbf" type="selectionEntry"/>
+                    <entryLink id="4735-544b-6123-e058" name="Alloy Pilum" hidden="false" collective="false" import="true" targetId="ec81-d72b-fdc6-b03f" type="selectionEntry"/>
+                  </entryLinks>
+                </entryLink>
+                <entryLink id="a90f-b7e3-4d27-be33" name="Standard Primary Ranged Weapons" hidden="false" collective="false" import="true" targetId="668b-bdec-98d9-2f4d" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="25af-7d8e-1c39-5ac2" name="Secondary Weapons" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="6c18-e121-eb12-852b" name="Artifact Secondary Weapons" hidden="false" collective="false" import="true" targetId="258f-ecce-5c0a-2c4c" type="selectionEntryGroup"/>
+                <entryLink id="018d-cbb1-b9e4-d29a" name="Faction Secondary Weapons" hidden="false" collective="false" import="true" targetId="a268-a319-bc2c-71a6" type="selectionEntryGroup"/>
+                <entryLink id="b797-0c8a-8557-4089" name="Standard Secondary Ranged Weapons" hidden="false" collective="false" import="true" targetId="0fc5-2161-b637-f257" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <rules>
     <rule id="a3e8-aec7-2d9c-1894" name="Power Overwhelming" hidden="false">
@@ -380,7 +461,6 @@ A model may spend an augment token once per turn to take an additional action im
         <infoLink id="e49c-3c21-17f3-eae9" name="Rapid Kinetic Weapon" hidden="false" targetId="056f-9aaf-64d9-fa15" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="20.0"/>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -392,7 +472,6 @@ A model may spend an augment token once per turn to take an additional action im
         <infoLink id="56dd-6683-f33e-9c3a" name="Electro-Defense Mesh" hidden="false" targetId="3fa1-7523-e194-3b13" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="35.0"/>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -404,7 +483,6 @@ A model may spend an augment token once per turn to take an additional action im
         <infoLink id="843f-c860-3922-16e9" name="Integral Armor Configuration" hidden="false" targetId="30b4-36df-fc5c-c272" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="35.0"/>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -416,7 +494,6 @@ A model may spend an augment token once per turn to take an additional action im
         <infoLink id="14a4-e906-c367-4d69" name="Situation Processor" hidden="false" targetId="a663-7e9a-86c7-58a0" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="20.0"/>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -428,7 +505,6 @@ A model may spend an augment token once per turn to take an additional action im
         <infoLink id="dfd2-0018-7d80-6265" name="Alloy Pilum" hidden="false" targetId="22a9-67aa-78ce-c187" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="30.0"/>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -440,7 +516,6 @@ A model may spend an augment token once per turn to take an additional action im
         <infoLink id="8a4f-25b6-f836-8c54" name="Arsenal Panoply" hidden="false" targetId="cb75-615f-7800-860f" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="80.0"/>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -452,7 +527,6 @@ A model may spend an augment token once per turn to take an additional action im
         <infoLink id="572e-73b6-c629-8c3c" name="Guardian AI" hidden="false" targetId="8ca6-003e-20f5-a96f" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="30.0"/>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -464,7 +538,6 @@ A model may spend an augment token once per turn to take an additional action im
         <infoLink id="aea6-4c25-da1f-b844" name="Combat Sims" hidden="false" targetId="6455-1f57-5c5c-6ff5" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="30.0"/>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -493,8 +566,16 @@ A model may spend an augment token once per turn to take an additional action im
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c93-17f3-d373-fbc8" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="0cd1-c5f5-6d37-a04b" name="Duelist Panoply" hidden="false" collective="false" import="true" targetId="6239-bb82-59eb-ba3b" type="selectionEntry"/>
-                    <entryLink id="d08a-a8a5-75e9-3b53" name="Arsenal Panoply" hidden="false" collective="false" import="true" targetId="b669-ee5e-0ba7-2140" type="selectionEntry"/>
+                    <entryLink id="0cd1-c5f5-6d37-a04b" name="Duelist Panoply" hidden="false" collective="false" import="true" targetId="6239-bb82-59eb-ba3b" type="selectionEntry">
+                      <costs>
+                        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="35.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="d08a-a8a5-75e9-3b53" name="Arsenal Panoply" hidden="false" collective="false" import="true" targetId="b669-ee5e-0ba7-2140" type="selectionEntry">
+                      <costs>
+                        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="80.0"/>
+                      </costs>
+                    </entryLink>
                   </entryLinks>
                 </entryLink>
                 <entryLink id="3132-16fa-e686-ebb4" name="Standard Armor" hidden="false" collective="false" import="true" targetId="4c0e-5515-95d8-e960" type="selectionEntryGroup">
@@ -531,9 +612,21 @@ A model may spend an augment token once per turn to take an additional action im
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="402d-c65f-9c10-7607" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="c608-d1ed-0080-f998" name="Autochronicler" hidden="false" collective="false" import="true" targetId="4969-6d6d-f554-6010" type="selectionEntry"/>
-                    <entryLink id="cc49-16b2-f73b-076a" name="Guardian AI" hidden="false" collective="false" import="true" targetId="0822-f876-bff2-0e30" type="selectionEntry"/>
-                    <entryLink id="8440-c687-6a8e-a7fa" name="Combat Sims" hidden="false" collective="false" import="true" targetId="09d8-cc4a-47d0-55e4" type="selectionEntry"/>
+                    <entryLink id="c608-d1ed-0080-f998" name="Autochronicler" hidden="false" collective="false" import="true" targetId="4969-6d6d-f554-6010" type="selectionEntry">
+                      <costs>
+                        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="20.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="cc49-16b2-f73b-076a" name="Guardian AI" hidden="false" collective="false" import="true" targetId="0822-f876-bff2-0e30" type="selectionEntry">
+                      <costs>
+                        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="30.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="8440-c687-6a8e-a7fa" name="Combat Sims" hidden="false" collective="false" import="true" targetId="09d8-cc4a-47d0-55e4" type="selectionEntry">
+                      <costs>
+                        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="30.0"/>
+                      </costs>
+                    </entryLink>
                   </entryLinks>
                 </entryLink>
                 <entryLink id="1c1d-5571-cffd-547f" name="Standard Equipment" hidden="false" collective="false" import="true" targetId="ebf8-fa47-23c0-890a" type="selectionEntryGroup">
@@ -605,7 +698,11 @@ A model may spend an augment token once per turn to take an additional action im
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3dd4-d4c6-b57c-1ce3" type="max"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink id="1422-5f25-d021-ffe3" name="High-Frequency Blades" hidden="false" collective="false" import="true" targetId="520e-280e-49ef-81e1" type="selectionEntry"/>
+                        <entryLink id="1422-5f25-d021-ffe3" name="High-Frequency Blades" hidden="false" collective="false" import="true" targetId="520e-280e-49ef-81e1" type="selectionEntry">
+                          <costs>
+                            <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="35.0"/>
+                          </costs>
+                        </entryLink>
                       </entryLinks>
                     </entryLink>
                     <entryLink id="ff76-94bb-7902-ba05" name="Standard Melee Weapons" hidden="false" collective="false" import="true" targetId="2a43-759a-c315-076d" type="selectionEntryGroup">
@@ -642,8 +739,16 @@ A model may spend an augment token once per turn to take an additional action im
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6f1-524f-442b-2070" type="max"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink id="2ee3-30ca-d673-7e55" name="Micro-Laser Array" hidden="false" collective="false" import="true" targetId="c54d-89ed-32bd-9dbf" type="selectionEntry"/>
-                        <entryLink id="fe7e-50ce-11ee-f40e" name="Alloy Pilum" hidden="false" collective="false" import="true" targetId="ec81-d72b-fdc6-b03f" type="selectionEntry"/>
+                        <entryLink id="2ee3-30ca-d673-7e55" name="Micro-Laser Array" hidden="false" collective="false" import="true" targetId="c54d-89ed-32bd-9dbf" type="selectionEntry">
+                          <costs>
+                            <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="20.0"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink id="fe7e-50ce-11ee-f40e" name="Alloy Pilum" hidden="false" collective="false" import="true" targetId="ec81-d72b-fdc6-b03f" type="selectionEntry">
+                          <costs>
+                            <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="30.0"/>
+                          </costs>
+                        </entryLink>
                       </entryLinks>
                     </entryLink>
                     <entryLink id="7d57-9dad-c016-8dfe" name="Standard Primary Weapons" hidden="false" collective="false" import="true" targetId="668b-bdec-98d9-2f4d" type="selectionEntryGroup">
@@ -695,199 +800,18 @@ A model may spend an augment token once per turn to take an additional action im
       </selectionEntryGroups>
     </selectionEntryGroup>
     <selectionEntryGroup id="c6bf-59e1-de82-1b8f" name="Standard Gear for Automata" hidden="false" collective="false" import="true">
-      <selectionEntries>
-        <selectionEntry id="1135-eba2-3075-23f2" name="Equipment" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="d878-6952-2667-74cd" name="Equipment" hidden="false" collective="false" import="true" targetId="94e1-036c-1514-d7f0" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b33-5956-cc0f-3a11" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4deb-0dff-4306-4afe" type="max"/>
           </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="2c20-98fa-3dbc-92eb" name="Equipment" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="303a-330e-fca6-ffcb" type="min"/>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43b5-fdc9-8444-42a1" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="2f86-00e8-87e9-269b" name="Artifact Equipment" hidden="false" collective="false" import="true" targetId="ea80-d3a4-7963-2ed4" type="selectionEntryGroup">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64dd-071f-56a8-4db9" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="74a3-6ba7-74c4-52b0" name="Faction Equipment" hidden="false" collective="false" import="true" targetId="4e06-a471-6154-d164" type="selectionEntryGroup">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7de-52fc-8dbe-51c2" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="437f-2aa6-6e66-3c90" name="Autochronicler" hidden="false" collective="false" import="true" targetId="4969-6d6d-f554-6010" type="selectionEntry"/>
-                    <entryLink id="247c-8cd6-1db0-1d3e" name="Guardian AI" hidden="false" collective="false" import="true" targetId="0822-f876-bff2-0e30" type="selectionEntry"/>
-                    <entryLink id="b084-2476-4d4e-f0f8" name="Combat Sims" hidden="false" collective="false" import="true" targetId="09d8-cc4a-47d0-55e4" type="selectionEntry"/>
-                  </entryLinks>
-                </entryLink>
-                <entryLink id="654d-e06b-71a3-fb7e" name="Standard Equipment" hidden="false" collective="false" import="true" targetId="ebf8-fa47-23c0-890a" type="selectionEntryGroup">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2d2-6ead-d0f8-54af" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-            <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="8096-03f8-daf1-b34e" name="Weapons" hidden="false" collective="false" import="true">
+        </entryLink>
+        <entryLink id="edcf-6cd2-990c-d947" name="Weapons" hidden="false" collective="false" import="true" targetId="94ca-6fed-8736-1865" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a47-a0b5-5e63-ed0e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="449b-371a-9da5-6451" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="eadd-52e1-f84f-c635" name="Grenade" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b02f-edd9-0ec8-fcea" type="max"/>
-              </constraints>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="3002-8298-c9a2-2c89" name="Grenades" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a779-509c-f74f-7733" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cc1-ae44-bb3d-0018" type="min"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="e005-25be-6bd6-6a9d" name="Artifact Grenades" hidden="false" collective="false" import="true" targetId="9b20-fd1b-8694-5724" type="selectionEntryGroup">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe56-0064-38ea-7e6b" type="max"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink id="d0b7-93e1-4780-dd18" name="Faction Grenades" hidden="false" collective="false" import="true" targetId="bd23-762e-823c-2e6d" type="selectionEntryGroup">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79ac-c8ae-2af0-f7e7" type="max"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink id="d032-b3f6-4a9b-1eba" name="Standard Grenades" hidden="false" collective="false" import="true" targetId="421e-b485-2083-047d" type="selectionEntryGroup">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1584-55dc-34bd-27fe" type="max"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="70a8-0a07-ea96-6a25" name="Melee Weapon" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f12-bcd9-0d4f-c6e8" type="max"/>
-              </constraints>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="32a2-f56b-e4da-aef3" name="Melee Weapons" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e755-17aa-8afc-97b3" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c50b-a27f-90e6-0355" type="min"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="bea0-bca1-af5a-5cf4" name="Artifact Melee Weapons" hidden="false" collective="false" import="true" targetId="34c3-b426-19f7-f385" type="selectionEntryGroup">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d44-e995-4fa3-fe93" type="max"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink id="5668-6378-7da1-c123" name="Faction Melee Weapons" hidden="false" collective="false" import="true" targetId="5c05-e9da-02f1-1b03" type="selectionEntryGroup">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3bd-d8e5-084d-6464" type="max"/>
-                      </constraints>
-                      <entryLinks>
-                        <entryLink id="919a-971f-6766-dde1" name="High-Frequency Blades" hidden="false" collective="false" import="true" targetId="520e-280e-49ef-81e1" type="selectionEntry"/>
-                      </entryLinks>
-                    </entryLink>
-                    <entryLink id="dd40-2e13-81e9-2f5d" name="Standard Melee Weapons" hidden="false" collective="false" import="true" targetId="2a43-759a-c315-076d" type="selectionEntryGroup">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3d1-2f92-7baa-48e8" type="max"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="3cba-1475-25a2-17a3" name="Primary Weapon" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6fd-6009-809a-05ca" type="max"/>
-              </constraints>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="e9ef-2e42-b59e-6008" name="Primary Weapons" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc44-6438-6b19-82bd" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aae6-2dc2-237c-ff96" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="9ae6-d474-b9ec-f217" name="Artifact Primary Weapons" hidden="false" collective="false" import="true" targetId="043e-140f-291f-19b7" type="selectionEntryGroup">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2890-695b-e85a-fcba" type="max"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink id="6acf-2c41-b480-c676" name="Faction Primary Weapons" hidden="false" collective="false" import="true" targetId="33f0-da63-d4e5-8db2" type="selectionEntryGroup">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="947b-aed0-8fe4-b146" type="max"/>
-                      </constraints>
-                      <entryLinks>
-                        <entryLink id="ae0e-6be0-3bc3-a92f" name="Micro-Laser Array" hidden="false" collective="false" import="true" targetId="c54d-89ed-32bd-9dbf" type="selectionEntry"/>
-                        <entryLink id="d7de-eda6-4fd2-3b90" name="Alloy Pilum" hidden="false" collective="false" import="true" targetId="ec81-d72b-fdc6-b03f" type="selectionEntry"/>
-                      </entryLinks>
-                    </entryLink>
-                    <entryLink id="e071-aa49-979f-929c" name="Standard Primary Weapons" hidden="false" collective="false" import="true" targetId="668b-bdec-98d9-2f4d" type="selectionEntryGroup">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c067-81c4-7c19-a66e" type="max"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="84e2-c333-4d0b-b901" name="Secondary Weapon" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50ec-e7fa-4807-ad36" type="max"/>
-              </constraints>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="c564-553c-6363-9334" name="Secondary Weapons" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d688-b13b-6f2b-4cbd" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf32-c630-e3da-0832" type="min"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="b992-44a1-8749-49c8" name="Artifact Secondary Weapons" hidden="false" collective="false" import="true" targetId="258f-ecce-5c0a-2c4c" type="selectionEntryGroup">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ff4-db59-47cc-1bbb" type="max"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink id="d312-bb62-0a1a-56c1" name="Faction Secondary Weapons" hidden="false" collective="false" import="true" targetId="a268-a319-bc2c-71a6" type="selectionEntryGroup">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="577a-d4d8-40e3-f9c0" type="max"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink id="4480-10d3-9389-96a7" name="Standard Secondary Weapons" hidden="false" collective="false" import="true" targetId="0fc5-2161-b637-f257" type="selectionEntryGroup">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28b4-245b-f086-92ed" type="max"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedProfiles>
