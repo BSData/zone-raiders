@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="091a-e709-5f84-84b9" name="Technomads" revision="1" battleScribeVersion="2.02" authorName="Eric Falsken" authorContact="eric@everylittlewar.com" authorUrl="https://everylittlewar.com" library="false" gameSystemId="05fa-7f5b-80b0-f115" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="091a-e709-5f84-84b9" name="Technomads" revision="1" battleScribeVersion="2.03" authorName="Eric Falsken" authorContact="eric@everylittlewar.com" authorUrl="https://everylittlewar.com" library="false" gameSystemId="05fa-7f5b-80b0-f115" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
-    <selectionEntry id="fb7b-d1c4-9be4-1f3f" name="Unequipped Gear" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="fb7b-d1c4-9be4-1f3f" name="Unequipped Gear" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efa6-8283-a191-039d" type="max"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d418-3c7e-eba2-f525" type="min"/>
@@ -10,86 +10,86 @@
         <categoryLink id="169b-1520-291c-fc72" name="Gear Reserve" hidden="false" targetId="16d4-49c0-ef22-e381" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="2988-2d01-7256-1256" name="Armor" hidden="false" collective="false">
+        <selectionEntryGroup id="2988-2d01-7256-1256" name="Armor" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="8051-7774-62aa-e793" name="Artifact Armor" hidden="false" collective="false" targetId="731d-1c09-8a50-e966" type="selectionEntryGroup"/>
-            <entryLink id="610c-b31e-f43c-d350" name="Faction Armor" hidden="false" collective="false" targetId="7340-41b1-a0dc-6e52" type="selectionEntryGroup">
+            <entryLink id="8051-7774-62aa-e793" name="Artifact Armor" hidden="false" collective="false" import="true" targetId="731d-1c09-8a50-e966" type="selectionEntryGroup"/>
+            <entryLink id="610c-b31e-f43c-d350" name="Faction Armor" hidden="false" collective="false" import="true" targetId="7340-41b1-a0dc-6e52" type="selectionEntryGroup">
               <entryLinks>
-                <entryLink id="bae2-a888-3297-444b" name="Nomad Dynamic Frame" hidden="false" collective="false" targetId="65c5-d58e-8995-2fba" type="selectionEntry"/>
-                <entryLink id="b686-38ec-99cd-1be5" name="Nomad Hazard Frame" hidden="false" collective="false" targetId="d299-a59d-2ee8-b392" type="selectionEntry"/>
+                <entryLink id="bae2-a888-3297-444b" name="Nomad Dynamic Frame" hidden="false" collective="false" import="true" targetId="65c5-d58e-8995-2fba" type="selectionEntry"/>
+                <entryLink id="b686-38ec-99cd-1be5" name="Nomad Hazard Frame" hidden="false" collective="false" import="true" targetId="d299-a59d-2ee8-b392" type="selectionEntry"/>
               </entryLinks>
             </entryLink>
-            <entryLink id="0446-6293-b6ef-601a" name="Standard Armor" hidden="false" collective="false" targetId="4c0e-5515-95d8-e960" type="selectionEntryGroup"/>
+            <entryLink id="0446-6293-b6ef-601a" name="Standard Armor" hidden="false" collective="false" import="true" targetId="4c0e-5515-95d8-e960" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="9f99-18f5-1701-6384" name="Equipment" hidden="false" collective="false">
+        <selectionEntryGroup id="9f99-18f5-1701-6384" name="Equipment" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="4c5f-eafa-1dc0-8b50" name="Artifact Equipment" hidden="false" collective="false" targetId="ea80-d3a4-7963-2ed4" type="selectionEntryGroup"/>
-            <entryLink id="49f7-5c4e-6e54-f1b9" name="Faction Equipment" hidden="false" collective="false" targetId="4e06-a471-6154-d164" type="selectionEntryGroup">
+            <entryLink id="4c5f-eafa-1dc0-8b50" name="Artifact Equipment" hidden="false" collective="false" import="true" targetId="ea80-d3a4-7963-2ed4" type="selectionEntryGroup"/>
+            <entryLink id="49f7-5c4e-6e54-f1b9" name="Faction Equipment" hidden="false" collective="false" import="true" targetId="4e06-a471-6154-d164" type="selectionEntryGroup">
               <entryLinks>
-                <entryLink id="b652-1979-6ad9-f67d" name="Duct Mapper" hidden="false" collective="false" targetId="542b-d210-39c9-7633" type="selectionEntry"/>
-                <entryLink id="caf2-3116-a507-b69c" name="Heirloom Data-Disks" hidden="false" collective="false" targetId="5b05-9986-7e8a-75b1" type="selectionEntry"/>
-                <entryLink id="f87b-dab1-96c4-a291" name="Technomaly Sensor" hidden="false" collective="false" targetId="c856-2c0c-24f3-32b8" type="selectionEntry"/>
+                <entryLink id="b652-1979-6ad9-f67d" name="Duct Mapper" hidden="false" collective="false" import="true" targetId="542b-d210-39c9-7633" type="selectionEntry"/>
+                <entryLink id="caf2-3116-a507-b69c" name="Heirloom Data-Disks" hidden="false" collective="false" import="true" targetId="5b05-9986-7e8a-75b1" type="selectionEntry"/>
+                <entryLink id="f87b-dab1-96c4-a291" name="Technomaly Sensor" hidden="false" collective="false" import="true" targetId="c856-2c0c-24f3-32b8" type="selectionEntry"/>
               </entryLinks>
             </entryLink>
-            <entryLink id="672f-98f2-c54a-cdcf" name="Standard Equipment" hidden="false" collective="false" targetId="ebf8-fa47-23c0-890a" type="selectionEntryGroup"/>
+            <entryLink id="672f-98f2-c54a-cdcf" name="Standard Equipment" hidden="false" collective="false" import="true" targetId="ebf8-fa47-23c0-890a" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="2e4e-5d08-9dc0-692b" name="Weapons" hidden="false" collective="false">
+        <selectionEntryGroup id="2e4e-5d08-9dc0-692b" name="Weapons" hidden="false" collective="false" import="true">
           <selectionEntryGroups>
-            <selectionEntryGroup id="dcfb-7720-6133-752b" name="Grenades" hidden="false" collective="false">
+            <selectionEntryGroup id="dcfb-7720-6133-752b" name="Grenades" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="b406-54ec-b6f8-97b7" name="Artifact Grenades" hidden="false" collective="false" targetId="9b20-fd1b-8694-5724" type="selectionEntryGroup"/>
-                <entryLink id="4242-11d1-bc83-210e" name="Faction Grenades" hidden="false" collective="false" targetId="bd23-762e-823c-2e6d" type="selectionEntryGroup"/>
-                <entryLink id="73f0-fa40-a057-74cc" name="Standard Grenades" hidden="false" collective="false" targetId="421e-b485-2083-047d" type="selectionEntryGroup"/>
+                <entryLink id="b406-54ec-b6f8-97b7" name="Artifact Grenades" hidden="false" collective="false" import="true" targetId="9b20-fd1b-8694-5724" type="selectionEntryGroup"/>
+                <entryLink id="4242-11d1-bc83-210e" name="Faction Grenades" hidden="false" collective="false" import="true" targetId="bd23-762e-823c-2e6d" type="selectionEntryGroup"/>
+                <entryLink id="73f0-fa40-a057-74cc" name="Standard Grenades" hidden="false" collective="false" import="true" targetId="421e-b485-2083-047d" type="selectionEntryGroup"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="4547-6dd6-c32f-b7a9" name="Melee Weapons" hidden="false" collective="false">
+            <selectionEntryGroup id="4547-6dd6-c32f-b7a9" name="Melee Weapons" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="1e40-a38f-ba89-e40f" name="Artifact Melee Weapons" hidden="false" collective="false" targetId="34c3-b426-19f7-f385" type="selectionEntryGroup"/>
-                <entryLink id="2105-9b8c-5cef-0282" name="Faction Melee Weapons" hidden="false" collective="false" targetId="5c05-e9da-02f1-1b03" type="selectionEntryGroup">
+                <entryLink id="1e40-a38f-ba89-e40f" name="Artifact Melee Weapons" hidden="false" collective="false" import="true" targetId="34c3-b426-19f7-f385" type="selectionEntryGroup"/>
+                <entryLink id="2105-9b8c-5cef-0282" name="Faction Melee Weapons" hidden="false" collective="false" import="true" targetId="5c05-e9da-02f1-1b03" type="selectionEntryGroup">
                   <entryLinks>
-                    <entryLink id="060f-cc26-5b53-6276" name="Electro-Dagger" hidden="false" collective="false" targetId="7d51-2f88-003a-8630" type="selectionEntry"/>
+                    <entryLink id="060f-cc26-5b53-6276" name="Electro-Dagger" hidden="false" collective="false" import="true" targetId="7d51-2f88-003a-8630" type="selectionEntry"/>
                   </entryLinks>
                 </entryLink>
-                <entryLink id="fb65-a23d-8213-c250" name="Standard Melee Weapons" hidden="false" collective="false" targetId="2a43-759a-c315-076d" type="selectionEntryGroup"/>
+                <entryLink id="fb65-a23d-8213-c250" name="Standard Melee Weapons" hidden="false" collective="false" import="true" targetId="2a43-759a-c315-076d" type="selectionEntryGroup"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="c14f-ccbb-9355-ca96" name="Primary Weapons" hidden="false" collective="false">
+            <selectionEntryGroup id="c14f-ccbb-9355-ca96" name="Primary Weapons" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="01f0-966a-01c1-ce94" name="Artifact Primary Weapons" hidden="false" collective="false" targetId="043e-140f-291f-19b7" type="selectionEntryGroup"/>
-                <entryLink id="ab42-b25d-423a-9a25" name="Faction Primary Weapons" hidden="false" collective="false" targetId="33f0-da63-d4e5-8db2" type="selectionEntryGroup">
+                <entryLink id="01f0-966a-01c1-ce94" name="Artifact Primary Weapons" hidden="false" collective="false" import="true" targetId="043e-140f-291f-19b7" type="selectionEntryGroup"/>
+                <entryLink id="ab42-b25d-423a-9a25" name="Faction Primary Weapons" hidden="false" collective="false" import="true" targetId="33f0-da63-d4e5-8db2" type="selectionEntryGroup">
                   <entryLinks>
-                    <entryLink id="8584-039f-ea21-523a" name="Arc Caster" hidden="false" collective="false" targetId="6d5f-4e73-0982-f689" type="selectionEntry"/>
-                    <entryLink id="7c78-bd73-13ff-e28e" name="Nomad Mag Repeater" hidden="false" collective="false" targetId="ab6f-c9c8-6a0f-7ddb" type="selectionEntry"/>
+                    <entryLink id="8584-039f-ea21-523a" name="Arc Caster" hidden="false" collective="false" import="true" targetId="6d5f-4e73-0982-f689" type="selectionEntry"/>
+                    <entryLink id="7c78-bd73-13ff-e28e" name="Nomad Mag Repeater" hidden="false" collective="false" import="true" targetId="ab6f-c9c8-6a0f-7ddb" type="selectionEntry"/>
                   </entryLinks>
                 </entryLink>
-                <entryLink id="7991-14b8-f8f1-6e5b" name="Standard Primary Ranged Weapons" hidden="false" collective="false" targetId="668b-bdec-98d9-2f4d" type="selectionEntryGroup"/>
+                <entryLink id="7991-14b8-f8f1-6e5b" name="Standard Primary Ranged Weapons" hidden="false" collective="false" import="true" targetId="668b-bdec-98d9-2f4d" type="selectionEntryGroup"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="7903-9230-7030-5d00" name="Secondary Weapons" hidden="false" collective="false">
+            <selectionEntryGroup id="7903-9230-7030-5d00" name="Secondary Weapons" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="9502-5895-998d-a238" name="Artifact Secondary Weapons" hidden="false" collective="false" targetId="258f-ecce-5c0a-2c4c" type="selectionEntryGroup"/>
-                <entryLink id="5e2e-08c3-9e25-6134" name="Faction Secondary Weapons" hidden="false" collective="false" targetId="a268-a319-bc2c-71a6" type="selectionEntryGroup"/>
-                <entryLink id="2ccf-66ad-521a-1f6c" name="Standard Secondary Ranged Weapons" hidden="false" collective="false" targetId="0fc5-2161-b637-f257" type="selectionEntryGroup"/>
+                <entryLink id="9502-5895-998d-a238" name="Artifact Secondary Weapons" hidden="false" collective="false" import="true" targetId="258f-ecce-5c0a-2c4c" type="selectionEntryGroup"/>
+                <entryLink id="5e2e-08c3-9e25-6134" name="Faction Secondary Weapons" hidden="false" collective="false" import="true" targetId="a268-a319-bc2c-71a6" type="selectionEntryGroup"/>
+                <entryLink id="2ccf-66ad-521a-1f6c" name="Standard Secondary Ranged Weapons" hidden="false" collective="false" import="true" targetId="0fc5-2161-b637-f257" type="selectionEntryGroup"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0d5c-74b6-a4d4-bdc5" name="Pathfinder" hidden="false" collective="false" type="model">
+    <selectionEntry id="0d5c-74b6-a4d4-bdc5" name="Pathfinder" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="0289-ab8a-ce97-dadb" name="Pathfinder" publicationId="f426-d1c5-b242-a927" page="82" hidden="false" typeId="dbe7-2754-358b-1829" typeName="Model">
           <characteristics>
             <characteristic name="Speed" typeId="83ef-338d-1317-7d8c">5</characteristic>
             <characteristic name="Shooting" typeId="8dbb-f9b3-e11b-bc19">10</characteristic>
             <characteristic name="Melee" typeId="6b38-717b-2dd5-0dad">12</characteristic>
-            <characteristic name="Defence" typeId="172c-d0af-a3ba-c889">6</characteristic>
+            <characteristic name="Defense" typeId="172c-d0af-a3ba-c889">6</characteristic>
             <characteristic name="Survival" typeId="589c-af0c-03e2-e7ed">9</characteristic>
             <characteristic name="Aptitude" typeId="597a-266a-352f-08f5">10</characteristic>
           </characteristics>
@@ -103,9 +103,9 @@
         <categoryLink id="9f27-384b-2978-3260" name="Raider" hidden="false" targetId="bf5f-aaed-2bd1-8a44" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="7a08-7db1-c127-28ce" name="Character Advancement" hidden="false" collective="false" targetId="eb3b-e8b9-caeb-a56d" type="selectionEntryGroup">
+        <entryLink id="7a08-7db1-c127-28ce" name="Character Advancement" hidden="false" collective="false" import="true" targetId="eb3b-e8b9-caeb-a56d" type="selectionEntryGroup">
           <entryLinks>
-            <entryLink id="de9a-44b0-07e7-e2bc" name="Starting Levels" hidden="false" collective="false" targetId="df5e-be65-4077-5bcf" type="selectionEntry">
+            <entryLink id="de9a-44b0-07e7-e2bc" name="Starting Levels" hidden="false" collective="false" import="true" targetId="df5e-be65-4077-5bcf" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="279b-a25d-d419-1774" type="min"/>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="772a-816f-34b0-5cf8" type="max"/>
@@ -113,20 +113,21 @@
             </entryLink>
           </entryLinks>
         </entryLink>
-        <entryLink id="f46d-9d20-135a-8108" name="Standard Gear" hidden="false" collective="false" targetId="6a7b-3d4d-57de-3ad2" type="selectionEntryGroup"/>
+        <entryLink id="f46d-9d20-135a-8108" name="Standard Gear" hidden="false" collective="false" import="true" targetId="6a7b-3d4d-57de-3ad2" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="80.0"/>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="80.0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b8f5-f8e4-49ac-4b57" name="Seeker Adept" hidden="false" collective="false" type="model">
+    <selectionEntry id="b8f5-f8e4-49ac-4b57" name="Seeker Adept" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="6c2c-359a-d173-1db1" name="Seeker Adept" publicationId="f426-d1c5-b242-a927" page="82" hidden="false" typeId="dbe7-2754-358b-1829" typeName="Model">
           <characteristics>
             <characteristic name="Speed" typeId="83ef-338d-1317-7d8c">5</characteristic>
             <characteristic name="Shooting" typeId="8dbb-f9b3-e11b-bc19">9</characteristic>
             <characteristic name="Melee" typeId="6b38-717b-2dd5-0dad">12</characteristic>
-            <characteristic name="Defence" typeId="172c-d0af-a3ba-c889">6</characteristic>
+            <characteristic name="Defense" typeId="172c-d0af-a3ba-c889">6</characteristic>
             <characteristic name="Survival" typeId="589c-af0c-03e2-e7ed">8</characteristic>
             <characteristic name="Aptitude" typeId="597a-266a-352f-08f5">8</characteristic>
           </characteristics>
@@ -136,9 +137,9 @@
         <categoryLink id="c162-2381-acde-3560" name="Raider" hidden="false" targetId="bf5f-aaed-2bd1-8a44" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="d5d8-0ae8-dd31-1f43" name="Character Advancement" hidden="false" collective="false" targetId="eb3b-e8b9-caeb-a56d" type="selectionEntryGroup">
+        <entryLink id="d5d8-0ae8-dd31-1f43" name="Character Advancement" hidden="false" collective="false" import="true" targetId="eb3b-e8b9-caeb-a56d" type="selectionEntryGroup">
           <entryLinks>
-            <entryLink id="8c3e-1c18-f2f5-bee5" name="Starting Levels" hidden="false" collective="false" targetId="df5e-be65-4077-5bcf" type="selectionEntry">
+            <entryLink id="8c3e-1c18-f2f5-bee5" name="Starting Levels" hidden="false" collective="false" import="true" targetId="df5e-be65-4077-5bcf" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="556c-958d-e134-c91e" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48fd-3f94-09b5-2c13" type="max"/>
@@ -146,20 +147,21 @@
             </entryLink>
           </entryLinks>
         </entryLink>
-        <entryLink id="0354-f228-e829-d0f1" name="Standard Gear" hidden="false" collective="false" targetId="6a7b-3d4d-57de-3ad2" type="selectionEntryGroup"/>
+        <entryLink id="0354-f228-e829-d0f1" name="Standard Gear" hidden="false" collective="false" import="true" targetId="6a7b-3d4d-57de-3ad2" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="40.0"/>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="40.0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f3ea-94c2-ddfc-b7a2" name="Seeker Novice" hidden="false" collective="false" type="model">
+    <selectionEntry id="f3ea-94c2-ddfc-b7a2" name="Seeker Novice" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="0c75-1f7a-586d-7101" name="Seeker Novice" publicationId="f426-d1c5-b242-a927" page="82" hidden="false" typeId="dbe7-2754-358b-1829" typeName="Model">
           <characteristics>
             <characteristic name="Speed" typeId="83ef-338d-1317-7d8c">5</characteristic>
             <characteristic name="Shooting" typeId="8dbb-f9b3-e11b-bc19">8</characteristic>
             <characteristic name="Melee" typeId="6b38-717b-2dd5-0dad">10</characteristic>
-            <characteristic name="Defence" typeId="172c-d0af-a3ba-c889">6</characteristic>
+            <characteristic name="Defense" typeId="172c-d0af-a3ba-c889">6</characteristic>
             <characteristic name="Survival" typeId="589c-af0c-03e2-e7ed">7</characteristic>
             <characteristic name="Aptitude" typeId="597a-266a-352f-08f5">6</characteristic>
           </characteristics>
@@ -169,21 +171,22 @@
         <categoryLink id="0e9a-40db-21e3-7c84" name="Raider" hidden="false" targetId="bf5f-aaed-2bd1-8a44" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="9a8e-0dab-7530-ed49" name="Character Advancement" hidden="false" collective="false" targetId="eb3b-e8b9-caeb-a56d" type="selectionEntryGroup"/>
-        <entryLink id="a96d-4438-d6c0-b777" name="Standard Gear" hidden="false" collective="false" targetId="6a7b-3d4d-57de-3ad2" type="selectionEntryGroup"/>
+        <entryLink id="9a8e-0dab-7530-ed49" name="Character Advancement" hidden="false" collective="false" import="true" targetId="eb3b-e8b9-caeb-a56d" type="selectionEntryGroup"/>
+        <entryLink id="a96d-4438-d6c0-b777" name="Standard Gear" hidden="false" collective="false" import="true" targetId="6a7b-3d4d-57de-3ad2" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="25.0"/>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="25.0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4165-75d2-de86-19f1" name="Datarunner" hidden="false" collective="false" type="model">
+    <selectionEntry id="4165-75d2-de86-19f1" name="Datarunner" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="b44d-cd69-cd34-9a44" name="Datarunner" publicationId="f426-d1c5-b242-a927" page="82" hidden="false" typeId="dbe7-2754-358b-1829" typeName="Model">
           <characteristics>
             <characteristic name="Speed" typeId="83ef-338d-1317-7d8c">5</characteristic>
             <characteristic name="Shooting" typeId="8dbb-f9b3-e11b-bc19">8</characteristic>
             <characteristic name="Melee" typeId="6b38-717b-2dd5-0dad">10</characteristic>
-            <characteristic name="Defence" typeId="172c-d0af-a3ba-c889">6</characteristic>
+            <characteristic name="Defense" typeId="172c-d0af-a3ba-c889">6</characteristic>
             <characteristic name="Survival" typeId="589c-af0c-03e2-e7ed">7</characteristic>
             <characteristic name="Aptitude" typeId="597a-266a-352f-08f5">8</characteristic>
           </characteristics>
@@ -197,9 +200,9 @@
         <categoryLink id="daed-321f-dab3-ff4c" name="Raider" hidden="false" targetId="bf5f-aaed-2bd1-8a44" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="ca5a-6817-a567-9aea" name="Character Advancement" hidden="false" collective="false" targetId="eb3b-e8b9-caeb-a56d" type="selectionEntryGroup">
+        <entryLink id="ca5a-6817-a567-9aea" name="Character Advancement" hidden="false" collective="false" import="true" targetId="eb3b-e8b9-caeb-a56d" type="selectionEntryGroup">
           <entryLinks>
-            <entryLink id="7874-8a15-b2cd-0814" name="Starting Levels" hidden="false" collective="false" targetId="df5e-be65-4077-5bcf" type="selectionEntry">
+            <entryLink id="7874-8a15-b2cd-0814" name="Starting Levels" hidden="false" collective="false" import="true" targetId="df5e-be65-4077-5bcf" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da6c-5e7a-08f7-2395" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5654-df33-14aa-9186" type="max"/>
@@ -207,20 +210,21 @@
             </entryLink>
           </entryLinks>
         </entryLink>
-        <entryLink id="e289-79ad-f014-a3c7" name="Standard Gear" hidden="false" collective="false" targetId="6a7b-3d4d-57de-3ad2" type="selectionEntryGroup"/>
+        <entryLink id="e289-79ad-f014-a3c7" name="Standard Gear" hidden="false" collective="false" import="true" targetId="6a7b-3d4d-57de-3ad2" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="40.0"/>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="40.0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="861c-2dbe-e10a-0fcc" name="Outrider" hidden="false" collective="false" type="model">
+    <selectionEntry id="861c-2dbe-e10a-0fcc" name="Outrider" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="4e36-b7da-d409-0e87" name="Outrider" publicationId="f426-d1c5-b242-a927" page="82" hidden="false" typeId="dbe7-2754-358b-1829" typeName="Model">
           <characteristics>
             <characteristic name="Speed" typeId="83ef-338d-1317-7d8c">6</characteristic>
             <characteristic name="Shooting" typeId="8dbb-f9b3-e11b-bc19">10</characteristic>
             <characteristic name="Melee" typeId="6b38-717b-2dd5-0dad">10</characteristic>
-            <characteristic name="Defence" typeId="172c-d0af-a3ba-c889">6</characteristic>
+            <characteristic name="Defense" typeId="172c-d0af-a3ba-c889">6</characteristic>
             <characteristic name="Survival" typeId="589c-af0c-03e2-e7ed">8</characteristic>
             <characteristic name="Aptitude" typeId="597a-266a-352f-08f5">8</characteristic>
           </characteristics>
@@ -234,9 +238,9 @@
         <categoryLink id="c7e0-3dc8-937f-1905" name="Raider" hidden="false" targetId="bf5f-aaed-2bd1-8a44" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="d077-7e96-4632-d66e" name="Character Advancement" hidden="false" collective="false" targetId="eb3b-e8b9-caeb-a56d" type="selectionEntryGroup">
+        <entryLink id="d077-7e96-4632-d66e" name="Character Advancement" hidden="false" collective="false" import="true" targetId="eb3b-e8b9-caeb-a56d" type="selectionEntryGroup">
           <entryLinks>
-            <entryLink id="3542-12d9-8222-f802" name="Starting Levels" hidden="false" collective="false" targetId="df5e-be65-4077-5bcf" type="selectionEntry">
+            <entryLink id="3542-12d9-8222-f802" name="Starting Levels" hidden="false" collective="false" import="true" targetId="df5e-be65-4077-5bcf" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d207-f715-db4a-e992" type="min"/>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bd8-0d0a-d828-c02d" type="max"/>
@@ -244,15 +248,16 @@
             </entryLink>
           </entryLinks>
         </entryLink>
-        <entryLink id="870f-681d-769f-20f0" name="Standard Gear" hidden="false" collective="false" targetId="6a7b-3d4d-57de-3ad2" type="selectionEntryGroup"/>
+        <entryLink id="870f-681d-769f-20f0" name="Standard Gear" hidden="false" collective="false" import="true" targetId="6a7b-3d4d-57de-3ad2" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="70.0"/>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="70.0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
-    <selectionEntry id="65c5-d58e-8995-2fba" name="Nomad Dynamic Frame" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="65c5-d58e-8995-2fba" name="Nomad Dynamic Frame" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="c153-f30f-1a34-e5f6" name="Nomad Dynamic Frame" publicationId="f426-d1c5-b242-a927" page="82" hidden="false" typeId="1afe-1c8d-b18e-1c01" typeName="Armor">
           <characteristics>
@@ -264,11 +269,11 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="40.0"/>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="40.0"/>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d299-a59d-2ee8-b392" name="Nomad Hazard Frame" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="d299-a59d-2ee8-b392" name="Nomad Hazard Frame" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="8bbf-595f-51d0-408f" name="Nomad Hazard Frame" publicationId="f426-d1c5-b242-a927" page="82" hidden="false" typeId="1afe-1c8d-b18e-1c01" typeName="Armor">
           <characteristics>
@@ -280,11 +285,11 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="45.0"/>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="45.0"/>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="542b-d210-39c9-7633" name="Duct Mapper" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="542b-d210-39c9-7633" name="Duct Mapper" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="cd91-61a4-4a7b-9f91" name="Duct Mapper" hidden="false" typeId="22be-b182-ca50-7759" typeName="Equipment">
           <characteristics>
@@ -294,11 +299,11 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="20.0"/>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="20.0"/>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c856-2c0c-24f3-32b8" name="Technomaly Sensor" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="c856-2c0c-24f3-32b8" name="Technomaly Sensor" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="5c82-e299-8001-bbbf" name="Technomaly Sensor" publicationId="f426-d1c5-b242-a927" page="82" hidden="false" typeId="22be-b182-ca50-7759" typeName="Equipment">
           <characteristics>
@@ -311,11 +316,11 @@
         <infoLink id="1dcd-457d-8744-d159" name="Scouting Sensor" hidden="false" targetId="4285-4817-e8bd-3f5e" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="20.0"/>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="20.0"/>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5b05-9986-7e8a-75b1" name="Heirloom Data-Disks" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="5b05-9986-7e8a-75b1" name="Heirloom Data-Disks" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="7865-0c75-0060-a88a" name="Heirloom Data-Disks" publicationId="f426-d1c5-b242-a927" page="82" hidden="false" typeId="22be-b182-ca50-7759" typeName="Equipment">
           <characteristics>
@@ -326,11 +331,11 @@ check.</characteristic>
         </profile>
       </profiles>
       <costs>
-        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="20.0"/>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="20.0"/>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7d51-2f88-003a-8630" name="Electro-Dagger" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="7d51-2f88-003a-8630" name="Electro-Dagger" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="b38c-8923-06d6-17ec" name="Electro-Dagger" publicationId="f426-d1c5-b242-a927" page="82" hidden="false" typeId="2de6-5f4b-60e5-136b" typeName="Weapon">
           <characteristics>
@@ -345,7 +350,7 @@ check.</characteristic>
         <infoLink id="7bf1-9efe-46e1-86b7" name="Stunning" hidden="false" targetId="bdf1-92d1-0874-5b0b" type="rule"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="bf12-c14c-be23-3790" name="Counter Attack" hidden="false" collective="true" targetId="d7f9-d5ac-6c30-4600" type="selectionEntry">
+        <entryLink id="bf12-c14c-be23-3790" name="Counter Attack" hidden="false" collective="true" import="true" targetId="d7f9-d5ac-6c30-4600" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0604-9af9-e895-5199" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8ef-bbfe-1b69-285c" type="min"/>
@@ -353,11 +358,11 @@ check.</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="10.0"/>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="10.0"/>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ab6f-c9c8-6a0f-7ddb" name="Nomad Mag Repeater" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="ab6f-c9c8-6a0f-7ddb" name="Nomad Mag Repeater" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="9405-fd67-decb-bbfc" name="Nomad Mag Repeater" publicationId="f426-d1c5-b242-a927" page="82" hidden="false" typeId="2de6-5f4b-60e5-136b" typeName="Weapon">
           <characteristics>
@@ -373,11 +378,11 @@ check.</characteristic>
         <infoLink id="c43e-77d0-09a8-572b" name="Rupturing" hidden="false" targetId="7bab-ef52-14ab-ecce" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="35.0"/>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="35.0"/>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6d5f-4e73-0982-f689" name="Arc Caster" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="6d5f-4e73-0982-f689" name="Arc Caster" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="fd20-3b09-5d5a-583e" name="Arc Caster" publicationId="f426-d1c5-b242-a927" page="82" hidden="false" typeId="2de6-5f4b-60e5-136b" typeName="Weapon">
           <characteristics>
@@ -395,40 +400,40 @@ check.</characteristic>
         <infoLink id="4eb6-745c-d711-a1c8" name="Short Range" hidden="false" targetId="faf3-dd1f-778b-3c03" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="40.0"/>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="40.0"/>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="6a7b-3d4d-57de-3ad2" name="Standard Gear" hidden="false" collective="false">
+    <selectionEntryGroup id="6a7b-3d4d-57de-3ad2" name="Standard Gear" hidden="false" collective="false" import="true">
       <selectionEntries>
-        <selectionEntry id="96fc-fb1b-411d-a073" name="Armor" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="96fc-fb1b-411d-a073" name="Armor" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0324-5360-7a06-c209" type="max"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup id="9e5c-5609-ea97-a5db" name="Armor" hidden="false" collective="false">
+            <selectionEntryGroup id="9e5c-5609-ea97-a5db" name="Armor" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa97-75c5-4ee8-1138" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a73c-0004-3bc6-a179" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="39b8-0313-548f-a89d" name="Artifact Armor" hidden="false" collective="false" targetId="731d-1c09-8a50-e966" type="selectionEntryGroup">
+                <entryLink id="39b8-0313-548f-a89d" name="Artifact Armor" hidden="false" collective="false" import="true" targetId="731d-1c09-8a50-e966" type="selectionEntryGroup">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1be5-dba7-e822-ddf2" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="d4f1-b92d-0f98-acb8" name="Faction Armor" hidden="false" collective="false" targetId="7340-41b1-a0dc-6e52" type="selectionEntryGroup">
+                <entryLink id="d4f1-b92d-0f98-acb8" name="Faction Armor" hidden="false" collective="false" import="true" targetId="7340-41b1-a0dc-6e52" type="selectionEntryGroup">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50ab-4632-db79-e253" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="5136-710d-2bf1-1e3c" name="Nomad Dynamic Frame" hidden="false" collective="false" targetId="65c5-d58e-8995-2fba" type="selectionEntry"/>
-                    <entryLink id="6249-8e6e-51a7-8f25" name="Nomad Hazard Frame" hidden="false" collective="false" targetId="d299-a59d-2ee8-b392" type="selectionEntry"/>
+                    <entryLink id="5136-710d-2bf1-1e3c" name="Nomad Dynamic Frame" hidden="false" collective="false" import="true" targetId="65c5-d58e-8995-2fba" type="selectionEntry"/>
+                    <entryLink id="6249-8e6e-51a7-8f25" name="Nomad Hazard Frame" hidden="false" collective="false" import="true" targetId="d299-a59d-2ee8-b392" type="selectionEntry"/>
                   </entryLinks>
                 </entryLink>
-                <entryLink id="f1d8-cc2e-6099-cd9d" name="Standard Armor" hidden="false" collective="false" targetId="4c0e-5515-95d8-e960" type="selectionEntryGroup">
+                <entryLink id="f1d8-cc2e-6099-cd9d" name="Standard Armor" hidden="false" collective="false" import="true" targetId="4c0e-5515-95d8-e960" type="selectionEntryGroup">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b23a-0c81-4fad-8c61" type="max"/>
                   </constraints>
@@ -437,37 +442,37 @@ check.</characteristic>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
+            <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
             <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8405-c184-3829-1c8b" name="Equipment" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="8405-c184-3829-1c8b" name="Equipment" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1423-8c23-ab0a-974b" type="max"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup id="bb56-190d-882e-c320" name="Equipment" hidden="false" collective="false">
+            <selectionEntryGroup id="bb56-190d-882e-c320" name="Equipment" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41b5-b004-b89a-5685" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18d5-ee54-d1c0-1997" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="b4b5-523c-f05a-19d5" name="Artifact Equipment" hidden="false" collective="false" targetId="ea80-d3a4-7963-2ed4" type="selectionEntryGroup">
+                <entryLink id="b4b5-523c-f05a-19d5" name="Artifact Equipment" hidden="false" collective="false" import="true" targetId="ea80-d3a4-7963-2ed4" type="selectionEntryGroup">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9450-438f-fdc8-dabd" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="98f4-ab24-4fd2-527d" name="Faction Equipment" hidden="false" collective="false" targetId="4e06-a471-6154-d164" type="selectionEntryGroup">
+                <entryLink id="98f4-ab24-4fd2-527d" name="Faction Equipment" hidden="false" collective="false" import="true" targetId="4e06-a471-6154-d164" type="selectionEntryGroup">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5ee-8823-e7e5-ee88" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="226e-34ed-090b-a01d" name="Duct Mapper" hidden="false" collective="false" targetId="542b-d210-39c9-7633" type="selectionEntry"/>
-                    <entryLink id="cc4d-b6ad-f2e6-8f7c" name="Technomaly Sensor" hidden="false" collective="false" targetId="c856-2c0c-24f3-32b8" type="selectionEntry"/>
-                    <entryLink id="35ef-d7d2-1852-0571" name="Heirloom Data-Disks" hidden="false" collective="false" targetId="5b05-9986-7e8a-75b1" type="selectionEntry"/>
+                    <entryLink id="226e-34ed-090b-a01d" name="Duct Mapper" hidden="false" collective="false" import="true" targetId="542b-d210-39c9-7633" type="selectionEntry"/>
+                    <entryLink id="cc4d-b6ad-f2e6-8f7c" name="Technomaly Sensor" hidden="false" collective="false" import="true" targetId="c856-2c0c-24f3-32b8" type="selectionEntry"/>
+                    <entryLink id="35ef-d7d2-1852-0571" name="Heirloom Data-Disks" hidden="false" collective="false" import="true" targetId="5b05-9986-7e8a-75b1" type="selectionEntry"/>
                   </entryLinks>
                 </entryLink>
-                <entryLink id="71ad-57e9-7249-08c2" name="Standard Equipment" hidden="false" collective="false" targetId="ebf8-fa47-23c0-890a" type="selectionEntryGroup">
+                <entryLink id="71ad-57e9-7249-08c2" name="Standard Equipment" hidden="false" collective="false" import="true" targetId="ebf8-fa47-23c0-890a" type="selectionEntryGroup">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fccf-e7c2-af28-3776" type="max"/>
                   </constraints>
@@ -476,36 +481,36 @@ check.</characteristic>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
+            <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
             <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="a0e1-491a-0c33-5e2d" name="Weapons" hidden="false" collective="false">
+        <selectionEntryGroup id="a0e1-491a-0c33-5e2d" name="Weapons" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aec0-e1cd-ff1e-00b8" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="311b-9dba-57c8-6a7c" name="Grenade" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="311b-9dba-57c8-6a7c" name="Grenade" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="96bb-a4cd-d38f-61e3" name="Grenades" hidden="false" collective="false">
+                <selectionEntryGroup id="96bb-a4cd-d38f-61e3" name="Grenades" hidden="false" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adba-55a3-e3ec-639d" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a7d-15fa-955c-6fcb" type="min"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="25b3-e9f4-82c6-3fcc" name="Artifact Grenades" hidden="false" collective="false" targetId="9b20-fd1b-8694-5724" type="selectionEntryGroup">
+                    <entryLink id="25b3-e9f4-82c6-3fcc" name="Artifact Grenades" hidden="false" collective="false" import="true" targetId="9b20-fd1b-8694-5724" type="selectionEntryGroup">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5628-bf6f-c833-ee89" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="bc4f-e460-2e88-29b8" name="Faction Grenades" hidden="false" collective="false" targetId="bd23-762e-823c-2e6d" type="selectionEntryGroup">
+                    <entryLink id="bc4f-e460-2e88-29b8" name="Faction Grenades" hidden="false" collective="false" import="true" targetId="bd23-762e-823c-2e6d" type="selectionEntryGroup">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="affb-fbd4-ccf8-506e" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="7b3e-cdb5-1c64-0d26" name="Standard Grenades" hidden="false" collective="false" targetId="421e-b485-2083-047d" type="selectionEntryGroup">
+                    <entryLink id="7b3e-cdb5-1c64-0d26" name="Standard Grenades" hidden="false" collective="false" import="true" targetId="421e-b485-2083-047d" type="selectionEntryGroup">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a231-afa9-b95d-0ed3" type="max"/>
                       </constraints>
@@ -514,32 +519,32 @@ check.</characteristic>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
+                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
                 <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="243e-c1b7-9aa6-48a3" name="Melee Weapon" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="243e-c1b7-9aa6-48a3" name="Melee Weapon" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="db77-65ec-60c7-4a15" name="Melee Weapons" hidden="false" collective="false">
+                <selectionEntryGroup id="db77-65ec-60c7-4a15" name="Melee Weapons" hidden="false" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86e4-dfac-2765-bc4f" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c094-e30f-3ef7-3d4b" type="min"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="2d3e-a033-c53b-c0cb" name="Artifact Melee Weapons" hidden="false" collective="false" targetId="34c3-b426-19f7-f385" type="selectionEntryGroup">
+                    <entryLink id="2d3e-a033-c53b-c0cb" name="Artifact Melee Weapons" hidden="false" collective="false" import="true" targetId="34c3-b426-19f7-f385" type="selectionEntryGroup">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c22-e681-d133-5970" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="0853-d23b-f3ea-0cc8" name="Faction Melee Weapons" hidden="false" collective="false" targetId="5c05-e9da-02f1-1b03" type="selectionEntryGroup">
+                    <entryLink id="0853-d23b-f3ea-0cc8" name="Faction Melee Weapons" hidden="false" collective="false" import="true" targetId="5c05-e9da-02f1-1b03" type="selectionEntryGroup">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="438b-e041-0ed3-cb25" type="max"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink id="23c2-a237-db07-32e2" name="Electro-Dagger" hidden="false" collective="false" targetId="7d51-2f88-003a-8630" type="selectionEntry"/>
+                        <entryLink id="23c2-a237-db07-32e2" name="Electro-Dagger" hidden="false" collective="false" import="true" targetId="7d51-2f88-003a-8630" type="selectionEntry"/>
                       </entryLinks>
                     </entryLink>
-                    <entryLink id="ba8d-d528-1e69-c534" name="Standard Melee Weapons" hidden="false" collective="false" targetId="2a43-759a-c315-076d" type="selectionEntryGroup">
+                    <entryLink id="ba8d-d528-1e69-c534" name="Standard Melee Weapons" hidden="false" collective="false" import="true" targetId="2a43-759a-c315-076d" type="selectionEntryGroup">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e0d-97ee-24e0-2ca1" type="max"/>
                       </constraints>
@@ -548,36 +553,36 @@ check.</characteristic>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
+                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
                 <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e90e-8a03-18fe-2980" name="Primary Weapon" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="e90e-8a03-18fe-2980" name="Primary Weapon" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1138-e878-c051-5adb" type="max"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup id="68fe-528b-a907-1113" name="Primary Weapons" hidden="false" collective="false">
+                <selectionEntryGroup id="68fe-528b-a907-1113" name="Primary Weapons" hidden="false" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4de2-d347-403f-7ed2" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c7c-8ee4-9712-435c" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="48f2-0257-d7df-72cd" name="Artifact Primary Weapons" hidden="false" collective="false" targetId="043e-140f-291f-19b7" type="selectionEntryGroup">
+                    <entryLink id="48f2-0257-d7df-72cd" name="Artifact Primary Weapons" hidden="false" collective="false" import="true" targetId="043e-140f-291f-19b7" type="selectionEntryGroup">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ea5-f738-e255-e3ef" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="0284-0edb-0309-d3f7" name="Faction Primary Weapons" hidden="false" collective="false" targetId="33f0-da63-d4e5-8db2" type="selectionEntryGroup">
+                    <entryLink id="0284-0edb-0309-d3f7" name="Faction Primary Weapons" hidden="false" collective="false" import="true" targetId="33f0-da63-d4e5-8db2" type="selectionEntryGroup">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b9b-527b-d78f-7d40" type="max"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink id="3aad-5d06-c239-62d4" name="Nomad Mag Repeater" hidden="false" collective="false" targetId="ab6f-c9c8-6a0f-7ddb" type="selectionEntry"/>
-                        <entryLink id="9ebb-1a8c-b4fc-1637" name="Arc Caster" hidden="false" collective="false" targetId="6d5f-4e73-0982-f689" type="selectionEntry"/>
+                        <entryLink id="3aad-5d06-c239-62d4" name="Nomad Mag Repeater" hidden="false" collective="false" import="true" targetId="ab6f-c9c8-6a0f-7ddb" type="selectionEntry"/>
+                        <entryLink id="9ebb-1a8c-b4fc-1637" name="Arc Caster" hidden="false" collective="false" import="true" targetId="6d5f-4e73-0982-f689" type="selectionEntry"/>
                       </entryLinks>
                     </entryLink>
-                    <entryLink id="9f43-7ac5-f209-9a8c" name="Standard Primary Weapons" hidden="false" collective="false" targetId="668b-bdec-98d9-2f4d" type="selectionEntryGroup">
+                    <entryLink id="9f43-7ac5-f209-9a8c" name="Standard Primary Weapons" hidden="false" collective="false" import="true" targetId="668b-bdec-98d9-2f4d" type="selectionEntryGroup">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4010-dd32-ce36-2f95" type="max"/>
                       </constraints>
@@ -586,29 +591,29 @@ check.</characteristic>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
+                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
                 <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3bc2-0e88-ae2e-e2e1" name="Secondary Weapon" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="3bc2-0e88-ae2e-e2e1" name="Secondary Weapon" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="dc7d-dea7-cf48-5d80" name="Secondary Weapons" hidden="false" collective="false">
+                <selectionEntryGroup id="dc7d-dea7-cf48-5d80" name="Secondary Weapons" hidden="false" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6af1-2c6f-e05e-cb94" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e27-9fb0-b265-b0bb" type="min"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="37f6-997f-139b-f380" name="Artifact Secondary Weapons" hidden="false" collective="false" targetId="258f-ecce-5c0a-2c4c" type="selectionEntryGroup">
+                    <entryLink id="37f6-997f-139b-f380" name="Artifact Secondary Weapons" hidden="false" collective="false" import="true" targetId="258f-ecce-5c0a-2c4c" type="selectionEntryGroup">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d13-6e7e-37e3-4a51" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="52e0-1daa-64c4-98bd" name="Faction Secondary Weapons" hidden="false" collective="false" targetId="a268-a319-bc2c-71a6" type="selectionEntryGroup">
+                    <entryLink id="52e0-1daa-64c4-98bd" name="Faction Secondary Weapons" hidden="false" collective="false" import="true" targetId="a268-a319-bc2c-71a6" type="selectionEntryGroup">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca0f-16cd-3481-43c9" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="7aef-86d3-f178-5290" name="Standard Secondary Weapons" hidden="false" collective="false" targetId="0fc5-2161-b637-f257" type="selectionEntryGroup">
+                    <entryLink id="7aef-86d3-f178-5290" name="Standard Secondary Weapons" hidden="false" collective="false" import="true" targetId="0fc5-2161-b637-f257" type="selectionEntryGroup">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f852-1afd-d61f-8d1c" type="max"/>
                       </constraints>
@@ -617,7 +622,7 @@ check.</characteristic>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
+                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
                 <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
               </costs>
             </selectionEntry>
