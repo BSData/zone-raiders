@@ -1,2 +1,693 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="523a-6082-baa4-01c7" name="Reclaimers" revision="1" battleScribeVersion="2.02" library="false" gameSystemId="05fa-7f5b-80b0-f115" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema"/>
+<catalogue id="523a-6082-baa4-01c7" name="Reclaimers" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="05fa-7f5b-80b0-f115" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="c7c5-3dc2-e999-f491" name="Armiger-Captain" publicationId="f426-d1c5-b242-a927" page="90" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="9abe-acb8-7269-2467" name="Armiger-Captain" hidden="false" targetId="d7af-226e-f730-ffc7" type="profile"/>
+        <infoLink id="ad97-4d10-7678-cf76" name="Tactical Sense" hidden="false" targetId="6c02-04bd-5afc-c655" type="profile"/>
+        <infoLink id="ed47-e346-0710-8e34" name="Fire Coordinator" hidden="false" targetId="4b51-6a0e-b0d2-bcf8" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9cba-b6c3-24ca-0c53" name="Raiders" hidden="false" targetId="bf5f-aaed-2bd1-8a44" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ade9-42f6-7df1-6527" name="Standard Gear" hidden="false" collective="false" import="true" targetId="6a7b-3d4d-57de-3ad2" type="selectionEntryGroup"/>
+        <entryLink id="6692-9de8-f15c-7298" name="Character Advancement" hidden="false" collective="false" import="true" targetId="eb3b-e8b9-caeb-a56d" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="a4ec-ca91-e065-7173" name="Starting Levels" hidden="false" collective="false" import="true" targetId="df5e-be65-4077-5bcf" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb41-263f-d65c-3950" type="max"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06dc-a8e9-2393-cb67" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="80.0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f908-1caf-90d5-227d" name="Cuirassier" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="29b3-f125-d2cb-ab2b" name="Cuirassier" hidden="false" targetId="c0bb-001c-2786-009d" type="profile"/>
+        <infoLink id="21e3-0950-e10b-187c" name="Sentry" hidden="false" targetId="f66e-8e16-0a2b-6ee1" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a216-ae42-d93c-0344" name="Raiders" hidden="false" targetId="bf5f-aaed-2bd1-8a44" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2e08-3dcb-0b87-a299" name="Standard Gear" hidden="false" collective="false" import="true" targetId="6a7b-3d4d-57de-3ad2" type="selectionEntryGroup"/>
+        <entryLink id="47f0-19b0-0dd6-9575" name="Character Advancement" hidden="false" collective="false" import="true" targetId="eb3b-e8b9-caeb-a56d" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="b33d-3739-0240-a723" name="Starting Levels" hidden="false" collective="false" import="true" targetId="df5e-be65-4077-5bcf" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a48d-63c5-9197-25b1" type="min"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90e1-5b87-cc6e-e94e" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="50.0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="87a0-0ea6-9f56-dd30" name="Dragoon-Sergeant" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="f0f2-11ed-5e23-9182" name="Dragoon-Sergeant" hidden="false" targetId="3803-5288-b964-0b4b" type="profile"/>
+        <infoLink id="ddf2-a5e7-1dd8-019b" name="Flanker" hidden="false" targetId="eecd-2fa9-7f1b-e702" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8fc9-1413-2ed5-a1a3" name="Raiders" hidden="false" targetId="bf5f-aaed-2bd1-8a44" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e3ee-6153-7311-22f1" name="Standard Gear" hidden="false" collective="false" import="true" targetId="6a7b-3d4d-57de-3ad2" type="selectionEntryGroup"/>
+        <entryLink id="181e-45e0-0f76-4d5f" name="Character Advancement" hidden="false" collective="false" import="true" targetId="eb3b-e8b9-caeb-a56d" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="9fa4-9f40-48a6-4e36" name="Starting Levels" hidden="false" collective="false" import="true" targetId="df5e-be65-4077-5bcf" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b31-7ef2-b4e1-1b00" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8022-13c8-05b2-d074" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="40.0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dc9f-3253-a31c-c0a5" name="Lancer" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="a3de-7199-3052-b821" name="Lancer" hidden="false" targetId="862c-49bc-1190-6583" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="67ff-ce90-3994-2057" name="Raiders" hidden="false" targetId="bf5f-aaed-2bd1-8a44" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e971-d889-4822-f0c1" name="Standard Gear" hidden="false" collective="false" import="true" targetId="6a7b-3d4d-57de-3ad2" type="selectionEntryGroup"/>
+        <entryLink id="4598-fe39-f5d0-d043" name="Character Advancement" hidden="false" collective="false" import="true" targetId="eb3b-e8b9-caeb-a56d" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="8141-70a1-fa7e-643c" name="Starting Levels" hidden="false" collective="false" import="true" targetId="df5e-be65-4077-5bcf" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67b8-29cc-72cb-7844" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfa3-df42-37ef-4473" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="25.0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9314-1ac7-d23b-ca5f" name="Sapper-Specialist" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="07ed-6298-9b99-e6d1" name="Sapper-Specialist" hidden="false" targetId="cfe4-b04d-76cd-c51c" type="profile"/>
+        <infoLink id="97a7-6288-9966-4d1e" name="Fixer" hidden="false" targetId="0325-c693-da5e-22bc" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3e30-775e-ff96-b03a" name="Raiders" hidden="false" targetId="bf5f-aaed-2bd1-8a44" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="793a-e13a-e844-87b3" name="Standard Gear" hidden="false" collective="false" import="true" targetId="6a7b-3d4d-57de-3ad2" type="selectionEntryGroup"/>
+        <entryLink id="75a7-614a-cba8-4ad2" name="Character Advancement" hidden="false" collective="false" import="true" targetId="eb3b-e8b9-caeb-a56d" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="3cc5-cd01-4b9d-19b2" name="Starting Levels" hidden="false" collective="false" import="true" targetId="df5e-be65-4077-5bcf" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e4a-980d-97f2-c9c5" type="min"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e2b-0c83-cf40-a8b9" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="60.0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a90c-c49d-c94c-2bc8" name="Unequipped Gear" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16d3-5fc0-d1ab-0adf" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72f8-856a-12e1-1ceb" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="75c4-bc40-6efe-037b" name="Gear Reserve" hidden="false" targetId="16d4-49c0-ef22-e381" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3d3f-6470-c472-d81a" name="Armor" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="5f35-0961-eac1-e839" name="Artifact Armor" hidden="false" collective="false" import="true" targetId="731d-1c09-8a50-e966" type="selectionEntryGroup"/>
+            <entryLink id="1413-8aac-98a1-1e89" name="Faction Armor" hidden="false" collective="false" import="true" targetId="7340-41b1-a0dc-6e52" type="selectionEntryGroup">
+              <entryLinks>
+                <entryLink id="f8d3-241d-71f8-d9c6" name="Reclaimator Powered Armor" hidden="false" collective="false" import="true" targetId="2681-1187-4678-87e8" type="selectionEntry"/>
+                <entryLink id="5017-1dd7-fef9-231a" name="Guardian Exoframe" hidden="false" collective="false" import="true" targetId="36a2-28b1-15fe-a9a1" type="selectionEntry"/>
+              </entryLinks>
+            </entryLink>
+            <entryLink id="e2af-9a00-123e-4e8c" name="Standard Armor" hidden="false" collective="false" import="true" targetId="4c0e-5515-95d8-e960" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c692-c7fa-e495-db8a" name="Equipment" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="4ca2-6d25-0856-4bd0" name="Artifact Equipment" hidden="false" collective="false" import="true" targetId="ea80-d3a4-7963-2ed4" type="selectionEntryGroup"/>
+            <entryLink id="0a2f-93c7-0de7-d0f0" name="Faction Equipment" hidden="false" collective="false" import="true" targetId="4e06-a471-6154-d164" type="selectionEntryGroup">
+              <entryLinks>
+                <entryLink id="8ed0-a189-ede8-6de2" name="Battle Helm" hidden="false" collective="false" import="true" targetId="b987-a541-60a4-e5c3" type="selectionEntry"/>
+                <entryLink id="8a7a-a2a2-d52f-1766" name="Signal Flares" hidden="false" collective="false" import="true" targetId="109e-fd4b-1b9b-633f" type="selectionEntry"/>
+                <entryLink id="66b0-3d38-f21b-acff" name="Honor Banner" hidden="false" collective="false" import="true" targetId="0542-d1a4-c208-f040" type="selectionEntry"/>
+              </entryLinks>
+            </entryLink>
+            <entryLink id="18c4-3484-339e-5a3a" name="Standard Equipment" hidden="false" collective="false" import="true" targetId="ebf8-fa47-23c0-890a" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f659-4c1c-3f1a-25bf" name="Weapons" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="d936-9523-152d-9702" name="Grenades" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="e803-0789-2cbc-6d27" name="Artifact Grenades" hidden="false" collective="false" import="true" targetId="9b20-fd1b-8694-5724" type="selectionEntryGroup"/>
+                <entryLink id="ef2a-c508-1998-3760" name="Faction Grenades" hidden="false" collective="false" import="true" targetId="bd23-762e-823c-2e6d" type="selectionEntryGroup"/>
+                <entryLink id="a3e9-78b5-e6dd-21bc" name="Standard Grenades" hidden="false" collective="false" import="true" targetId="421e-b485-2083-047d" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="4413-2078-0f24-b66c" name="Melee Weapons" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="5b02-ccc3-bc1f-7c2f" name="Artifact Melee Weapons" hidden="false" collective="false" import="true" targetId="34c3-b426-19f7-f385" type="selectionEntryGroup"/>
+                <entryLink id="a093-d967-a5ff-e3f7" name="Faction Melee Weapons" hidden="false" collective="false" import="true" targetId="5c05-e9da-02f1-1b03" type="selectionEntryGroup"/>
+                <entryLink id="ef84-d4cc-156e-252a" name="Standard Melee Weapons" hidden="false" collective="false" import="true" targetId="2a43-759a-c315-076d" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="d64d-75ea-0a53-298f" name="Primary Weapons" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="eb10-5f18-ae2a-c73a" name="Artifact Primary Weapons" hidden="false" collective="false" import="true" targetId="043e-140f-291f-19b7" type="selectionEntryGroup"/>
+                <entryLink id="57f4-48ca-811e-beea" name="Faction Primary Weapons" hidden="false" collective="false" import="true" targetId="33f0-da63-d4e5-8db2" type="selectionEntryGroup">
+                  <entryLinks>
+                    <entryLink id="a426-36a2-9f79-961f" name="Ancestral Gauss Rifle" hidden="false" collective="false" import="true" targetId="8d67-908f-dadf-9260" type="selectionEntry"/>
+                    <entryLink id="4da0-dee5-cedc-1ca4" name="Ancestral Explosive Launcher" hidden="false" collective="false" import="true" targetId="cf11-1afb-b580-99f8" type="selectionEntry"/>
+                  </entryLinks>
+                </entryLink>
+                <entryLink id="4cdc-9e42-8707-6e9d" name="Standard Primary Ranged Weapons" hidden="false" collective="false" import="true" targetId="668b-bdec-98d9-2f4d" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="40b8-e594-94df-ede7" name="Secondary Weapons" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="6e91-857d-bd7d-7002" name="Artifact Secondary Weapons" hidden="false" collective="false" import="true" targetId="258f-ecce-5c0a-2c4c" type="selectionEntryGroup"/>
+                <entryLink id="19b2-e5c8-aea9-42d0" name="Faction Secondary Weapons" hidden="false" collective="false" import="true" targetId="a268-a319-bc2c-71a6" type="selectionEntryGroup"/>
+                <entryLink id="3ce6-56f1-b45a-c768" name="Standard Secondary Ranged Weapons" hidden="false" collective="false" import="true" targetId="0fc5-2161-b637-f257" type="selectionEntryGroup">
+                  <entryLinks>
+                    <entryLink id="f620-7ac9-1dde-6025" name="Aloy Magnum" hidden="false" collective="false" import="true" targetId="52ee-8cfb-71b6-f739" type="selectionEntry"/>
+                  </entryLinks>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <infoLinks>
+    <infoLink id="54e7-6f9f-abf2-c8cd" name="Teamwork" hidden="false" targetId="92bb-23b7-9893-126d" type="rule"/>
+  </infoLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="52ee-8cfb-71b6-f739" name="Aloy Magnum" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59a0-17da-869b-226a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="431f-e5eb-d637-2ebc" name="Alloy Magnum" hidden="false" targetId="ed70-2a0c-9226-e6b8" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cfce-c404-5bcd-77f9" name="New CategoryLink" hidden="false" targetId="bf5f-aaed-2bd1-8a44" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8d67-908f-dadf-9260" name="Ancestral Gauss Rifle" publicationId="f426-d1c5-b242-a927" page="90" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8287-2c49-0f40-72bc" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="b3e3-6be7-9368-1093" name="Ancestral Gauss Rifle" hidden="false" targetId="62a8-722d-3ebe-c275" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cf11-1afb-b580-99f8" name="Ancestral Explosive Launcher" publicationId="f426-d1c5-b242-a927" page="90" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c140-50ea-46ef-cfa2" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="837a-48ce-67c4-283a" name="Ancestral Explosive Launcher" hidden="false" targetId="450e-5cd1-1eab-802f" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2681-1187-4678-87e8" name="Reclaimator Powered Armor" publicationId="f426-d1c5-b242-a927" page="90" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b346-b2e9-adf4-bc74" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="6a28-648f-3808-6c17" name="Reclaimator Powered Armor" hidden="false" targetId="d639-5380-e4fe-e3d6" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="50.0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="36a2-28b1-15fe-a9a1" name="Guardian Exoframe" publicationId="f426-d1c5-b242-a927" page="90" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bea-920b-4691-19a6" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="aeb8-1ff5-f100-3ad4" name="Guardian Exoframe" hidden="false" targetId="3957-1d56-17a5-6128" type="profile"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="0bd2-b358-a6c1-8855" name="Guardian" hidden="false" collective="false" import="true" targetId="83c0-3592-4220-4cbe" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6ca-5794-7a25-9dc7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a96-7368-c192-0850" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="80.0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b987-a541-60a4-e5c3" name="Battle Helm" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="491c-828e-c385-9c02" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="561d-5621-71e3-15a4" name="Battle Helm" hidden="false" targetId="989c-9a56-99ec-88e8" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0542-d1a4-c208-f040" name="Honor Banner" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e0e-1e5e-8e0c-78f3" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="882e-d074-8186-0555" name="Honor Banner" hidden="false" targetId="8b85-7c26-1c8d-8fb7" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="109e-fd4b-1b9b-633f" name="Signal Flares" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68ea-00ae-9fea-f3d9" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a1ad-1984-0d4d-4494" name="Signal Flares" hidden="false" targetId="5eac-6945-5586-860a" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="6a7b-3d4d-57de-3ad2" name="Standard Gear" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="9321-cebe-1b64-0804" name="Armor" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae45-a9a4-cbf2-84db" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="a867-2413-2463-5158" name="Armor" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21e2-46d6-6790-1e36" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b9c-8529-814a-3437" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="96e2-4e87-acfe-8df2" name="Artifact Armor" hidden="false" collective="false" import="true" targetId="731d-1c09-8a50-e966" type="selectionEntryGroup">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e52-0b89-3d8c-7b64" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="42cc-f80b-aa5a-a08e" name="Faction Armor" hidden="false" collective="false" import="true" targetId="7340-41b1-a0dc-6e52" type="selectionEntryGroup">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dae-bd55-a5a0-13a1" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="cdea-e3f4-7d47-6da3" name="Reclaimator Powered Armor" hidden="false" collective="false" import="true" targetId="2681-1187-4678-87e8" type="selectionEntry"/>
+                    <entryLink id="7f76-8187-54c8-7023" name="Guardian Exoframe" hidden="false" collective="false" import="true" targetId="36a2-28b1-15fe-a9a1" type="selectionEntry"/>
+                  </entryLinks>
+                </entryLink>
+                <entryLink id="b942-3272-b93e-2bf5" name="Standard Armor" hidden="false" collective="false" import="true" targetId="4c0e-5515-95d8-e960" type="selectionEntryGroup">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c96-f515-a416-65de" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
+            <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7691-cb88-9207-ef89" name="Equipment" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9937-c4ac-e626-425d" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="1169-cd68-49ef-6824" name="Equipment" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6aac-39ed-2512-002e" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cf4-947b-116b-67cb" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="53d1-de55-6aa8-0012" name="Artifact Equipment" hidden="false" collective="false" import="true" targetId="ea80-d3a4-7963-2ed4" type="selectionEntryGroup">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d60a-f7df-bc2f-9221" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="10ad-7132-f4e0-9b6a" name="Faction Equipment" hidden="false" collective="false" import="true" targetId="4e06-a471-6154-d164" type="selectionEntryGroup">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d7b-2466-6e0c-16ba" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="1262-f15e-1b09-39a1" name="Honor Banner" hidden="false" collective="false" import="true" targetId="0542-d1a4-c208-f040" type="selectionEntry">
+                      <costs>
+                        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="40.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="3ae0-f761-a7f2-c1b5" name="Signal Flares" hidden="false" collective="false" import="true" targetId="109e-fd4b-1b9b-633f" type="selectionEntry">
+                      <costs>
+                        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="30.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="9cc9-269c-124d-4f8f" name="Battle Helm" hidden="false" collective="false" import="true" targetId="b987-a541-60a4-e5c3" type="selectionEntry">
+                      <costs>
+                        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="25.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </entryLink>
+                <entryLink id="ec41-d9bd-ec07-ff4e" name="Standard Equipment" hidden="false" collective="false" import="true" targetId="ebf8-fa47-23c0-890a" type="selectionEntryGroup">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af3c-e9cb-3264-d4fd" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
+            <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="235f-e340-85aa-a827" name="Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a275-6650-d5a4-49e2" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1581-7cf5-e0be-8d72" name="Grenade" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="0d7a-b26b-71c8-59f5" name="Grenades" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af00-d0fd-41ba-c558" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f404-6758-1111-8aa2" type="min"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="d002-156d-9e35-a925" name="Artifact Grenades" hidden="false" collective="false" import="true" targetId="9b20-fd1b-8694-5724" type="selectionEntryGroup">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78d8-556c-e5a8-2493" type="max"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink id="b414-26e3-cc07-502e" name="Faction Grenades" hidden="false" collective="false" import="true" targetId="bd23-762e-823c-2e6d" type="selectionEntryGroup">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4efd-0b95-4b60-b74c" type="max"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink id="5a91-f6fa-3b1e-136e" name="Standard Grenades" hidden="false" collective="false" import="true" targetId="421e-b485-2083-047d" type="selectionEntryGroup">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecce-ace7-2e34-2a8d" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
+                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d218-09d2-f4b2-4f4f" name="Melee Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="143f-7a21-762e-4e7d" name="Melee Weapons" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d70-9d38-a87c-2a24" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bf3-8858-cb93-40cd" type="min"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="0492-1b47-26f6-9f38" name="Artifact Melee Weapons" hidden="false" collective="false" import="true" targetId="34c3-b426-19f7-f385" type="selectionEntryGroup">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84df-5926-c071-ca5e" type="max"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink id="08d9-297d-c5f9-6f8d" name="Faction Melee Weapons" hidden="false" collective="false" import="true" targetId="5c05-e9da-02f1-1b03" type="selectionEntryGroup">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50a1-6c16-2f01-0e0a" type="max"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink id="3cd1-6c2b-6669-7ea8" name="Standard Melee Weapons" hidden="false" collective="false" import="true" targetId="2a43-759a-c315-076d" type="selectionEntryGroup">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="497a-988f-65d1-72ce" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
+                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7fde-4fb3-91d5-1771" name="Primary Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddd4-4c2d-98c1-9a36" type="max"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="e452-9bd0-9ff8-3f3f" name="Primary Weapons" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bf9-0509-716f-f62f" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2785-0059-d365-946f" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="6ca6-1283-81e5-e0ae" name="Artifact Primary Weapons" hidden="false" collective="false" import="true" targetId="043e-140f-291f-19b7" type="selectionEntryGroup">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5116-ac08-0e58-1c57" type="max"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink id="c87c-8b70-9f9f-7035" name="Faction Primary Weapons" hidden="false" collective="false" import="true" targetId="33f0-da63-d4e5-8db2" type="selectionEntryGroup">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0bb-0c15-ded4-f682" type="max"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink id="9952-d29a-e08c-8824" name="Ancestral Gauss Rifle" hidden="false" collective="false" import="true" targetId="8d67-908f-dadf-9260" type="selectionEntry">
+                          <costs>
+                            <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="35.0"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink id="903c-25b6-4a3a-c13d" name="Ancestral Explosive Launcher" hidden="false" collective="false" import="true" targetId="cf11-1afb-b580-99f8" type="selectionEntry">
+                          <costs>
+                            <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="50.0"/>
+                          </costs>
+                        </entryLink>
+                      </entryLinks>
+                    </entryLink>
+                    <entryLink id="0f35-a500-6d73-448d" name="Standard Primary Weapons" hidden="false" collective="false" import="true" targetId="668b-bdec-98d9-2f4d" type="selectionEntryGroup">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fa4-5b18-59bd-5222" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
+                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8e49-b42f-9f37-95d5" name="Secondary Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="9204-38d3-7348-42a2" name="Secondary Weapons" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ef0-0e30-4ac3-51d0" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1955-dbef-9ccc-15c2" type="min"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="45f4-7be8-1599-5925" name="Artifact Secondary Weapons" hidden="false" collective="false" import="true" targetId="258f-ecce-5c0a-2c4c" type="selectionEntryGroup">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7047-9bf5-e206-6989" type="max"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink id="6ea7-8ddf-2b4f-b115" name="Faction Secondary Weapons" hidden="false" collective="false" import="true" targetId="a268-a319-bc2c-71a6" type="selectionEntryGroup">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4918-e7a9-372e-bbde" type="max"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink id="1d22-46c7-b271-9b04" name="Standard Secondary Weapons" hidden="false" collective="false" import="true" targetId="0fc5-2161-b637-f257" type="selectionEntryGroup">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88ba-ae59-5d1f-c7c1" type="max"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink id="531c-3245-ed90-c45a" name="Aloy Magnum" hidden="false" collective="false" import="true" targetId="52ee-8cfb-71b6-f739" type="selectionEntry">
+                          <costs>
+                            <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="15.0"/>
+                          </costs>
+                        </entryLink>
+                      </entryLinks>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
+                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="92bb-23b7-9893-126d" name="Teamwork" hidden="false">
+      <description>When a reclaimer model is within 2 inches of another friendly reclaimer model, performing the mark target action on an enemy target does not automatically end their activation.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="d7af-226e-f730-ffc7" name="Armiger-Captain" publicationId="f426-d1c5-b242-a927" page="90" hidden="false" typeId="dbe7-2754-358b-1829" typeName="Model">
+      <characteristics>
+        <characteristic name="Speed" typeId="83ef-338d-1317-7d8c">4</characteristic>
+        <characteristic name="Shooting" typeId="8dbb-f9b3-e11b-bc19">10</characteristic>
+        <characteristic name="Melee" typeId="6b38-717b-2dd5-0dad">10</characteristic>
+        <characteristic name="Defense" typeId="172c-d0af-a3ba-c889">8</characteristic>
+        <characteristic name="Survival" typeId="589c-af0c-03e2-e7ed">8</characteristic>
+        <characteristic name="Aptitude" typeId="597a-266a-352f-08f5">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ed70-2a0c-9226-e6b8" name="Alloy Magnum" publicationId="f426-d1c5-b242-a927" page="90" hidden="false" typeId="2de6-5f4b-60e5-136b" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="2a14-4b86-2f09-5c65">8</characteristic>
+        <characteristic name="Strength" typeId="8727-d86d-ebbf-f4a2">3</characteristic>
+        <characteristic name="Ammo" typeId="7264-0a7f-f277-8230">N/A</characteristic>
+        <characteristic name="Special" typeId="43a7-e6de-709c-3feb">Concussive</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="62a8-722d-3ebe-c275" name="Ancestral Gauss Rifle" publicationId="f426-d1c5-b242-a927" page="90" hidden="false" typeId="2de6-5f4b-60e5-136b" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="2a14-4b86-2f09-5c65">18</characteristic>
+        <characteristic name="Strength" typeId="8727-d86d-ebbf-f4a2">4</characteristic>
+        <characteristic name="Ammo" typeId="7264-0a7f-f277-8230">Auto</characteristic>
+        <characteristic name="Special" typeId="43a7-e6de-709c-3feb">Primary Weapon, Rupturing</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="450e-5cd1-1eab-802f" name="Ancestral Explosive Launcher" hidden="false" typeId="2de6-5f4b-60e5-136b" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="2a14-4b86-2f09-5c65">18</characteristic>
+        <characteristic name="Strength" typeId="8727-d86d-ebbf-f4a2">5 AP</characteristic>
+        <characteristic name="Ammo" typeId="7264-0a7f-f277-8230">1</characteristic>
+        <characteristic name="Special" typeId="43a7-e6de-709c-3feb">Primary Weapon, Blast(2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d639-5380-e4fe-e3d6" name="Reclaimator Powered Armor" hidden="false" typeId="1afe-1c8d-b18e-1c01" typeName="Armor">
+      <characteristics>
+        <characteristic name="Defense Bonus" typeId="ece3-a041-1ca1-239b">7</characteristic>
+        <characteristic name="Survival Bonus" typeId="1c61-5bff-fc3b-8d1d">2</characteristic>
+        <characteristic name="Mobility Actions" typeId="fd39-c890-7bfd-9106">Wallrun</characteristic>
+        <characteristic name="Special" typeId="fee8-0b64-98ed-8717"/>
+      </characteristics>
+    </profile>
+    <profile id="3957-1d56-17a5-6128" name="Guardian Exoframe" hidden="false" typeId="1afe-1c8d-b18e-1c01" typeName="Armor">
+      <characteristics>
+        <characteristic name="Defense Bonus" typeId="ece3-a041-1ca1-239b">9</characteristic>
+        <characteristic name="Survival Bonus" typeId="1c61-5bff-fc3b-8d1d">2</characteristic>
+        <characteristic name="Mobility Actions" typeId="fd39-c890-7bfd-9106">Leap</characteristic>
+        <characteristic name="Special" typeId="fee8-0b64-98ed-8717">Grants Guardian Skill. Size Profile is now Large</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3803-5288-b964-0b4b" name="Dragoon-Sergeant" publicationId="f426-d1c5-b242-a927" page="90" hidden="false" typeId="dbe7-2754-358b-1829" typeName="Model">
+      <characteristics>
+        <characteristic name="Speed" typeId="83ef-338d-1317-7d8c">4</characteristic>
+        <characteristic name="Shooting" typeId="8dbb-f9b3-e11b-bc19">9</characteristic>
+        <characteristic name="Melee" typeId="6b38-717b-2dd5-0dad">8</characteristic>
+        <characteristic name="Defense" typeId="172c-d0af-a3ba-c889">8</characteristic>
+        <characteristic name="Survival" typeId="589c-af0c-03e2-e7ed">7</characteristic>
+        <characteristic name="Aptitude" typeId="597a-266a-352f-08f5">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="989c-9a56-99ec-88e8" name="Battle Helm" hidden="false" typeId="22be-b182-ca50-7759" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Description" typeId="8888-4313-d418-8b26">Allows Aimed Attack Action. Additionally, the target becomes Marked after performing the attack.</characteristic>
+        <characteristic name="Special" typeId="e441-af7d-41b0-ce42"/>
+      </characteristics>
+    </profile>
+    <profile id="8b85-7c26-1c8d-8fb7" name="Honor Banner" hidden="false" typeId="22be-b182-ca50-7759" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Description" typeId="8888-4313-d418-8b26">1 Speed. While the bearer is Active, all allies within 8 inches who can draw LoS to the banner bearer ignore all penalties from wounds. Limit One Per Team. </characteristic>
+        <characteristic name="Special" typeId="e441-af7d-41b0-ce42"/>
+      </characteristics>
+    </profile>
+    <profile id="5eac-6945-5586-860a" name="Signal Flares" hidden="false" typeId="22be-b182-ca50-7759" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Description" typeId="8888-4313-d418-8b26">Action: Make a ranged check targeting a point in LoS up to 12 inches away. If successful, all enemies within AoE3 of the point are Marked. Ends the Activation.</characteristic>
+        <characteristic name="Special" typeId="e441-af7d-41b0-ce42"/>
+      </characteristics>
+    </profile>
+    <profile id="862c-49bc-1190-6583" name="Lancer" hidden="false" typeId="dbe7-2754-358b-1829" typeName="Model">
+      <characteristics>
+        <characteristic name="Speed" typeId="83ef-338d-1317-7d8c">4</characteristic>
+        <characteristic name="Shooting" typeId="8dbb-f9b3-e11b-bc19">8</characteristic>
+        <characteristic name="Melee" typeId="6b38-717b-2dd5-0dad">8</characteristic>
+        <characteristic name="Defense" typeId="172c-d0af-a3ba-c889">8</characteristic>
+        <characteristic name="Survival" typeId="589c-af0c-03e2-e7ed">6</characteristic>
+        <characteristic name="Aptitude" typeId="597a-266a-352f-08f5">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c0bb-001c-2786-009d" name="Cuirassier" hidden="false" typeId="dbe7-2754-358b-1829" typeName="Model">
+      <characteristics>
+        <characteristic name="Speed" typeId="83ef-338d-1317-7d8c">4</characteristic>
+        <characteristic name="Shooting" typeId="8dbb-f9b3-e11b-bc19">8</characteristic>
+        <characteristic name="Melee" typeId="6b38-717b-2dd5-0dad">8</characteristic>
+        <characteristic name="Defense" typeId="172c-d0af-a3ba-c889">10</characteristic>
+        <characteristic name="Survival" typeId="589c-af0c-03e2-e7ed">6</characteristic>
+        <characteristic name="Aptitude" typeId="597a-266a-352f-08f5">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cfe4-b04d-76cd-c51c" name="Sapper-Specialist" hidden="false" typeId="dbe7-2754-358b-1829" typeName="Model">
+      <characteristics>
+        <characteristic name="Speed" typeId="83ef-338d-1317-7d8c">4</characteristic>
+        <characteristic name="Shooting" typeId="8dbb-f9b3-e11b-bc19">9</characteristic>
+        <characteristic name="Melee" typeId="6b38-717b-2dd5-0dad">10</characteristic>
+        <characteristic name="Defense" typeId="172c-d0af-a3ba-c889">8</characteristic>
+        <characteristic name="Survival" typeId="589c-af0c-03e2-e7ed">7</characteristic>
+        <characteristic name="Aptitude" typeId="597a-266a-352f-08f5">7</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
