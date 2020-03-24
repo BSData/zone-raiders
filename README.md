@@ -1,6 +1,14 @@
 Zone Raiders
 ============
 
+[![GitHub release](https://img.shields.io/github/release/BSData/zone-raiders.svg?style=flat-square)](https://github.com/BSData/zone-raiders/releases/latest)
+![Github commits (since latest release)](https://img.shields.io/github/commits-since/BSData/zone-raiders/latest.svg?style=flat-square)
+[![Open Bug issues](https://img.shields.io/github/issues/bsdata/zone-raiders/Type%3A%20bug.svg?style=flat-square&label=bugs)](https://github.com/BSData/zone-raiders/issues?q=is%3Aissue+is%3Aopen+label%3A%22Type%3A+bug%22)
+[![GitHub contributors](https://img.shields.io/github/contributors/BSData/zone-raiders.svg?style=flat-square)](https://github.com/BSData/zone-raiders/graphs/contributors)
+![GitHub commit activity the past year](https://img.shields.io/github/commit-activity/y/BSData/zone-raiders.svg?style=flat-square)
+
+
+
 #### Contents ####
 
 * [Overview][]
