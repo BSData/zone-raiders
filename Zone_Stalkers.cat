@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7e05-2610-0eb2-5ce8" name="Zone Stalkers" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="05fa-7f5b-80b0-f115" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7e05-2610-0eb2-5ce8" name="Zone Stalkers" revision="1" battleScribeVersion="2.03" authorName="Daniele Suppo" library="false" gameSystemId="05fa-7f5b-80b0-f115" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="e541-6427-c778-4712" name="Jaeger" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
@@ -227,9 +227,6 @@
   </infoLinks>
   <sharedSelectionEntries>
     <selectionEntry id="3a3f-1552-d558-4f91" name="N-3 Charges" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a54b-2e2f-5c8f-2073" type="max"/>
-      </constraints>
       <infoLinks>
         <infoLink id="6b33-2c96-39ed-7f3b" name="N-3 Charges" hidden="false" targetId="ee7b-e123-6293-7b6c" type="profile"/>
       </infoLinks>
@@ -239,9 +236,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="c27d-e285-3cb3-5eb0" name="Vesper Rifle" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8414-7f6a-1f93-7801" type="max"/>
-      </constraints>
       <infoLinks>
         <infoLink id="e7fd-502c-b06c-7b2b" name="Vesper Rifle" hidden="false" targetId="f8b6-775b-157e-ec81" type="profile"/>
       </infoLinks>
@@ -251,9 +245,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="b848-a6e6-1d03-66ee" name="Interdiction Rifle" publicationId="f426-d1c5-b242-a927" page="86" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13ec-47d5-916c-3f17" type="max"/>
-      </constraints>
       <infoLinks>
         <infoLink id="0573-0213-e016-fed9" name="Interdiction Rifle" hidden="false" targetId="8784-4a1b-6cc0-f87b" type="profile"/>
       </infoLinks>
@@ -263,9 +254,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3c90-bcf6-29ad-7173" name="Ambusher Camouflage" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0061-8e03-a991-391b" type="max"/>
-      </constraints>
       <infoLinks>
         <infoLink id="52e8-74d5-7b7d-1a33" name="Ambusher Camouflage" hidden="false" targetId="a32e-1c93-a84a-6f93" type="profile"/>
       </infoLinks>
@@ -275,9 +263,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="8a1f-f986-587d-239e" name="Intrusion Suit" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ee1-ac0c-5cd4-261e" type="max"/>
-      </constraints>
       <infoLinks>
         <infoLink id="a761-7614-1abf-1bbf" name="Intrusion Suit" hidden="false" targetId="0de6-0621-cd8a-0b26" type="profile"/>
       </infoLinks>
@@ -287,9 +272,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="5744-b266-b0d1-7f93" name="Explosive Trap" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a7b-e902-c46c-39f6" type="max"/>
-      </constraints>
       <infoLinks>
         <infoLink id="d107-e55f-0cfb-7dbe" name="Explosive Trap" hidden="false" targetId="1e88-8c05-504a-0b99" type="profile"/>
       </infoLinks>
@@ -299,9 +281,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="19dd-ec48-b064-98c9" name="Self-Replenishing (SR)  Smoke" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64cc-3e87-33b5-7b23" type="max"/>
-      </constraints>
       <infoLinks>
         <infoLink id="0486-f556-18d2-34d4" name="Self-Replenishing (SR)  Smoke" hidden="false" targetId="13ed-f022-13b4-fcb5" type="profile"/>
       </infoLinks>
@@ -311,9 +290,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="c130-83d5-5e35-86e7" name="Rangefinder Scope" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72e7-6118-9f55-dbc5" type="max"/>
-      </constraints>
       <infoLinks>
         <infoLink id="fe82-02a9-9b17-e5bc" name="Rangefinder Scope" hidden="false" targetId="dfdb-d8a1-5e09-09e9" type="profile"/>
       </infoLinks>
