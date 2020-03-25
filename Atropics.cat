@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="78e8-0f27-6a44-f698" name="Atropics" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="05fa-7f5b-80b0-f115" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="78e8-0f27-6a44-f698" name="Atropics" revision="1" battleScribeVersion="2.03" authorName="Daniele Suppo" library="false" gameSystemId="05fa-7f5b-80b0-f115" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="112c-96f3-c814-d134" name="Apex Overseer" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -384,7 +384,7 @@
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cf95-ec15-f335-2530" name="Unequipped Gear" hidden="true" collective="false" import="true" type="upgrade">
+    <selectionEntry id="cf95-ec15-f335-2530" name="Unequipped Gear" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0af-56dc-8ea2-ab8a" type="max"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b6d-cd60-fe79-2e0d" type="min"/>
