@@ -27,12 +27,12 @@
       <modifiers>
         <modifier type="set" field="name" value="Champion">
           <conditions>
-            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="424b-5a70-cfe9-783f" type="atLeast"/>
+            <condition field="selections" scope="68a2-25f1-a03e-2e2c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="424b-5a70-cfe9-783f" type="atLeast"/>
           </conditions>
         </modifier>
         <modifier type="set" field="name" value="Ascendant">
           <conditions>
-            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5aad-42ba-df11-2bf5" type="atLeast"/>
+            <condition field="selections" scope="68a2-25f1-a03e-2e2c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5aad-42ba-df11-2bf5" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
