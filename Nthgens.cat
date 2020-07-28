@@ -506,9 +506,21 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3a3-50f8-01d7-16f0" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="f116-c2e8-b4b1-8641" name="Situation Processor" hidden="false" collective="false" import="true" targetId="4969-6d6d-f554-6010" type="selectionEntry"/>
-                    <entryLink id="ca62-5569-fdfa-fabb" name="Neuralgrid Backup" hidden="false" collective="false" import="true" targetId="1bb4-3b3d-80d9-0054" type="selectionEntry"/>
-                    <entryLink id="e4eb-21a5-47ac-495b" name="Secure Datalink" hidden="false" collective="false" import="true" targetId="040d-cfff-8eb4-ebc4" type="selectionEntry"/>
+                    <entryLink id="f116-c2e8-b4b1-8641" name="Situation Processor" hidden="false" collective="false" import="true" targetId="4969-6d6d-f554-6010" type="selectionEntry">
+                      <costs>
+                        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="35.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="ca62-5569-fdfa-fabb" name="Neuralgrid Backup" hidden="false" collective="false" import="true" targetId="1bb4-3b3d-80d9-0054" type="selectionEntry">
+                      <costs>
+                        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="50.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="e4eb-21a5-47ac-495b" name="Secure Datalink" hidden="false" collective="false" import="true" targetId="040d-cfff-8eb4-ebc4" type="selectionEntry">
+                      <costs>
+                        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="20.0"/>
+                      </costs>
+                    </entryLink>
                   </entryLinks>
                 </entryLink>
                 <entryLink id="753c-6f9e-bbea-bfce" name="Standard Equipment" hidden="false" collective="false" import="true" targetId="ebf8-fa47-23c0-890a" type="selectionEntryGroup">
@@ -545,8 +557,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6033-56a8-9d00-502a" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="0718-501c-df8a-9409" name="Resilience Armor Configuration" hidden="false" collective="false" import="true" targetId="a717-bb4b-dc1a-b5ec" type="selectionEntry"/>
-                    <entryLink id="ac28-bdca-8386-242f" name="Integral Armor Configuration" hidden="false" collective="false" import="true" targetId="6239-bb82-59eb-ba3b" type="selectionEntry"/>
+                    <entryLink id="0718-501c-df8a-9409" name="Resilience Armor Configuration" hidden="false" collective="false" import="true" targetId="a717-bb4b-dc1a-b5ec" type="selectionEntry">
+                      <costs>
+                        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="70.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="ac28-bdca-8386-242f" name="Integral Armor Configuration" hidden="false" collective="false" import="true" targetId="6239-bb82-59eb-ba3b" type="selectionEntry">
+                      <costs>
+                        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="20.0"/>
+                      </costs>
+                    </entryLink>
                   </entryLinks>
                 </entryLink>
                 <entryLink id="77e2-6e0f-e919-e29d" name="Standard Armor" hidden="false" collective="false" import="true" targetId="4c0e-5515-95d8-e960" type="selectionEntryGroup">
@@ -618,7 +638,11 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c88-534b-aa56-60c3" type="max"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink id="807e-f54d-4f7b-35c9" name="Electro-Defense Mesh" hidden="false" collective="false" import="true" targetId="520e-280e-49ef-81e1" type="selectionEntry"/>
+                        <entryLink id="807e-f54d-4f7b-35c9" name="Electro-Defense Mesh" hidden="false" collective="false" import="true" targetId="520e-280e-49ef-81e1" type="selectionEntry">
+                          <costs>
+                            <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="15.0"/>
+                          </costs>
+                        </entryLink>
                       </entryLinks>
                     </entryLink>
                     <entryLink id="3c9b-10ce-10bc-14fd" name="Standard Melee Weapons" hidden="false" collective="false" import="true" targetId="2a43-759a-c315-076d" type="selectionEntryGroup">
@@ -655,8 +679,16 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ee8-e404-473d-76ee" type="max"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink id="6f9b-08da-8517-1402" name="Rapid Kinetic Weapon" hidden="false" collective="false" import="true" targetId="c54d-89ed-32bd-9dbf" type="selectionEntry"/>
-                        <entryLink id="7014-0214-3c56-2dcb" name="Optimal Photon Cannon" hidden="false" collective="false" import="true" targetId="ed72-4d83-55f9-78b1" type="selectionEntry"/>
+                        <entryLink id="6f9b-08da-8517-1402" name="Rapid Kinetic Weapon" hidden="false" collective="false" import="true" targetId="c54d-89ed-32bd-9dbf" type="selectionEntry">
+                          <costs>
+                            <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="40.0"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink id="7014-0214-3c56-2dcb" name="Optimal Photon Cannon" hidden="false" collective="false" import="true" targetId="ed72-4d83-55f9-78b1" type="selectionEntry">
+                          <costs>
+                            <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="55.0"/>
+                          </costs>
+                        </entryLink>
                       </entryLinks>
                     </entryLink>
                     <entryLink id="4e54-114e-a989-28e9" name="Standard Primary Weapons" hidden="false" collective="false" import="true" targetId="668b-bdec-98d9-2f4d" type="selectionEntryGroup">
@@ -730,9 +762,21 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8af-4031-a7d7-351a" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="f48a-e410-9a06-e024" name="Situation Processor" hidden="false" collective="false" import="true" targetId="4969-6d6d-f554-6010" type="selectionEntry"/>
-                    <entryLink id="9ddd-4fa8-3d63-677d" name="Neuralgrid Backup" hidden="false" collective="false" import="true" targetId="1bb4-3b3d-80d9-0054" type="selectionEntry"/>
-                    <entryLink id="43a0-0cc9-a170-c076" name="Secure Datalink" hidden="false" collective="false" import="true" targetId="040d-cfff-8eb4-ebc4" type="selectionEntry"/>
+                    <entryLink id="f48a-e410-9a06-e024" name="Situation Processor" hidden="false" collective="false" import="true" targetId="4969-6d6d-f554-6010" type="selectionEntry">
+                      <costs>
+                        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="35.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="9ddd-4fa8-3d63-677d" name="Neuralgrid Backup" hidden="false" collective="false" import="true" targetId="1bb4-3b3d-80d9-0054" type="selectionEntry">
+                      <costs>
+                        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="50.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="43a0-0cc9-a170-c076" name="Secure Datalink" hidden="false" collective="false" import="true" targetId="040d-cfff-8eb4-ebc4" type="selectionEntry">
+                      <costs>
+                        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="20.0"/>
+                      </costs>
+                    </entryLink>
                   </entryLinks>
                 </entryLink>
                 <entryLink id="1710-5558-3dac-5e81" name="Standard Equipment" hidden="false" collective="false" import="true" targetId="ebf8-fa47-23c0-890a" type="selectionEntryGroup">
@@ -804,7 +848,11 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1b1-d62b-f6f2-8b21" type="max"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink id="6b0f-6108-45fa-9ba6" name="Electro-Defense Mesh" hidden="false" collective="false" import="true" targetId="520e-280e-49ef-81e1" type="selectionEntry"/>
+                        <entryLink id="6b0f-6108-45fa-9ba6" name="Electro-Defense Mesh" hidden="false" collective="false" import="true" targetId="520e-280e-49ef-81e1" type="selectionEntry">
+                          <costs>
+                            <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="15.0"/>
+                          </costs>
+                        </entryLink>
                       </entryLinks>
                     </entryLink>
                     <entryLink id="220a-3f7a-74d9-7fae" name="Standard Melee Weapons" hidden="false" collective="false" import="true" targetId="2a43-759a-c315-076d" type="selectionEntryGroup">
@@ -841,8 +889,16 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10d0-27a9-e3fc-d356" type="max"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink id="3203-decd-8549-07cf" name="Rapid Kinetic Weapon" hidden="false" collective="false" import="true" targetId="c54d-89ed-32bd-9dbf" type="selectionEntry"/>
-                        <entryLink id="8a85-8f47-5077-3a6c" name="Optimal Photon Cannon" hidden="false" collective="false" import="true" targetId="ed72-4d83-55f9-78b1" type="selectionEntry"/>
+                        <entryLink id="3203-decd-8549-07cf" name="Rapid Kinetic Weapon" hidden="false" collective="false" import="true" targetId="c54d-89ed-32bd-9dbf" type="selectionEntry">
+                          <costs>
+                            <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="40.0"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink id="8a85-8f47-5077-3a6c" name="Optimal Photon Cannon" hidden="false" collective="false" import="true" targetId="ed72-4d83-55f9-78b1" type="selectionEntry">
+                          <costs>
+                            <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="55.0"/>
+                          </costs>
+                        </entryLink>
                       </entryLinks>
                     </entryLink>
                     <entryLink id="4332-691f-6ca5-7485" name="Standard Primary Weapons" hidden="false" collective="false" import="true" targetId="668b-bdec-98d9-2f4d" type="selectionEntryGroup">
