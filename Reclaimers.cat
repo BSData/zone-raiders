@@ -217,7 +217,7 @@
     <infoLink id="54e7-6f9f-abf2-c8cd" name="Teamwork" hidden="false" targetId="92bb-23b7-9893-126d" type="rule"/>
   </infoLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="52ee-8cfb-71b6-f739" name="Aloy Magnum" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="52ee-8cfb-71b6-f739" name="Alloy Magnum" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59a0-17da-869b-226a" type="max"/>
       </constraints>
@@ -549,6 +549,13 @@
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4918-e7a9-372e-bbde" type="max"/>
                       </constraints>
+                      <entryLinks>
+                        <entryLink id="b1ea-e0b6-2a21-ffd3" name="Alloy Magnum" hidden="false" collective="false" import="true" targetId="52ee-8cfb-71b6-f739" type="selectionEntry">
+                          <costs>
+                            <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="15.0"/>
+                          </costs>
+                        </entryLink>
+                      </entryLinks>
                     </entryLink>
                     <entryLink id="1d22-46c7-b271-9b04" name="Standard Secondary Weapons" hidden="false" collective="false" import="true" targetId="0fc5-2161-b637-f257" type="selectionEntryGroup">
                       <constraints>

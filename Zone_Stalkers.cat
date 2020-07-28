@@ -363,17 +363,17 @@
                   <entryLinks>
                     <entryLink id="645e-77da-97eb-3417" name="Explosive Trap" hidden="false" collective="false" import="true" targetId="5744-b266-b0d1-7f93" type="selectionEntry">
                       <costs>
-                        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="40.0"/>
+                        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="20.0"/>
                       </costs>
                     </entryLink>
                     <entryLink id="e064-9697-eac7-eea2" name="Rangefinder Scope" hidden="false" collective="false" import="true" targetId="c130-83d5-5e35-86e7" type="selectionEntry">
                       <costs>
-                        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="30.0"/>
+                        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="25.0"/>
                       </costs>
                     </entryLink>
                     <entryLink id="3cb6-b05a-f5bf-52f1" name="Self-Replenishing (SR)  Smoke" hidden="false" collective="false" import="true" targetId="19dd-ec48-b064-98c9" type="selectionEntry">
                       <costs>
-                        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="25.0"/>
+                        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="15.0"/>
                       </costs>
                     </entryLink>
                   </entryLinks>
@@ -486,12 +486,12 @@
                       <entryLinks>
                         <entryLink id="910c-c60f-49eb-54b6" name="Interdiction Rifle" hidden="false" collective="false" import="true" targetId="b848-a6e6-1d03-66ee" type="selectionEntry">
                           <costs>
-                            <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="35.0"/>
+                            <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="50.0"/>
                           </costs>
                         </entryLink>
                         <entryLink id="8c29-191c-564f-10da" name="Vesper Rifle" hidden="false" collective="false" import="true" targetId="c27d-e285-3cb3-5eb0" type="selectionEntry">
                           <costs>
-                            <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="50.0"/>
+                            <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="30.0"/>
                           </costs>
                         </entryLink>
                       </entryLinks>
