@@ -611,7 +611,7 @@ Large sized Model</characteristic>
         <infoLink id="880d-36e8-b35f-4c45" name="Concussive" hidden="false" targetId="5bb2-b9b1-ab4a-df1f" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="5.0"/>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1464,7 +1464,7 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         </profile>
       </profiles>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
+        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="15.0"/>
         <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3210,11 +3210,7 @@ Action: This model may target an Immunocyte within 8 inches and make an aptitude
         <entryLink id="6ed0-0773-cddd-d28a" name="Nano-Infusion" hidden="false" collective="false" import="true" targetId="296c-8817-2de4-0824" type="selectionEntry"/>
         <entryLink id="5f4a-130b-f868-aa91" name="Trauma Kit" hidden="false" collective="false" import="true" targetId="0928-e671-b727-29a6" type="selectionEntry"/>
         <entryLink id="d6c9-4c89-64f0-9333" name="Cutter Tools" hidden="false" collective="false" import="true" targetId="0de0-6f16-2f71-3b04" type="selectionEntry"/>
-        <entryLink id="0a47-0e08-0da2-7398" name="Interface Deck" hidden="false" collective="false" import="true" targetId="a846-539a-e342-096c" type="selectionEntry">
-          <costs>
-            <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="15.0"/>
-          </costs>
-        </entryLink>
+        <entryLink id="0a47-0e08-0da2-7398" name="Interface Deck" hidden="false" collective="false" import="true" targetId="a846-539a-e342-096c" type="selectionEntry"/>
         <entryLink id="fabd-d5e2-2e12-8d35" name="Smoke Canister" hidden="false" collective="false" import="true" targetId="fcf1-f06c-ec2e-5caf" type="selectionEntry"/>
         <entryLink id="1c4b-9cbb-c937-91e5" name="Defense Matrix" hidden="false" collective="false" import="true" targetId="cc37-d594-29f3-7067" type="selectionEntry"/>
         <entryLink id="bacf-9238-0dd5-f663" name="Auto-Reloader" hidden="false" collective="false" import="true" targetId="8655-564a-ee15-652d" type="selectionEntry"/>
@@ -3227,11 +3223,7 @@ Action: This model may target an Immunocyte within 8 inches and make an aptitude
         <entryLink id="987b-9d84-0da9-7c25" name="Bash" hidden="false" collective="false" import="true" targetId="1b89-fec3-134b-d36a" type="selectionEntry"/>
         <entryLink id="e610-6249-18b4-14bd" name="Electro-Rod" hidden="false" collective="false" import="true" targetId="e861-a5ee-a610-4d5a" type="selectionEntry"/>
         <entryLink id="4bef-c1ca-fede-85c1" name="Mag Cutter" hidden="false" collective="false" import="true" targetId="d495-e84f-18ef-9740" type="selectionEntry"/>
-        <entryLink id="2c5c-932c-f98e-c0bf" name="Scrap Club" hidden="false" collective="false" import="true" targetId="ab8f-0b4c-6093-3ad5" type="selectionEntry">
-          <costs>
-            <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="5.0"/>
-          </costs>
-        </entryLink>
+        <entryLink id="2c5c-932c-f98e-c0bf" name="Scrap Club" hidden="false" collective="false" import="true" targetId="ab8f-0b4c-6093-3ad5" type="selectionEntry"/>
         <entryLink id="2eb1-abd3-1e06-9392" name="Chaincutter" hidden="false" collective="false" import="true" targetId="ad90-870f-abab-e681" type="selectionEntry"/>
         <entryLink id="5f03-3aaf-86f2-8e33" name="Kinetic Gauntlet" hidden="false" collective="false" import="true" targetId="2df7-752b-ca53-576a" type="selectionEntry"/>
         <entryLink id="cfac-bc8b-d0f9-789f" name="Thermal Lance" hidden="false" collective="false" import="true" targetId="1ee4-c161-86f9-0861" type="selectionEntry"/>
