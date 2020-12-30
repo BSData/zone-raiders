@@ -620,7 +620,7 @@ Large sized Model</characteristic>
         <profile id="eb65-d986-724f-2972" name="Mag Cutter" hidden="false" typeId="2de6-5f4b-60e5-136b" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="2a14-4b86-2f09-5c65">Melee</characteristic>
-            <characteristic name="Strength" typeId="8727-d86d-ebbf-f4a2">3AP</characteristic>
+            <characteristic name="Strength" typeId="8727-d86d-ebbf-f4a2">3 AP</characteristic>
             <characteristic name="Ammo" typeId="7264-0a7f-f277-8230"/>
             <characteristic name="Special" typeId="43a7-e6de-709c-3feb"/>
           </characteristics>
@@ -636,7 +636,7 @@ Large sized Model</characteristic>
         <profile id="0086-c078-994a-2e3a" name="Electro-Rod" hidden="false" typeId="2de6-5f4b-60e5-136b" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="2a14-4b86-2f09-5c65">Melee</characteristic>
-            <characteristic name="Strength" typeId="8727-d86d-ebbf-f4a2">4AP</characteristic>
+            <characteristic name="Strength" typeId="8727-d86d-ebbf-f4a2">4 AP</characteristic>
             <characteristic name="Ammo" typeId="7264-0a7f-f277-8230"/>
             <characteristic name="Special" typeId="43a7-e6de-709c-3feb">Stunning</characteristic>
           </characteristics>
@@ -655,7 +655,7 @@ Large sized Model</characteristic>
         <profile id="2e8a-bc1a-bbd2-cb70" name="Graviton Hammer" publicationId="f426-d1c5-b242-a927" page="66" hidden="false" typeId="2de6-5f4b-60e5-136b" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="2a14-4b86-2f09-5c65">Melee</characteristic>
-            <characteristic name="Strength" typeId="8727-d86d-ebbf-f4a2">8AP</characteristic>
+            <characteristic name="Strength" typeId="8727-d86d-ebbf-f4a2">8 AP</characteristic>
             <characteristic name="Ammo" typeId="7264-0a7f-f277-8230">N/A</characteristic>
             <characteristic name="Special" typeId="43a7-e6de-709c-3feb">Brutal, Concussive</characteristic>
           </characteristics>
@@ -1567,7 +1567,7 @@ the area removed. A Small or Medium model may move through the hole.</characteri
       <profiles>
         <profile id="56d3-5f3e-18c6-3595" name="Gantry Runner Rig" publicationId="f426-d1c5-b242-a927" page="140" hidden="false" typeId="1afe-1c8d-b18e-1c01" typeName="Armor">
           <characteristics>
-            <characteristic name="Defense Bonus" typeId="ece3-a041-1ca1-239b"/>
+            <characteristic name="Defense Bonus" typeId="ece3-a041-1ca1-239b">2</characteristic>
             <characteristic name="Survival Bonus" typeId="1c61-5bff-fc3b-8d1d">0</characteristic>
             <characteristic name="Mobility Actions" typeId="fd39-c890-7bfd-9106">Leap</characteristic>
             <characteristic name="Special" typeId="fee8-0b64-98ed-8717">+1 Speed</characteristic>
@@ -1696,7 +1696,7 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <profile id="e099-657a-27ce-fdeb" name="Light Exoskeleton" publicationId="f426-d1c5-b242-a927" page="140" hidden="false" typeId="1afe-1c8d-b18e-1c01" typeName="Armor">
           <characteristics>
             <characteristic name="Defense Bonus" typeId="ece3-a041-1ca1-239b">7</characteristic>
-            <characteristic name="Survival Bonus" typeId="1c61-5bff-fc3b-8d1d"/>
+            <characteristic name="Survival Bonus" typeId="1c61-5bff-fc3b-8d1d">0</characteristic>>
             <characteristic name="Mobility Actions" typeId="fd39-c890-7bfd-9106">Leap</characteristic>
             <characteristic name="Special" typeId="fee8-0b64-98ed-8717">-1 Speed, Weapons loose &apos;Bulky&apos;</characteristic>
           </characteristics>
@@ -1728,7 +1728,7 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <profile id="0b21-bcd5-5e60-f782" name="Concussion Grenade" publicationId="f426-d1c5-b242-a927" page="140" hidden="false" typeId="2de6-5f4b-60e5-136b" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="2a14-4b86-2f09-5c65">6</characteristic>
-            <characteristic name="Strength" typeId="8727-d86d-ebbf-f4a2">2AP</characteristic>
+            <characteristic name="Strength" typeId="8727-d86d-ebbf-f4a2">2 AP</characteristic>
             <characteristic name="Ammo" typeId="7264-0a7f-f277-8230">N/A</characteristic>
             <characteristic name="Special" typeId="43a7-e6de-709c-3feb">Blast (2), Concussive, Grenade</characteristic>
           </characteristics>
@@ -1867,7 +1867,7 @@ the area removed. A Small or Medium model may move through the hole.</characteri
           <characteristics>
             <characteristic name="Range" typeId="2a14-4b86-2f09-5c65">12</characteristic>
             <characteristic name="Strength" typeId="8727-d86d-ebbf-f4a2">0</characteristic>
-            <characteristic name="Ammo" typeId="7264-0a7f-f277-8230">N/A</characteristic>
+            <characteristic name="Ammo" typeId="7264-0a7f-f277-8230"/>
             <characteristic name="Special" typeId="43a7-e6de-709c-3feb"/>
           </characteristics>
         </profile>
@@ -1883,7 +1883,7 @@ the area removed. A Small or Medium model may move through the hole.</characteri
           <characteristics>
             <characteristic name="Range" typeId="2a14-4b86-2f09-5c65">8</characteristic>
             <characteristic name="Strength" typeId="8727-d86d-ebbf-f4a2">2 AP</characteristic>
-            <characteristic name="Ammo" typeId="7264-0a7f-f277-8230">N/A</characteristic>
+            <characteristic name="Ammo" typeId="7264-0a7f-f277-8230"/>
             <characteristic name="Special" typeId="43a7-e6de-709c-3feb"/>
           </characteristics>
         </profile>
@@ -2182,7 +2182,7 @@ the area removed. A Small or Medium model may move through the hole.</characteri
       <profiles>
         <profile id="ac07-7d79-de64-fd93" name="Snub Isotope Cannon" publicationId="f426-d1c5-b242-a927" page="139" hidden="false" typeId="2de6-5f4b-60e5-136b" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="2a14-4b86-2f09-5c65"/>
+            <characteristic name="Range" typeId="2a14-4b86-2f09-5c65">8</characteristic>
             <characteristic name="Strength" typeId="8727-d86d-ebbf-f4a2">5 AP</characteristic>
             <characteristic name="Ammo" typeId="7264-0a7f-f277-8230">1</characteristic>
             <characteristic name="Special" typeId="43a7-e6de-709c-3feb">Primary Weapon, Brutal</characteristic>
@@ -2204,7 +2204,7 @@ the area removed. A Small or Medium model may move through the hole.</characteri
           <characteristics>
             <characteristic name="Range" typeId="2a14-4b86-2f09-5c65">12</characteristic>
             <characteristic name="Strength" typeId="8727-d86d-ebbf-f4a2">8 AP</characteristic>
-            <characteristic name="Ammo" typeId="7264-0a7f-f277-8230"/>
+            <characteristic name="Ammo" typeId="7264-0a7f-f277-8230">1</characteristic>
             <characteristic name="Special" typeId="43a7-e6de-709c-3feb">Primary Weapon, Rupturing, Brutal</characteristic>
           </characteristics>
         </profile>
@@ -2707,10 +2707,10 @@ the area removed. A Small or Medium model may move through the hole.</characteri
       <profiles>
         <profile id="21df-84fa-40b8-5bef" name="Archangel Frame" publicationId="f426-d1c5-b242-a927" page="67" hidden="false" typeId="1afe-1c8d-b18e-1c01" typeName="Armor">
           <characteristics>
-            <characteristic name="Defense Bonus" typeId="ece3-a041-1ca1-239b"/>
+            <characteristic name="Defense Bonus" typeId="ece3-a041-1ca1-239b">4</characteristic>
             <characteristic name="Survival Bonus" typeId="1c61-5bff-fc3b-8d1d">4</characteristic>
             <characteristic name="Mobility Actions" typeId="fd39-c890-7bfd-9106">Flight</characteristic>
-            <characteristic name="Special" typeId="fee8-0b64-98ed-8717"/>
+            <characteristic name="Special" typeId="fee8-0b64-98ed-8717">Flight: Ignore all vertical changes in elevation or obstacles when making a Basic Move.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2750,7 +2750,7 @@ the area removed. A Small or Medium model may move through the hole.</characteri
       <profiles>
         <profile id="6c75-4857-2ef6-eed3" name="Femtotech Membrane" publicationId="f426-d1c5-b242-a927" page="67" hidden="false" typeId="1afe-1c8d-b18e-1c01" typeName="Armor">
           <characteristics>
-            <characteristic name="Defense Bonus" typeId="ece3-a041-1ca1-239b"/>
+            <characteristic name="Defense Bonus" typeId="ece3-a041-1ca1-239b">2</characteristic>
             <characteristic name="Survival Bonus" typeId="1c61-5bff-fc3b-8d1d">10</characteristic>
             <characteristic name="Mobility Actions" typeId="fd39-c890-7bfd-9106">Grapple, Leap</characteristic>
             <characteristic name="Special" typeId="fee8-0b64-98ed-8717">Armor Failure cannot be repaired.</characteristic>
@@ -2790,10 +2790,10 @@ the area removed. A Small or Medium model may move through the hole.</characteri
       <profiles>
         <profile id="7996-2859-97d1-0d04" name="Quantum Barrier" publicationId="f426-d1c5-b242-a927" page="67" hidden="false" typeId="1afe-1c8d-b18e-1c01" typeName="Armor">
           <characteristics>
-            <characteristic name="Defense Bonus" typeId="ece3-a041-1ca1-239b"/>
+            <characteristic name="Defense Bonus" typeId="ece3-a041-1ca1-239b">4</characteristic>
             <characteristic name="Survival Bonus" typeId="1c61-5bff-fc3b-8d1d">0</characteristic>
             <characteristic name="Mobility Actions" typeId="fd39-c890-7bfd-9106">Leap</characteristic>
-            <characteristic name="Special" typeId="fee8-0b64-98ed-8717">Enemy Shooting attck strength is treated as &apos;0&apos; and loses AP.</characteristic>
+            <characteristic name="Special" typeId="fee8-0b64-98ed-8717">Enemy Shooting attack strength is treated as &apos;0&apos; and loses AP.</characteristic>
           </characteristics>
         </profile>
       </profiles>
