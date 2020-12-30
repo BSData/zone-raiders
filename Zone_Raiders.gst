@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="05fa-7f5b-80b0-f115" name="Zone Raiders" revision="2" battleScribeVersion="2.03" authorName="Eric Falsken / Daniele Suppo" authorContact="eric@everylittlewar.com" authorUrl="https://everylittlewar.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="05fa-7f5b-80b0-f115" name="Zone Raiders" revision="3" battleScribeVersion="2.03" authorName="Eric Falsken / Daniele Suppo" authorContact="eric@everylittlewar.com" authorUrl="https://everylittlewar.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="f426-d1c5-b242-a927" name="Core Rules (2019)"/>
   </publications>
