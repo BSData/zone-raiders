@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2733-ff56-101b-0211" name="Nthgens" revision="1" battleScribeVersion="2.03" authorName="Daniele Suppo" library="false" gameSystemId="05fa-7f5b-80b0-f115" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2733-ff56-101b-0211" name="Nthgens" revision="2" battleScribeVersion="2.03" authorName="Daniele Suppo" library="false" gameSystemId="05fa-7f5b-80b0-f115" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="9b80-0a43-5d04-46cf" name="Heavy Variant" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
@@ -1004,7 +1004,7 @@
     <profile id="056f-9aaf-64d9-fa15" name="Rapid Kinetic Weapon" hidden="false" typeId="2de6-5f4b-60e5-136b" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="2a14-4b86-2f09-5c65">18</characteristic>
-        <characteristic name="Strength" typeId="8727-d86d-ebbf-f4a2"/>
+        <characteristic name="Strength" typeId="8727-d86d-ebbf-f4a2">2</characteristic>
         <characteristic name="Ammo" typeId="7264-0a7f-f277-8230">Auto</characteristic>
         <characteristic name="Special" typeId="43a7-e6de-709c-3feb">Sustained Burst(2)</characteristic>
       </characteristics>
@@ -1012,7 +1012,7 @@
     <profile id="8f3a-c014-8084-5e1b" name="Optimal Photon Cannon" publicationId="f426-d1c5-b242-a927" page="102" hidden="false" typeId="2de6-5f4b-60e5-136b" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="2a14-4b86-2f09-5c65">24</characteristic>
-        <characteristic name="Strength" typeId="8727-d86d-ebbf-f4a2"/>
+        <characteristic name="Strength" typeId="8727-d86d-ebbf-f4a2">6 AP</characteristic>
         <characteristic name="Ammo" typeId="7264-0a7f-f277-8230">1</characteristic>
         <characteristic name="Special" typeId="43a7-e6de-709c-3feb">Beam</characteristic>
       </characteristics>
@@ -1043,19 +1043,19 @@
     </profile>
     <profile id="56c3-3729-9a62-87aa" name="Secure Datalink" publicationId="f426-d1c5-b242-a927" page="103" hidden="false" typeId="22be-b182-ca50-7759" typeName="Equipment">
       <characteristics>
-        <characteristic name="Description" typeId="8888-4313-d418-8b26"/>
+        <characteristic name="Description" typeId="8888-4313-d418-8b26">While the model carrying it is Active, the team is immune to the effects of Tech Jammer Equipment while within 18 inches of the Secure Datalink. Gain +4 to Interface Aptitude Checks.</characteristic>
         <characteristic name="Special" typeId="e441-af7d-41b0-ce42"/>
       </characteristics>
     </profile>
     <profile id="a663-7e9a-86c7-58a0" name="Situation Processor" publicationId="f426-d1c5-b242-a927" page="103" hidden="false" typeId="22be-b182-ca50-7759" typeName="Equipment">
       <characteristics>
-        <characteristic name="Description" typeId="8888-4313-d418-8b26"/>
+        <characteristic name="Description" typeId="8888-4313-d418-8b26">2 Actions: When this model can see at least one enemy model, it may grant a single action to any friendly model that must be used immediately. This does not count as their activation.</characteristic>
         <characteristic name="Special" typeId="e441-af7d-41b0-ce42"/>
       </characteristics>
     </profile>
     <profile id="b5e5-6c66-568a-7a99" name="Neuralgrid Backup" publicationId="f426-d1c5-b242-a927" page="103" hidden="false" typeId="22be-b182-ca50-7759" typeName="Equipment">
       <characteristics>
-        <characteristic name="Description" typeId="8888-4313-d418-8b26"/>
+        <characteristic name="Description" typeId="8888-4313-d418-8b26">When this model is killed, it can be resurrected with all skills and stats kept by paying its initial recruiting cost, though equipment may still be lost.</characteristic>
         <characteristic name="Special" typeId="e441-af7d-41b0-ce42"/>
       </characteristics>
     </profile>
