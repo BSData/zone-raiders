@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="05fa-7f5b-80b0-f115" name="Zone Raiders" revision="3" battleScribeVersion="2.03" authorName="Eric Falsken / Daniele Suppo" authorContact="eric@everylittlewar.com" authorUrl="https://everylittlewar.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="05fa-7f5b-80b0-f115" name="Zone Raiders" revision="4" battleScribeVersion="2.03" authorName="Eric Falsken / Daniele Suppo" authorContact="eric@everylittlewar.com" authorUrl="https://everylittlewar.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="f426-d1c5-b242-a927" name="Core Rules (2019)"/>
   </publications>
@@ -70,6 +70,7 @@
     <categoryEntry id="45e9-c9bd-8b64-d1ad" name="Equipment" hidden="false"/>
     <categoryEntry id="38e5-92a8-e94b-96a6" name="Weapons" hidden="false"/>
     <categoryEntry id="1b22-281d-d74d-e24f" name="Armor" hidden="false"/>
+    <categoryEntry id="d4ec-5f12-d1f6-c986" name="Configuration" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="28f8-a6d3-389f-be4d" name="Raider Team" publicationId="f426-d1c5-b242-a927" hidden="false">
@@ -84,6 +85,7 @@
         <categoryLink id="513e-93eb-3e80-7b21" name="Campaign Advancement" hidden="false" targetId="c4bd-54ea-fa5a-ddef" primary="false"/>
         <categoryLink id="19b3-df68-669e-5cc4" name="Artifacts" hidden="false" targetId="9851-39e2-700b-74f5" primary="false"/>
         <categoryLink id="ade6-cb76-a35e-6bb6" name="Special Units" hidden="false" targetId="8ad0-0a6f-3dbb-cb18" primary="false"/>
+        <categoryLink id="2172-7289-8f29-b6de" name="Configuration" hidden="false" targetId="d4ec-5f12-d1f6-c986" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -544,6 +546,9 @@ Large sized Model</characteristic>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e739-3de3-9c8f-6c46" type="min"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb7d-af87-284a-25ff" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="9aae-ece0-edf6-830f" name="New CategoryLink" hidden="false" targetId="d4ec-5f12-d1f6-c986" primary="true"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="2feb-f1ca-2b15-9f0d" name="Rules Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="d742-8ae2-c4f4-46cb">
           <constraints>
@@ -1696,7 +1701,7 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <profile id="e099-657a-27ce-fdeb" name="Light Exoskeleton" publicationId="f426-d1c5-b242-a927" page="140" hidden="false" typeId="1afe-1c8d-b18e-1c01" typeName="Armor">
           <characteristics>
             <characteristic name="Defense Bonus" typeId="ece3-a041-1ca1-239b">7</characteristic>
-            <characteristic name="Survival Bonus" typeId="1c61-5bff-fc3b-8d1d">0</characteristic>>
+            <characteristic name="Survival Bonus" typeId="1c61-5bff-fc3b-8d1d">0</characteristic>
             <characteristic name="Mobility Actions" typeId="fd39-c890-7bfd-9106">Leap</characteristic>
             <characteristic name="Special" typeId="fee8-0b64-98ed-8717">-1 Speed, Weapons loose &apos;Bulky&apos;</characteristic>
           </characteristics>
