@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="05fa-7f5b-80b0-f115" name="Zone Raiders" revision="4" battleScribeVersion="2.03" authorName="Eric Falsken / Daniele Suppo" authorContact="eric@everylittlewar.com" authorUrl="https://everylittlewar.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="05fa-7f5b-80b0-f115" name="Zone Raiders" revision="6" battleScribeVersion="2.03" authorName="Daniele Suppo / Eric Falsken" authorContact="" authorUrl="" type="gameSystem">
   <publications>
     <publication id="f426-d1c5-b242-a927" name="Core Rules (2019)"/>
   </publications>
   <costTypes>
-    <costType id="ae78-7f45-75c9-abaf" name=" RU" defaultCostLimit="-1.0" hidden="false"/>
-    <costType id="ecac-5616-8585-1a04" name="+Underdog" defaultCostLimit="-1.0" hidden="false"/>
+    <costType id="ae78-7f45-75c9-abaf" name="RU" defaultCostLimit="-1" hidden="false"/>
+    <costType id="ecac-5616-8585-1a04" name="+Underdog" defaultCostLimit="-1" hidden="false"/>
   </costTypes>
   <profileTypes>
     <profileType id="dbe7-2754-358b-1829" name="Model">
@@ -77,7 +77,7 @@
       <categoryLinks>
         <categoryLink id="c928-557d-a37f-ef51" name="Raiders" hidden="false" targetId="bf5f-aaed-2bd1-8a44" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80ee-af9b-069b-5a54" type="min"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80ee-af9b-069b-5a54" type="min"/>
           </constraints>
         </categoryLink>
         <categoryLink id="15c6-ff99-367a-7c0c" name="Gear Reserve" hidden="false" targetId="16d4-49c0-ef22-e381" primary="false"/>
@@ -92,8 +92,8 @@
   <selectionEntries>
     <selectionEntry id="dd67-a34b-6073-3243" name="Current Resources" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecb0-a93c-b573-b060" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23cb-72cc-effe-4708" type="min"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecb0-a93c-b573-b060" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23cb-72cc-effe-4708" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="7d4e-8fce-5636-da75" name="Campaign Advancement" hidden="false" targetId="c4bd-54ea-fa5a-ddef" primary="true"/>
@@ -101,30 +101,30 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="5bd1-6cb5-4aff-eaf7" name="Resources" hidden="false" collective="false" import="true">
           <modifiers>
-            <modifier type="increment" field="50dc-a2fe-4ecf-96dd" value="2.0">
+            <modifier type="increment" field="50dc-a2fe-4ecf-96dd" value="2">
               <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e735-0087-eca9-c738" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e735-0087-eca9-c738" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
-            <modifier type="increment" field="50dc-a2fe-4ecf-96dd" value="1.0">
+            <modifier type="increment" field="50dc-a2fe-4ecf-96dd" value="1">
               <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="348d-12e4-4ab9-97fa" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="348d-12e4-4ab9-97fa" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
-            <modifier type="increment" field="db15-586e-b60c-1db9" value="2.0">
+            <modifier type="increment" field="db15-586e-b60c-1db9" value="2">
               <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e735-0087-eca9-c738" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e735-0087-eca9-c738" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
-            <modifier type="increment" field="db15-586e-b60c-1db9" value="1.0">
+            <modifier type="increment" field="db15-586e-b60c-1db9" value="1">
               <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="348d-12e4-4ab9-97fa" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="348d-12e4-4ab9-97fa" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50dc-a2fe-4ecf-96dd" type="max"/>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db15-586e-b60c-1db9" type="min"/>
+            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50dc-a2fe-4ecf-96dd" type="max"/>
+            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db15-586e-b60c-1db9" type="min"/>
           </constraints>
           <entryLinks>
             <entryLink id="8de8-8f04-b3c8-bcf8" name="Bio" hidden="false" collective="false" import="true" targetId="a334-4cac-4654-7039" type="selectionEntry"/>
@@ -134,14 +134,14 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8b1a-f52a-d90e-3cfa" name="Team Record" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="daae-6d35-debb-a867" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6274-6ad1-8d98-4966" type="min"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="daae-6d35-debb-a867" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6274-6ad1-8d98-4966" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="360c-e3cd-5f76-7de4" name="Campaign Advancement" hidden="false" targetId="c4bd-54ea-fa5a-ddef" primary="true"/>
@@ -151,28 +151,28 @@
           <selectionEntries>
             <selectionEntry id="f857-eb56-d3b2-7e4b" name="Tie" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e735-0087-eca9-c738" name="Win" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="348d-12e4-4ab9-97fa" name="Loss" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ad9c-6b39-77bd-b3af" name="Ancient Survivor" publicationId="f426-d1c5-b242-a927" page="108" hidden="false" collective="false" import="true" type="model">
@@ -197,20 +197,20 @@
       <entryLinks>
         <entryLink id="4340-77c3-67c5-e206" name="Bio" hidden="false" collective="false" import="true" targetId="a334-4cac-4654-7039" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42c0-2a73-8e49-9e0d" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58a5-6c6f-4c81-a7e2" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42c0-2a73-8e49-9e0d" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58a5-6c6f-4c81-a7e2" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="1c70-a336-1be3-bda2" name="Tactics" hidden="false" collective="false" import="true" targetId="017c-75a4-1c6b-c02a" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0648-9034-e022-60f5" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6758-c924-d936-ba08" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0648-9034-e022-60f5" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6758-c924-d936-ba08" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="1f8e-795e-99f1-3ae3" name="Tech" hidden="false" collective="false" import="true" targetId="06ab-3e49-cb9b-2931" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b072-8abb-b54f-50c7" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9a0-6b77-be3a-f64b" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b072-8abb-b54f-50c7" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9a0-6b77-be3a-f64b" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="9265-1d5f-6d0a-30fd" name="XP" hidden="false" collective="false" import="true" targetId="ffb6-3a4a-6d2a-9672" type="selectionEntry"/>
@@ -218,8 +218,8 @@
         <entryLink id="63ac-1104-fdc5-7027" name="Mission Leader" hidden="false" collective="false" import="true" targetId="253c-d311-7c9f-dc76" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="15.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="15"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6253-9e7e-9585-2136" name="Mysterious Lone Warrior" hidden="false" collective="false" import="true" type="model">
@@ -236,7 +236,7 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="9a97-bc9b-c6ea-a438" name=" Lone Warrior" publicationId="f426-d1c5-b242-a927" page="108" hidden="false">
+        <rule id="9a97-bc9b-c6ea-a438" name="Lone Warrior" publicationId="f426-d1c5-b242-a927" page="108" hidden="false">
           <description>This model may only be fielded for 3 games before leaving on some further quest.</description>
         </rule>
       </rules>
@@ -249,48 +249,48 @@
       <selectionEntries>
         <selectionEntry id="2ad4-5833-e5df-aa59" name="Fielded Game" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="969b-0611-50c9-cc03" type="max"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="969b-0611-50c9-cc03" type="max"/>
           </constraints>
           <costs>
-            <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-            <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+            <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+            <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="4349-bf32-0a9b-6273" name="Graviton Emitter" hidden="false" collective="false" import="true" targetId="7734-ef84-6755-e80d" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="ae78-7f45-75c9-abaf" value="0.0"/>
+            <modifier type="set" field="ae78-7f45-75c9-abaf" value="0"/>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="152c-2ee3-1f39-bc63" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2801-6f7e-7388-083e" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="152c-2ee3-1f39-bc63" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2801-6f7e-7388-083e" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="c6d6-24c2-0779-e4fd" name="Mag Cutter" hidden="false" collective="false" import="true" targetId="d495-e84f-18ef-9740" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="ae78-7f45-75c9-abaf" value="0.0"/>
+            <modifier type="set" field="ae78-7f45-75c9-abaf" value="0"/>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5b3-b68e-cead-fb70" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7fc-ed95-bbd4-abd8" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5b3-b68e-cead-fb70" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7fc-ed95-bbd4-abd8" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="6ede-1de7-efaa-e5d0" name="Regenerative Mesh" hidden="false" collective="false" import="true" targetId="cec8-0361-6328-397e" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="ae78-7f45-75c9-abaf" value="0.0"/>
+            <modifier type="set" field="ae78-7f45-75c9-abaf" value="0"/>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c508-282b-20f7-56f4" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c48-f82c-53e0-c35b" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c508-282b-20f7-56f4" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c48-f82c-53e0-c35b" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="84e1-6063-dbc5-4478" name="XP" hidden="false" collective="false" import="true" targetId="ffb6-3a4a-6d2a-9672" type="selectionEntry"/>
         <entryLink id="7c0b-b960-c086-c008" name="Mission Leader" hidden="false" collective="false" import="true" targetId="253c-d311-7c9f-dc76" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="15.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="15"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3492-1261-fc37-6770" name="Wandering Traveler" hidden="false" collective="false" import="true" type="model">
@@ -323,14 +323,14 @@
         <entryLink id="4f62-c85e-94da-0b96" name="XP" hidden="false" collective="false" import="true" targetId="ffb6-3a4a-6d2a-9672" type="selectionEntry"/>
         <entryLink id="1def-713f-e892-58d3" name="Experience Levels" hidden="false" collective="false" import="true" targetId="df5e-be65-4077-5bcf" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2044-997a-6b20-1ee6" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2044-997a-6b20-1ee6" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="4b53-d2da-41b3-71aa" name="Mission Leader" hidden="false" collective="false" import="true" targetId="253c-d311-7c9f-dc76" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="15.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="15"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="df40-9610-8601-56f3" name="Amnesiac Android" publicationId="f426-d1c5-b242-a927" page="108" hidden="false" collective="false" import="true" type="model">
@@ -339,32 +339,32 @@
           <modifiers>
             <modifier type="increment" field="589c-af0c-03e2-e7ed" value="1">
               <repeats>
-                <repeat field="selections" scope="df40-9610-8601-56f3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="84e0-6f02-4db7-4e2b" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="df40-9610-8601-56f3" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="84e0-6f02-4db7-4e2b" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
             <modifier type="increment" field="172c-d0af-a3ba-c889" value="1">
               <repeats>
-                <repeat field="selections" scope="df40-9610-8601-56f3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="84e0-6f02-4db7-4e2b" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="df40-9610-8601-56f3" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="84e0-6f02-4db7-4e2b" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
             <modifier type="increment" field="597a-266a-352f-08f5" value="1">
               <repeats>
-                <repeat field="selections" scope="df40-9610-8601-56f3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="84e0-6f02-4db7-4e2b" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="df40-9610-8601-56f3" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="84e0-6f02-4db7-4e2b" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
             <modifier type="increment" field="8dbb-f9b3-e11b-bc19" value="1">
               <repeats>
-                <repeat field="selections" scope="df40-9610-8601-56f3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="84e0-6f02-4db7-4e2b" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="df40-9610-8601-56f3" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="84e0-6f02-4db7-4e2b" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
             <modifier type="increment" field="6b38-717b-2dd5-0dad" value="1">
               <repeats>
-                <repeat field="selections" scope="df40-9610-8601-56f3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="84e0-6f02-4db7-4e2b" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="df40-9610-8601-56f3" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="84e0-6f02-4db7-4e2b" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
             <modifier type="increment" field="83ef-338d-1317-7d8c" value="1">
               <repeats>
-                <repeat field="selections" scope="df40-9610-8601-56f3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="84e0-6f02-4db7-4e2b" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="df40-9610-8601-56f3" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="84e0-6f02-4db7-4e2b" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -392,8 +392,8 @@
       <selectionEntries>
         <selectionEntry id="84e0-6f02-4db7-4e2b" name="Tech Upgrade" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
-            <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-            <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+            <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+            <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -401,14 +401,14 @@
         <entryLink id="31d1-295a-1164-69a6" name="XP" hidden="false" collective="false" import="true" targetId="ffb6-3a4a-6d2a-9672" type="selectionEntry"/>
         <entryLink id="1782-5a7f-aab2-2f84" name="Experience Levels" hidden="false" collective="false" import="true" targetId="df5e-be65-4077-5bcf" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0f0-fd9d-a882-aba1" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0f0-fd9d-a882-aba1" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="0b87-8c6c-920f-810a" name="Mission Leader" hidden="false" collective="false" import="true" targetId="253c-d311-7c9f-dc76" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="15.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="15"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eca3-d1ab-9e9a-e2bd" name="Seeker Knight" hidden="false" collective="false" import="true" type="model">
@@ -433,51 +433,51 @@
       <entryLinks>
         <entryLink id="c013-7ac8-0738-1083" name="Experience Levels" hidden="false" collective="false" import="true" targetId="df5e-be65-4077-5bcf" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="701b-5d90-7578-fbf2" type="min"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="701b-5d90-7578-fbf2" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="ed64-2540-a654-07c5" name="Mag-Pulser" hidden="false" collective="false" import="true" targetId="586a-1f12-6f15-ca2e" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="ae78-7f45-75c9-abaf" value="0.0"/>
+            <modifier type="set" field="ae78-7f45-75c9-abaf" value="0"/>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b72d-2b3a-4c61-2661" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e71c-af0b-79ee-d71b" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b72d-2b3a-4c61-2661" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e71c-af0b-79ee-d71b" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="9f3e-2491-898c-5c97" name="Vorpal Edge" hidden="false" collective="false" import="true" targetId="5b5d-3b2f-40d1-f543" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="ae78-7f45-75c9-abaf" value="0.0"/>
+            <modifier type="set" field="ae78-7f45-75c9-abaf" value="0"/>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40e3-0ae3-9714-1b51" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b6f-872f-bcad-e41a" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40e3-0ae3-9714-1b51" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b6f-872f-bcad-e41a" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="224e-039f-5401-d1bd" name="Mechanized Exoskeleton" hidden="false" collective="false" import="true" targetId="2aab-4f66-77b4-e72c" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="ae78-7f45-75c9-abaf" value="0.0"/>
+            <modifier type="set" field="ae78-7f45-75c9-abaf" value="0"/>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ef7-649f-27b9-c07b" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bf4-3c7b-4d82-11d5" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ef7-649f-27b9-c07b" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bf4-3c7b-4d82-11d5" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="8ca0-0bd5-254b-2dcd" name="Interface Deck" hidden="false" collective="false" import="true" targetId="a846-539a-e342-096c" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="ae78-7f45-75c9-abaf" value="0.0"/>
+            <modifier type="set" field="ae78-7f45-75c9-abaf" value="0"/>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73ef-7475-9032-6377" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d77-5296-7ec6-ab9e" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73ef-7475-9032-6377" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d77-5296-7ec6-ab9e" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="58a4-523d-f0b9-f3b0" name="XP" hidden="false" collective="false" import="true" targetId="ffb6-3a4a-6d2a-9672" type="selectionEntry"/>
         <entryLink id="5622-cefb-b3b3-6101" name="Mission Leader" hidden="false" collective="false" import="true" targetId="253c-d311-7c9f-dc76" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="15.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="15"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="448a-ef4b-d350-0227" name="Heavy Industrial Robot" hidden="false" collective="false" import="true" type="model">
@@ -508,43 +508,43 @@ Large sized Model</characteristic>
       <entryLinks>
         <entryLink id="277f-1c55-e152-5232" name="Industrial Claws" hidden="false" collective="false" import="true" targetId="9873-aa88-525e-6203" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="ae78-7f45-75c9-abaf" value="0.0"/>
+            <modifier type="set" field="ae78-7f45-75c9-abaf" value="0"/>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8138-7b2d-7334-ab4a" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7780-dc1b-6a1f-6d8f" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8138-7b2d-7334-ab4a" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7780-dc1b-6a1f-6d8f" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="c86e-1dd0-100f-6899" name="Pneumatic Hailer" hidden="false" collective="false" import="true" targetId="2c06-3502-6454-de99" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="ae78-7f45-75c9-abaf" value="0.0"/>
+            <modifier type="set" field="ae78-7f45-75c9-abaf" value="0"/>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a68-1eb4-813c-58cb" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f71-8927-3c8e-68b1" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a68-1eb4-813c-58cb" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f71-8927-3c8e-68b1" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="f20f-066b-8119-01cc" name="Cutter Tools" hidden="false" collective="false" import="true" targetId="0de0-6f16-2f71-3b04" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="ae78-7f45-75c9-abaf" value="0.0"/>
+            <modifier type="set" field="ae78-7f45-75c9-abaf" value="0"/>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90f8-5077-179f-6981" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71ce-6ddc-0247-b68f" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90f8-5077-179f-6981" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71ce-6ddc-0247-b68f" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="ee83-1b3d-54c8-dfc6" name="XP" hidden="false" collective="false" import="true" targetId="ffb6-3a4a-6d2a-9672" type="selectionEntry"/>
         <entryLink id="1145-70d9-dd70-0b19" name="Mission Leader" hidden="false" collective="false" import="true" targetId="253c-d311-7c9f-dc76" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="120.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="15.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="120"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="15"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="388d-a664-d276-c5ef" name="Rules Level" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e739-3de3-9c8f-6c46" type="min"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb7d-af87-284a-25ff" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e739-3de3-9c8f-6c46" type="min"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb7d-af87-284a-25ff" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="9aae-ece0-edf6-830f" name="New CategoryLink" hidden="false" targetId="d4ec-5f12-d1f6-c986" primary="true"/>
@@ -552,8 +552,8 @@ Large sized Model</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="2feb-f1ca-2b15-9f0d" name="Rules Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="d742-8ae2-c4f4-46cb">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f337-6c98-d7c8-e6eb" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00d2-0cd9-fd7a-cd57" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f337-6c98-d7c8-e6eb" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00d2-0cd9-fd7a-cd57" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="d742-8ae2-c4f4-46cb" name="Campaign" hidden="false" collective="false" import="true" targetId="0aa3-b058-1906-a71c" type="selectionEntry"/>
@@ -562,8 +562,8 @@ Large sized Model</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -578,8 +578,8 @@ Large sized Model</characteristic>
         </profile>
       </profiles>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="15.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1b89-fec3-134b-d36a" name="Bash" hidden="false" collective="false" import="true" type="upgrade">
@@ -597,8 +597,8 @@ Large sized Model</characteristic>
         <infoLink id="e826-9988-dd95-de3e" name="Concussive" publicationId="f426-d1c5-b242-a927" hidden="false" targetId="5bb2-b9b1-ab4a-df1f" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ab8f-0b4c-6093-3ad5" name="Scrap Club" hidden="false" collective="false" import="true" type="upgrade">
@@ -616,8 +616,8 @@ Large sized Model</characteristic>
         <infoLink id="880d-36e8-b35f-4c45" name="Concussive" hidden="false" targetId="5bb2-b9b1-ab4a-df1f" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="5.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="5"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d495-e84f-18ef-9740" name="Mag Cutter" publicationId="f426-d1c5-b242-a927" hidden="false" collective="false" import="true" type="upgrade">
@@ -632,8 +632,8 @@ Large sized Model</characteristic>
         </profile>
       </profiles>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="5.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="5"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e861-a5ee-a610-4d5a" name="Electro-Rod" publicationId="f426-d1c5-b242-a927" hidden="false" collective="false" import="true" type="upgrade">
@@ -651,8 +651,8 @@ Large sized Model</characteristic>
         <infoLink id="77a4-e546-320a-dd13" name="Stunning" hidden="false" targetId="bdf1-92d1-0874-5b0b" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="10.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="10"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9883-07e6-5e29-3f4c" name="Graviton Hammer" publicationId="f426-d1c5-b242-a927" page="66" hidden="false" collective="false" import="true" type="upgrade">
@@ -675,20 +675,20 @@ Large sized Model</characteristic>
         <categoryLink id="4c1f-a818-a264-fffc" name="Weapons" hidden="false" targetId="38e5-92a8-e94b-96a6" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ffb6-3a4a-6d2a-9672" name="XP" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="df5e-be65-4077-5bcf" name="Starting Levels" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="157b-5c5a-2e87-d33c" name="Killer Instinct" hidden="false" collective="false" import="true" type="upgrade">
@@ -699,8 +699,8 @@ Large sized Model</characteristic>
         <categoryLink id="6c66-3fae-fadd-0b98" name="Skill" hidden="false" targetId="be86-15c5-0957-eb57" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3fc9-8e90-c451-2c8a" name="Skirmisher" hidden="false" collective="false" import="true" type="upgrade">
@@ -711,210 +711,210 @@ Large sized Model</characteristic>
         <categoryLink id="6364-1e6e-0039-f916" name="Skill" hidden="false" targetId="be86-15c5-0957-eb57" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f5db-8af6-1e9e-8e5e" name="Faster!" publicationId="f426-d1c5-b242-a927" page="74" hidden="false" collective="false" import="true" type="upgrade">
       <selectionEntryGroups>
         <selectionEntryGroup id="5caf-61eb-fefa-55ae" name="Choose One Stat" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbc1-52cd-ef03-4cc1" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21ff-b0f0-d645-9d2b" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbc1-52cd-ef03-4cc1" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21ff-b0f0-d645-9d2b" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="388f-4169-b164-7966" name="+2 Aptitude" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5f52-7560-af2c-55ca" name="Speed" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cc45-8cd7-6083-83cc" name="Deadlier!" hidden="false" collective="false" import="true" type="upgrade">
       <selectionEntryGroups>
         <selectionEntryGroup id="bd7d-9ded-1e69-6f09" name="Choose One Stat" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a94-c700-233e-fd59" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c146-8b34-cc99-ec31" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a94-c700-233e-fd59" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c146-8b34-cc99-ec31" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="5c84-5486-d108-6bab" name="+2 Melee" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2116-584d-5f2d-a76c" name="Shooting" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f042-f246-8c21-d995" name="Tougher!" publicationId="f426-d1c5-b242-a927" hidden="false" collective="false" import="true" type="upgrade">
       <selectionEntryGroups>
         <selectionEntryGroup id="b508-7784-aabb-4de0" name="Choose One Stat" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f14-79cb-f961-7df3" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a50-482d-517a-ebd1" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f14-79cb-f961-7df3" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a50-482d-517a-ebd1" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="5399-ecef-8173-b576" name="Defense" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9263-c820-a976-6645" name="Survival" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="17fe-5f63-4170-f4db" name="Sharper!" hidden="false" collective="false" import="true" type="upgrade">
       <selectionEntryGroups>
         <selectionEntryGroup id="3ffe-030e-14c7-cb64" name="Choose One Stat" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9b1-bf4a-2d59-f82d" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a092-f9fe-d646-40f2" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9b1-bf4a-2d59-f82d" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a092-f9fe-d646-40f2" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="3651-d64d-b6ea-88ae" name="Aptitude" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3d92-6239-b1f2-7fae" name="Survival" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8eea-1a73-e2c0-85a9" name="Talented!" hidden="false" collective="false" import="true" type="upgrade">
       <selectionEntryGroups>
         <selectionEntryGroup id="87b0-f936-147c-bace" name="Choose Two Stats" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1404-9ab9-2b60-9350" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d56-bf26-b73a-bd17" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1404-9ab9-2b60-9350" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d56-bf26-b73a-bd17" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="902a-0d7a-2f7d-9fd4" name="Shooting" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c7fd-0478-54b3-1459" name="Aptitude" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8e55-ad7a-0a88-dc53" name="Defense" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9097-1d13-52b6-9e4a" name="Melee" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="20cc-22a0-0335-f7eb" name="Survival" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fa60-d967-6d44-90f8" name="Gifted!" hidden="false" collective="false" import="true" type="upgrade">
       <selectionEntryGroups>
         <selectionEntryGroup id="c40a-e75a-0231-1c90" name="Choose One Stat" hidden="false" collective="false" import="true" defaultSelectionEntryId="af51-3ee8-1e79-63c0">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b841-92e3-9b6b-b1b3" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aeb7-7a0d-7e25-eb39" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b841-92e3-9b6b-b1b3" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aeb7-7a0d-7e25-eb39" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="af51-3ee8-1e79-63c0" name="Shooting" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="91e6-af6e-8e38-af9f" name="Aptitude" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b982-cbe4-5ca2-8521" name="Defense" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="dfc7-99c7-a4f1-ced6" name="Melee" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3f73-0b8c-c4ad-eb99" name="Speed" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b00a-370e-404b-26ae" name="Survival" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -928,8 +928,8 @@ Large sized Model</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6097-04a6-bf88-03ed" name="Tactical Sense" hidden="false" collective="false" import="true" type="upgrade">
@@ -937,8 +937,8 @@ Large sized Model</characteristic>
         <infoLink id="d826-29db-8b2b-2695" name="Tactical Sense" hidden="false" targetId="6c02-04bd-5afc-c655" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3db1-ff40-9f22-a0c0" name="Tactical Directive" hidden="false" collective="false" import="true" type="upgrade">
@@ -946,8 +946,8 @@ Large sized Model</characteristic>
         <infoLink id="7a26-4211-c52e-947c" name="Tactical Directive" hidden="false" targetId="8747-754f-0c2a-f05b" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d3d7-d8dd-4b50-09ed" name="Tactical Mastery" hidden="false" collective="false" import="true" type="upgrade">
@@ -955,8 +955,8 @@ Large sized Model</characteristic>
         <infoLink id="9370-365c-bd15-212b" name="Tactical Mastery" hidden="false" targetId="56be-0d66-6f61-a1e7" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e226-cf0e-d276-9daf" name="Assaulter" hidden="false" collective="false" import="true" type="upgrade">
@@ -964,8 +964,8 @@ Large sized Model</characteristic>
         <infoLink id="6a4b-a57e-2561-0336" name="Assaulter" hidden="false" targetId="9a09-275f-8cac-c6ef" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b7dd-9417-16a4-ba9a" name="Forward Positioning" hidden="false" collective="false" import="true" type="upgrade">
@@ -973,8 +973,8 @@ Large sized Model</characteristic>
         <infoLink id="7da9-de99-3a84-2e83" name="Forward Positioning" hidden="false" targetId="39ac-a5ca-4ab4-abb1" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dcb5-0591-8e07-89ec" name="Stealth" hidden="false" collective="false" import="true" type="upgrade">
@@ -982,8 +982,8 @@ Large sized Model</characteristic>
         <infoLink id="a460-788c-2444-b8fd" name="Stealth" hidden="false" targetId="3dd8-54b8-412e-99c1" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d6c1-77f9-b604-1634" name="Snap Fire" hidden="false" collective="false" import="true" type="upgrade">
@@ -991,8 +991,8 @@ Large sized Model</characteristic>
         <infoLink id="0d04-62f1-1317-d4cd" name="Snap Fire" hidden="false" targetId="4840-6af6-8993-1862" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a68d-3e4d-e493-96c1" name="Firebase" hidden="false" collective="false" import="true" type="upgrade">
@@ -1000,8 +1000,8 @@ Large sized Model</characteristic>
         <infoLink id="1f97-30b2-decb-4bef" name="Firebase" hidden="false" targetId="1b97-3e03-91a7-d735" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="83c0-3592-4220-4cbe" name="Guardian" hidden="false" collective="false" import="true" type="upgrade">
@@ -1009,8 +1009,8 @@ Large sized Model</characteristic>
         <infoLink id="5dd2-6abe-66f2-a3b1" name="Guardian" hidden="false" targetId="b300-70d3-7364-6a17" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a5c3-8499-9341-51d2" name="Superior Stealth" hidden="false" collective="false" import="true" type="upgrade">
@@ -1018,8 +1018,8 @@ Large sized Model</characteristic>
         <infoLink id="3724-dd92-6c28-7b05" name="Superior Stealth" hidden="false" targetId="b648-d820-b708-b8b3" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4896-305d-75e0-6f76" name="Medic" hidden="false" collective="false" import="true" type="upgrade">
@@ -1027,8 +1027,8 @@ Large sized Model</characteristic>
         <infoLink id="50af-b3ab-fc25-d2d3" name="Medic" hidden="false" targetId="47ba-21ec-1501-5113" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ac40-af07-f960-ebed" name="Elusive" hidden="false" collective="false" import="true" type="upgrade">
@@ -1036,8 +1036,8 @@ Large sized Model</characteristic>
         <infoLink id="1dac-db6a-9496-f8f4" name="Elusive" hidden="false" targetId="9a4d-d8fc-e148-2f24" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e348-789c-4cd1-141c" name="Fast Striker" hidden="false" collective="false" import="true" type="upgrade">
@@ -1045,8 +1045,8 @@ Large sized Model</characteristic>
         <infoLink id="25cf-ec08-4621-b397" name="Fast Striker" hidden="false" targetId="798e-857a-a718-73d5" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5fbc-55d8-e031-b70a" name="Brute Force" hidden="false" collective="false" import="true" type="upgrade">
@@ -1054,8 +1054,8 @@ Large sized Model</characteristic>
         <infoLink id="0ff1-ebb0-9baa-4b23" name="Brute Force" hidden="false" targetId="efae-a8b9-5258-7ea1" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="470d-947f-8e16-7588" name="Die Hard" hidden="false" collective="false" import="true" type="upgrade">
@@ -1063,8 +1063,8 @@ Large sized Model</characteristic>
         <infoLink id="9e2d-cd0a-86b6-7736" name="Die Hard" hidden="false" targetId="b6c4-36f2-5d6c-b632" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2c24-fe3c-985b-2c78" name="Tough" hidden="false" collective="false" import="true" type="upgrade">
@@ -1072,8 +1072,8 @@ Large sized Model</characteristic>
         <infoLink id="3266-bc52-31a8-4e1b" name="Tough" hidden="false" targetId="7181-ecc8-6b51-9220" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e2d6-4cbe-d34d-4dee" name="Headshot" hidden="false" collective="false" import="true" type="upgrade">
@@ -1081,8 +1081,8 @@ Large sized Model</characteristic>
         <infoLink id="b2b9-d374-b7c3-1634" name="Headshot" hidden="false" targetId="6cad-26eb-277a-bb53" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="47e0-013d-d9b6-4b1f" name="Quickdraw" hidden="false" collective="false" import="true" type="upgrade">
@@ -1090,8 +1090,8 @@ Large sized Model</characteristic>
         <infoLink id="c6aa-b122-e720-777f" name="Quickdraw" hidden="false" targetId="e2f6-f168-3e64-248f" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5a60-0946-7e0b-363d" name="Showdown" hidden="false" collective="false" import="true" type="upgrade">
@@ -1099,8 +1099,8 @@ Large sized Model</characteristic>
         <infoLink id="c3d2-3e81-9ac6-579e" name="Showdown" hidden="false" targetId="6e46-3909-5917-34b2" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4581-1fb5-d413-cb90" name="Nerves of Steel" hidden="false" collective="false" import="true" type="upgrade">
@@ -1108,17 +1108,17 @@ Large sized Model</characteristic>
         <infoLink id="a196-1cd4-b953-5023" name="Nerves of Steel" hidden="false" targetId="7ed2-d226-53a7-8bc4" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="85ac-b5dc-ae5f-926b" name="Catfall" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="dabe-851a-f7a3-a841" name="Catfall" page="" hidden="false" targetId="d0ba-eff5-e4b2-4dd8" type="profile"/>
+        <infoLink id="dabe-851a-f7a3-a841" name="Catfall" hidden="false" targetId="d0ba-eff5-e4b2-4dd8" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d7f9-d5ac-6c30-4600" name="Counter Attack" hidden="false" collective="false" import="true" type="upgrade">
@@ -1126,8 +1126,8 @@ Large sized Model</characteristic>
         <infoLink id="f2c9-ce5f-775f-a4c2" name="Counter Attack" hidden="false" targetId="57ca-b43a-1a20-b818" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0de8-06d1-ed95-3371" name="Sentry" hidden="false" collective="false" import="true" type="upgrade">
@@ -1135,8 +1135,8 @@ Large sized Model</characteristic>
         <infoLink id="3487-271a-9146-df67" name="Sentry" hidden="false" targetId="f66e-8e16-0a2b-6ee1" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="87e3-0cef-a1cf-60b4" name="Dodger" hidden="false" collective="false" import="true" type="upgrade">
@@ -1144,8 +1144,8 @@ Large sized Model</characteristic>
         <infoLink id="932b-f616-1593-914d" name="Dodger" hidden="false" targetId="6b9a-75ea-d739-7073" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4fc0-aa3d-12a5-5b23" name="Braced" hidden="false" collective="false" import="true" type="upgrade">
@@ -1153,8 +1153,8 @@ Large sized Model</characteristic>
         <infoLink id="816e-ce20-25c9-6535" name="Braced" hidden="false" targetId="3a24-a8d6-b1be-9826" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ebaf-a10d-4f87-35c4" name="Fire Coordinator" hidden="false" collective="false" import="true" type="upgrade">
@@ -1162,8 +1162,8 @@ Large sized Model</characteristic>
         <infoLink id="ca09-a513-f18b-af1c" name="Fire Coordinator" hidden="false" targetId="4b51-6a0e-b0d2-bcf8" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="01ef-d678-9ece-7f5f" name="Heads Down" hidden="false" collective="false" import="true" type="upgrade">
@@ -1171,8 +1171,8 @@ Large sized Model</characteristic>
         <infoLink id="ee2b-4286-d91b-f913" name="Heads Down" hidden="false" targetId="251a-fa84-c252-220a" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="49bb-dfd7-3c15-0669" name="Dual Wield" hidden="false" collective="false" import="true" type="upgrade">
@@ -1180,8 +1180,8 @@ Large sized Model</characteristic>
         <infoLink id="27bd-f5ac-74c0-b254" name="Dual Wield" hidden="false" targetId="9e78-f2dd-5283-72b0" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ca07-e4fe-e553-f29e" name="Pistoleer" hidden="false" collective="false" import="true" type="upgrade">
@@ -1189,8 +1189,8 @@ Large sized Model</characteristic>
         <infoLink id="7a94-ba42-1a02-528f" name="Pistoleer" hidden="false" targetId="3043-8cf9-4666-00b5" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6f61-fc84-9771-459a" name="Flanker" hidden="false" collective="false" import="true" type="upgrade">
@@ -1198,8 +1198,8 @@ Large sized Model</characteristic>
         <infoLink id="a73c-7cfa-d5e8-40cb" name="Flanker" hidden="false" targetId="eecd-2fa9-7f1b-e702" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7d06-650d-a0d3-768a" name="Ambidexterous" hidden="false" collective="false" import="true" type="upgrade">
@@ -1207,8 +1207,8 @@ Large sized Model</characteristic>
         <infoLink id="8a77-be15-8f6e-bb81" name="Ambidextrous" hidden="false" targetId="e7d2-6d4b-6f2a-f8c3" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5305-770b-f57e-0147" name="Tech Affinity" hidden="false" collective="false" import="true" type="upgrade">
@@ -1216,8 +1216,8 @@ Large sized Model</characteristic>
         <infoLink id="1797-c8fb-fc4d-f4eb" name="Tech Affinity" hidden="false" targetId="570f-e0a9-396d-9b4d" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="17f9-d8fd-59a6-4d43" name="Dataplane Navigator" hidden="false" collective="false" import="true" type="upgrade">
@@ -1225,8 +1225,8 @@ Large sized Model</characteristic>
         <infoLink id="6407-caa1-84dd-17a8" name="Dataplane Navigator" hidden="false" targetId="25cf-3b5d-b125-e3aa" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bab7-8ac0-12f9-0219" name="Fast Loader" hidden="false" collective="false" import="true" type="upgrade">
@@ -1234,8 +1234,8 @@ Large sized Model</characteristic>
         <infoLink id="0a0e-679d-b59c-f9d5" name="Fast Loader" hidden="false" targetId="e7f4-93db-1da8-84f0" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0cf7-e1fb-ccaf-7074" name="Fixer" hidden="false" collective="false" import="true" type="upgrade">
@@ -1243,8 +1243,8 @@ Large sized Model</characteristic>
         <infoLink id="b161-325b-7105-5934" name="Fixer" hidden="false" targetId="0325-c693-da5e-22bc" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="50b9-907f-0b17-e5a2" name="Signals Warrior" hidden="false" collective="false" import="true" type="upgrade">
@@ -1252,8 +1252,8 @@ Large sized Model</characteristic>
         <infoLink id="ffff-8296-77fb-32a9" name="Signals Warrior" hidden="false" targetId="5aad-4097-9f8a-77cd" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9d54-fe65-fbeb-b669" name="Breacher" hidden="false" collective="false" import="true" type="upgrade">
@@ -1261,8 +1261,8 @@ Large sized Model</characteristic>
         <infoLink id="599b-c95f-2c03-c185" name="Breacher" hidden="false" targetId="78f6-7236-284f-8dd0" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="780e-98b1-bfc3-fa2b" name="Bombardier" hidden="false" collective="false" import="true" type="upgrade">
@@ -1270,8 +1270,8 @@ Large sized Model</characteristic>
         <infoLink id="c262-6f3c-ca44-1ad0" name="Bombardier" hidden="false" targetId="fe65-5020-e00e-6d85" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="656f-ce05-28c4-4b43" name="Ballistic Trace" hidden="false" collective="false" import="true" type="upgrade">
@@ -1279,8 +1279,8 @@ Large sized Model</characteristic>
         <infoLink id="a573-c9f3-b862-84e4" name="Ballistic Trace" hidden="false" targetId="20da-0143-83cb-3757" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9736-49ad-0f9f-66d5" name="Descent Harness" publicationId="f426-d1c5-b242-a927" page="63" hidden="false" collective="false" import="true" type="upgrade">
@@ -1293,8 +1293,8 @@ Large sized Model</characteristic>
         </profile>
       </profiles>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="10.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="10"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c263-7501-685d-b177" name="HardLight Emitter" publicationId="f426-d1c5-b242-a927" page="63" hidden="false" collective="false" import="true" type="upgrade">
@@ -1311,8 +1311,8 @@ Large sized Model</characteristic>
         <infoLink id="dadc-3422-a514-28d0" name="Powered" hidden="false" targetId="e0e2-b031-3f25-2aeb" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="30.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="30"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bfb0-f6e5-7fee-7242" name="Hazard Inoculation" publicationId="f426-d1c5-b242-a927" page="63" hidden="false" collective="false" import="true" type="upgrade">
@@ -1328,8 +1328,8 @@ Large sized Model</characteristic>
         <infoLink id="dedb-11dc-7b29-9279" name="Single Use" hidden="false" targetId="36a7-05d3-7634-a788" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="10.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="10"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f6bb-d03b-0da0-5b23" name="Compressed Rations" publicationId="f426-d1c5-b242-a927" page="63" hidden="false" collective="false" import="true" type="upgrade">
@@ -1345,8 +1345,8 @@ Large sized Model</characteristic>
         <infoLink id="817f-d70f-7c48-4fdf" name="Single Use" hidden="false" targetId="36a7-05d3-7634-a788" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="10.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="10"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d791-9369-dd26-9be4" name="Scouting Sensor" publicationId="f426-d1c5-b242-a927" page="63" hidden="false" collective="false" import="true" type="upgrade">
@@ -1354,8 +1354,8 @@ Large sized Model</characteristic>
         <infoLink id="cff2-255a-f302-6c73" name="Scouting Sensor" hidden="false" targetId="4285-4817-e8bd-3f5e" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="15.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="15"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="283a-8563-bab4-aa59" name="Magnetic Boots" publicationId="f426-d1c5-b242-a927" page="63" hidden="false" collective="false" import="true" type="upgrade">
@@ -1371,8 +1371,8 @@ Large sized Model</characteristic>
         <infoLink id="3a00-feb9-1c4e-d41b" name="Excess Power" hidden="false" targetId="cdca-40d5-d672-a2d8" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="10.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="10"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ce78-32fb-a15a-6e53" name="Tech Jammer" publicationId="f426-d1c5-b242-a927" page="63" hidden="false" collective="false" import="true" type="upgrade">
@@ -1385,8 +1385,8 @@ Large sized Model</characteristic>
         </profile>
       </profiles>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="25.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="25"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0482-9671-7561-b1b2" name="Comms Uplink" publicationId="f426-d1c5-b242-a927" page="63" hidden="false" collective="false" import="true" type="upgrade">
@@ -1402,8 +1402,8 @@ Large sized Model</characteristic>
         <infoLink id="f751-3e54-524c-ea3f" name="Limited" hidden="false" targetId="bdba-6433-18c3-6464" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="30.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="30"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="296c-8817-2de4-0824" name="Nano-Infusion" publicationId="f426-d1c5-b242-a927" page="63" hidden="false" collective="false" import="true" type="upgrade">
@@ -1419,8 +1419,8 @@ Large sized Model</characteristic>
         <infoLink id="64ff-3044-39ab-8fd4" name="Single Use" hidden="false" targetId="36a7-05d3-7634-a788" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="10.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="10"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0928-e671-b727-29a6" name="Trauma Kit" publicationId="f426-d1c5-b242-a927" page="63" hidden="false" collective="false" import="true" type="upgrade">
@@ -1436,8 +1436,8 @@ Large sized Model</characteristic>
         <infoLink id="cf0c-48d7-9179-02f2" name="Single Use" hidden="false" targetId="36a7-05d3-7634-a788" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="15.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="15"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0de0-6f16-2f71-3b04" name="Cutter Tools" publicationId="f426-d1c5-b242-a927" page="63" hidden="false" collective="false" import="true" type="upgrade">
@@ -1455,8 +1455,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <infoLink id="f2a3-6d45-7470-e57e" name="Powered" hidden="false" targetId="e0e2-b031-3f25-2aeb" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="15.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="15"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a846-539a-e342-096c" name="Interface Deck" publicationId="f426-d1c5-b242-a927" page="63" hidden="false" collective="false" import="true" type="upgrade">
@@ -1469,8 +1469,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         </profile>
       </profiles>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="15.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="15"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fcf1-f06c-ec2e-5caf" name="Smoke Canister" publicationId="f426-d1c5-b242-a927" page="63" hidden="false" collective="false" import="true" type="upgrade">
@@ -1486,8 +1486,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <infoLink id="ad3f-690d-d2f3-4444" name="Single Use" hidden="false" targetId="36a7-05d3-7634-a788" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="10.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="10"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cc37-d594-29f3-7067" name="Defense Matrix" publicationId="f426-d1c5-b242-a927" page="63" hidden="false" collective="false" import="true" type="upgrade">
@@ -1503,8 +1503,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <infoLink id="ed08-2e1d-9d30-8dea" name="Excess Power" hidden="false" targetId="cdca-40d5-d672-a2d8" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="20.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="20"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8655-564a-ee15-652d" name="Auto-Reloader" publicationId="f426-d1c5-b242-a927" page="63" hidden="false" collective="false" import="true" type="upgrade">
@@ -1520,8 +1520,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <infoLink id="f922-1730-6ad4-73b1" name="Single Use" hidden="false" targetId="36a7-05d3-7634-a788" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="15.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6182-2e40-2dd9-a87d" name="Ballistic Optics" publicationId="f426-d1c5-b242-a927" page="63" hidden="false" collective="false" import="true" type="upgrade">
@@ -1534,8 +1534,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         </profile>
       </profiles>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="10.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="10"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3477-78f8-25c4-734d" name="Spare Battery" publicationId="f426-d1c5-b242-a927" page="63" hidden="false" collective="false" import="true" type="upgrade">
@@ -1548,8 +1548,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         </profile>
       </profiles>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="10.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="10"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2da2-8143-6fee-244b" name="Survival Suit" publicationId="f426-d1c5-b242-a927" page="140" hidden="false" collective="false" import="true" type="upgrade">
@@ -1564,8 +1564,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         </profile>
       </profiles>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="5.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="5"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cfc4-0bba-25e0-616a" name="Gantry Runner Rig" publicationId="f426-d1c5-b242-a927" page="140" hidden="false" collective="false" import="true" type="upgrade">
@@ -1580,8 +1580,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         </profile>
       </profiles>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="10.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="10"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3608-9fd6-46b4-9505" name="Excursion Rig" publicationId="f426-d1c5-b242-a927" page="140" hidden="false" collective="false" import="true" type="upgrade">
@@ -1596,8 +1596,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         </profile>
       </profiles>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="10.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="10"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="427f-af0e-ae48-c87e" name="Skirmisher Frame" publicationId="f426-d1c5-b242-a927" page="140" hidden="false" collective="false" import="true" type="upgrade">
@@ -1612,8 +1612,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         </profile>
       </profiles>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="20.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="20"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4cd9-3645-cfc1-ba3b" name="Mobility Frame" publicationId="f426-d1c5-b242-a927" page="140" hidden="false" collective="false" import="true" type="upgrade">
@@ -1628,8 +1628,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         </profile>
       </profiles>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="30.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="30"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="734c-9585-26ae-c93e" name="Light Carapace" publicationId="f426-d1c5-b242-a927" page="140" hidden="false" collective="false" import="true" type="upgrade">
@@ -1644,8 +1644,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         </profile>
       </profiles>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="20.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="20"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cb74-d7e4-9123-9bd6" name="Armored Carapace" publicationId="f426-d1c5-b242-a927" page="140" hidden="false" collective="false" import="true" type="upgrade">
@@ -1660,8 +1660,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         </profile>
       </profiles>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="40.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b498-cbfe-aecb-13e2" name="Hazard Suit" publicationId="f426-d1c5-b242-a927" page="140" hidden="false" collective="false" import="true" type="upgrade">
@@ -1676,8 +1676,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         </profile>
       </profiles>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="25.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="25"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="19bf-25dc-a921-252e" name="Armored Hazard Suit" publicationId="f426-d1c5-b242-a927" page="140" hidden="false" collective="false" import="true" type="upgrade">
@@ -1692,8 +1692,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         </profile>
       </profiles>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="50.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="149b-961b-95f1-16fb" name="Light Exoskeleton" publicationId="f426-d1c5-b242-a927" page="140" hidden="false" collective="false" import="true" type="upgrade">
@@ -1708,8 +1708,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         </profile>
       </profiles>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="45.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="45"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2aab-4f66-77b4-e72c" name="Mechanized Exoskeleton" publicationId="f426-d1c5-b242-a927" page="140" hidden="false" collective="false" import="true" type="upgrade">
@@ -1724,8 +1724,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         </profile>
       </profiles>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="80.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="80"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e470-2a30-f1c3-dd4a" name="Concussion Grenade" hidden="false" collective="false" import="true" type="upgrade">
@@ -1745,8 +1745,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <infoLink id="47bb-f5b4-7518-b47e" name="Grenade" hidden="false" targetId="36a1-9826-155f-2240" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="15.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ce47-0865-bc53-7cdc" name="Cryonic Grenade" hidden="false" collective="false" import="true" type="upgrade">
@@ -1766,8 +1766,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <infoLink id="374b-65cb-dbd2-2a6e" name="Stunning" hidden="false" targetId="bdf1-92d1-0874-5b0b" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="15.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a742-8995-f87d-8a22" name="Thermal Grenade" hidden="false" collective="false" import="true" type="upgrade">
@@ -1787,8 +1787,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <infoLink id="afae-f15d-ede0-80e3" name="Brutal" hidden="false" targetId="091d-fa3d-93e3-46ff" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="15.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="15"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1ffb-d439-e8e9-c46d" name="Flash Charge" hidden="false" collective="false" import="true" type="upgrade">
@@ -1807,8 +1807,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <infoLink id="137c-e13d-1183-559a" name="Grenade" hidden="false" targetId="36a1-9826-155f-2240" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="10.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="10"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5935-1333-cb05-3396" name="Scrap Pistol" hidden="false" collective="false" import="true" type="upgrade">
@@ -1823,8 +1823,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         </profile>
       </profiles>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="5.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="5"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7191-3845-124d-e77d" name="Sawed-Off Slugger" hidden="false" collective="false" import="true" type="upgrade">
@@ -1843,8 +1843,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <infoLink id="8fd5-54fc-ca0f-6563" name="Concussive" hidden="false" targetId="5bb2-b9b1-ab4a-df1f" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="5.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="5"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="52de-d1e7-0c20-a1d2" name="Flechette Pistol" hidden="false" collective="false" import="true" type="upgrade">
@@ -1862,8 +1862,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <infoLink id="92e2-2f41-76c1-1c5a" name="Rapid Weapon" hidden="false" targetId="6c7a-6f60-efa4-615f" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="10.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="10"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="24c6-f7b6-ec5c-c109" name="Needle Pistol" hidden="false" collective="false" import="true" type="upgrade">
@@ -1878,8 +1878,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         </profile>
       </profiles>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="10.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="10"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="586a-1f12-6f15-ca2e" name="Mag-Pulser" hidden="false" collective="false" import="true" type="upgrade">
@@ -1894,8 +1894,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         </profile>
       </profiles>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="10.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="10"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8be5-87d2-a7a4-43c3" name="Plasma Burner" hidden="false" collective="false" import="true" type="upgrade">
@@ -1913,8 +1913,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <infoLink id="49b8-c324-a738-2aaa" name="Short Range" hidden="false" targetId="faf3-dd1f-778b-3c03" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="10.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="10"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="45cb-b081-6171-155a" name="Slug Gun" hidden="false" collective="false" import="true" type="upgrade">
@@ -1932,8 +1932,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <infoLink id="4315-3d97-69e9-090a" name="Primary Weapon" hidden="false" targetId="2ae7-6310-ae4a-9ebb" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="5.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="5"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="379e-c31b-1fd3-3986" name="Scrap Shotgun" hidden="false" collective="false" import="true" type="upgrade">
@@ -1952,8 +1952,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <infoLink id="4faa-868b-19eb-84cb" name="Primary Weapon" hidden="false" targetId="2ae7-6310-ae4a-9ebb" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="10.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="10"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f97d-dea3-4746-c88f" name="Auto Carbine" hidden="false" collective="false" import="true" type="upgrade">
@@ -1973,8 +1973,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <infoLink id="12a3-b552-539c-342a" name="Primary Weapon" hidden="false" targetId="2ae7-6310-ae4a-9ebb" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="10.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c670-65f4-c3b2-5306" name="Mechanical Bow" hidden="false" collective="false" import="true" type="upgrade">
@@ -1993,8 +1993,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <infoLink id="276f-d03a-76bf-d1c4" name="Primary Weapon" hidden="false" targetId="2ae7-6310-ae4a-9ebb" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="10.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="10"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="76b7-a2cb-2b6c-497f" name="Pneumatic Jezail" hidden="false" collective="false" import="true" type="upgrade">
@@ -2012,8 +2012,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <infoLink id="2dcc-1877-3cd7-4124" name="Primary Weapon" hidden="false" targetId="2ae7-6310-ae4a-9ebb" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="10.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="10"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2c06-3502-6454-de99" name="Pneumatic Hailer" hidden="false" collective="false" import="true" type="upgrade">
@@ -2033,8 +2033,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <infoLink id="f8cc-d400-2c5b-dc49" name="Primary Weapon" hidden="false" targetId="2ae7-6310-ae4a-9ebb" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="25.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="25"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7e86-7426-755a-6f51" name="Mag-Driver" hidden="false" collective="false" import="true" type="upgrade">
@@ -2053,8 +2053,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <infoLink id="57c5-a51e-0769-a513" name="Primary Weapon" hidden="false" targetId="2ae7-6310-ae4a-9ebb" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="20.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="20"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a9fa-dde9-0e89-c177" name="Mag-Blitzer" hidden="false" collective="false" import="true" type="upgrade">
@@ -2073,8 +2073,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <infoLink id="ec6d-0fbe-85f7-ee70" name="Primary Weapon" hidden="false" targetId="2ae7-6310-ae4a-9ebb" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="40.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="40"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d64d-ea6e-54e7-5631" name="Heavy Mag-Driver" hidden="false" collective="false" import="true" type="upgrade">
@@ -2095,8 +2095,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <infoLink id="863d-0314-1f79-6a63" name="Primary Weapon" hidden="false" targetId="2ae7-6310-ae4a-9ebb" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="40.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="40"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="626f-578a-f808-f023" name="Flechette Rifle" hidden="false" collective="false" import="true" type="upgrade">
@@ -2114,8 +2114,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <infoLink id="d279-1603-33d2-46c8" name="Primary Weapon" hidden="false" targetId="2ae7-6310-ae4a-9ebb" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="20.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="20"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6798-2b95-25e9-8d87" name="Flechette Shotgun" hidden="false" collective="false" import="true" type="upgrade">
@@ -2135,8 +2135,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <infoLink id="75b6-98d3-b249-6018" name="Primary Weapon" hidden="false" targetId="2ae7-6310-ae4a-9ebb" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="25.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="25"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="81d9-3cb3-06be-47c7" name="Flechette Hailer" hidden="false" collective="false" import="true" type="upgrade">
@@ -2157,8 +2157,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <infoLink id="72e8-c9f7-346d-f09e" name="Primary Weapon" hidden="false" targetId="2ae7-6310-ae4a-9ebb" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="40.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="40"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c476-1c97-b0f1-ffe8" name="Incinerator" hidden="false" collective="false" import="true" type="upgrade">
@@ -2179,8 +2179,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <infoLink id="cb5b-e545-2835-0698" name="Primary Weapon" hidden="false" targetId="2ae7-6310-ae4a-9ebb" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="35.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="35"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7a58-d325-9c60-9ee6" name="Snub Isotope Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2199,8 +2199,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <infoLink id="3a74-601f-2ae5-bab9" name="Primary Weapon" hidden="false" targetId="2ae7-6310-ae4a-9ebb" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="40.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="40"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="927b-1213-0220-bf71" name="Heavy Isotope Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2220,8 +2220,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <infoLink id="8c08-b0db-8b1a-0a92" name="Primary Weapon" hidden="false" targetId="2ae7-6310-ae4a-9ebb" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="80.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="80"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="edc3-ebe3-8cfe-51ef" name="Canister Launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -2241,8 +2241,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <infoLink id="98df-b888-d75b-4600" name="Primary Weapon" hidden="false" targetId="2ae7-6310-ae4a-9ebb" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="60.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="60"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ad90-870f-abab-e681" name="Chaincutter" hidden="false" collective="false" import="true" type="upgrade">
@@ -2260,8 +2260,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <infoLink id="e32c-1156-121b-0aa9" name="Rupturing" hidden="false" targetId="7bab-ef52-14ab-ecce" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="10.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="10"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2df7-752b-ca53-576a" name="Kinetic Gauntlet" hidden="false" collective="false" import="true" type="upgrade">
@@ -2279,8 +2279,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <infoLink id="4ad4-4475-3252-4a8c" name="Concussive" hidden="false" targetId="5bb2-b9b1-ab4a-df1f" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="5.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="5"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1ee4-c161-86f9-0861" name="Thermal Lance" hidden="false" collective="false" import="true" type="upgrade">
@@ -2298,8 +2298,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <infoLink id="9de5-0267-8596-246a" name="Brutal" hidden="false" targetId="091d-fa3d-93e3-46ff" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="20.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="20"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9873-aa88-525e-6203" name="Industrial Claws" hidden="false" collective="false" import="true" type="upgrade">
@@ -2314,8 +2314,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         </profile>
       </profiles>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="20.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="20"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e5ae-588f-b7a0-f569" name="Progressive Edge" hidden="false" collective="false" import="true" type="upgrade">
@@ -2332,14 +2332,14 @@ the area removed. A Small or Medium model may move through the hole.</characteri
       <entryLinks>
         <entryLink id="2900-edad-a5ac-6bfc" name="Counter Attack" hidden="false" collective="true" import="true" targetId="d7f9-d5ac-6c30-4600" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5a2-fb21-3dc9-de96" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36f5-97bd-6f4d-5e6e" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5a2-fb21-3dc9-de96" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36f5-97bd-6f4d-5e6e" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="25.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="25"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5b5d-3b2f-40d1-f543" name="Vorpal Edge" hidden="false" collective="false" import="true" type="upgrade">
@@ -2360,14 +2360,14 @@ the area removed. A Small or Medium model may move through the hole.</characteri
       <entryLinks>
         <entryLink id="1e13-2ffb-2cff-f9e1" name="Counter Attack" hidden="false" collective="false" import="true" targetId="d7f9-d5ac-6c30-4600" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ab5-aebc-f4fe-5fbf" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="067a-5f26-a079-8e32" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ab5-aebc-f4fe-5fbf" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="067a-5f26-a079-8e32" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8424-c889-b545-8e5f" name="Monofilament Fibers" hidden="false" collective="false" import="true" type="upgrade">
@@ -2386,8 +2386,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <categoryLink id="3be3-5ba4-8611-2b28" name="Weapons" hidden="false" targetId="38e5-92a8-e94b-96a6" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ca64-cee5-eaef-df56" name="Fractal Grav-Driver" hidden="false" collective="false" import="true" type="upgrade">
@@ -2406,8 +2406,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <categoryLink id="16fb-70dc-ddf5-cb24" name="Weapons" hidden="false" targetId="38e5-92a8-e94b-96a6" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="38f6-9205-75a4-bd92" name="Schrodinger Rifle" hidden="false" collective="false" import="true" type="upgrade">
@@ -2430,8 +2430,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <categoryLink id="15ea-1507-5f19-2a65" name="Weapons" hidden="false" targetId="38e5-92a8-e94b-96a6" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f1c7-99ba-a247-43a1" name="Plasma Blaster" hidden="false" collective="false" import="true" type="upgrade">
@@ -2455,8 +2455,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <categoryLink id="3f6a-e732-acb6-4774" name="Weapons" hidden="false" targetId="38e5-92a8-e94b-96a6" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="699d-5707-72f9-8188" name="Telekinetic Projector" hidden="false" collective="false" import="true" type="upgrade">
@@ -2480,8 +2480,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <categoryLink id="5713-29dc-604e-5d4a" name="Weapons" hidden="false" targetId="38e5-92a8-e94b-96a6" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3229-b240-088e-fa2c" name="Thermal Beam" hidden="false" collective="false" import="true" type="upgrade">
@@ -2504,8 +2504,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <categoryLink id="0fc5-dd42-3a16-c334" name="Weapons" hidden="false" targetId="38e5-92a8-e94b-96a6" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4652-8564-c1a9-3b18" name="Meson Vector Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2530,8 +2530,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <categoryLink id="1d1f-05b6-53e6-e2ee" name="Weapons" hidden="false" targetId="38e5-92a8-e94b-96a6" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7734-ef84-6755-e80d" name="Graviton Emitter" hidden="false" collective="false" import="true" type="upgrade">
@@ -2556,8 +2556,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <categoryLink id="b671-88d0-81aa-5554" name="Weapons" hidden="false" targetId="38e5-92a8-e94b-96a6" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d2da-a71b-5f6b-a264" name="Waveform Collapser" hidden="false" collective="false" import="true" type="upgrade">
@@ -2581,8 +2581,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <categoryLink id="daa8-ccf6-9631-2013" name="Weapons" hidden="false" targetId="38e5-92a8-e94b-96a6" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4057-52f1-aa88-ea0e" name="Portal Device" hidden="false" collective="false" import="true" type="upgrade">
@@ -2609,26 +2609,26 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <categoryLink id="bf77-1e36-ac9c-f9fe" name="Weapons" hidden="false" targetId="38e5-92a8-e94b-96a6" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a334-4cac-4654-7039" name="Bio" hidden="false" collective="true" import="true" type="upgrade">
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="017c-75a4-1c6b-c02a" name="Tactics" hidden="false" collective="true" import="true" type="upgrade">
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="06ab-3e49-cb9b-2931" name="Tech" hidden="false" collective="true" import="true" type="upgrade">
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cec8-0361-6328-397e" name="Regenerative Mesh" publicationId="f426-d1c5-b242-a927" page="67" hidden="false" collective="false" import="true" type="upgrade">
@@ -2647,45 +2647,45 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <categoryLink id="404c-6884-4e24-7a60" name="Armor" hidden="false" targetId="1b22-281d-d74d-e24f" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="253c-d311-7c9f-dc76" name="Mission Leader" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c0b-c3b0-d157-3c73" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24a4-74c0-0da3-7ec3" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c0b-c3b0-d157-3c73" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24a4-74c0-0da3-7ec3" type="max"/>
       </constraints>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0aa3-b058-1906-a71c" name="Campaign" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4ef-18c3-1a3f-bb9e" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4ef-18c3-1a3f-bb9e" type="max"/>
       </constraints>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0ac3-21c9-141e-b6b5" name="Competitive" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="047e-54ab-9223-4345" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="047e-54ab-9223-4345" type="max"/>
       </constraints>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1c0d-099c-0fd8-aca4" name="Underdog Points" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e75e-99e2-c9d2-27cf" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e75e-99e2-c9d2-27cf" type="max"/>
       </constraints>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c687-4dac-880b-86b7" name="Survival Symbiote" publicationId="f426-d1c5-b242-a927" page="67" hidden="false" collective="false" import="true" type="upgrade">
@@ -2704,8 +2704,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <categoryLink id="350b-c97f-9f56-89d7" name="Armor" hidden="false" targetId="1b22-281d-d74d-e24f" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6b8c-907e-e221-587c" name="Archangel Frame" publicationId="f426-d1c5-b242-a927" page="67" hidden="false" collective="false" import="true" type="upgrade">
@@ -2727,8 +2727,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <categoryLink id="376b-9090-d05b-198c" name="Armor" hidden="false" targetId="1b22-281d-d74d-e24f" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0402-8bfa-ee4a-c96d" name="Geist Frame" publicationId="f426-d1c5-b242-a927" page="67" hidden="false" collective="false" import="true" type="upgrade">
@@ -2747,8 +2747,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <categoryLink id="f9f3-023e-582d-48b4" name="Armor" hidden="false" targetId="1b22-281d-d74d-e24f" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b47c-8977-784a-4a95" name="Femtotech Membrane" publicationId="f426-d1c5-b242-a927" page="67" hidden="false" collective="false" import="true" type="upgrade">
@@ -2767,8 +2767,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <categoryLink id="b74a-5f4f-b42e-8293" name="Armor" hidden="false" targetId="1b22-281d-d74d-e24f" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c080-a128-44ac-62eb" name="Ancient Battlesuit" publicationId="f426-d1c5-b242-a927" page="67" hidden="false" collective="false" import="true" type="upgrade">
@@ -2787,8 +2787,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <categoryLink id="651e-55d3-4362-a331" name="Armor" hidden="false" targetId="1b22-281d-d74d-e24f" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="42aa-78ab-fcb4-5908" name="Quantum Barrier" publicationId="f426-d1c5-b242-a927" page="67" hidden="false" collective="false" import="true" type="upgrade">
@@ -2807,8 +2807,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <categoryLink id="6c4e-4e97-fe28-20ed" name="Armor" hidden="false" targetId="1b22-281d-d74d-e24f" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9bc6-2298-a559-cc7d" name="4D Camouflage" publicationId="f426-d1c5-b242-a927" page="67" hidden="false" collective="false" import="true" type="upgrade">
@@ -2831,8 +2831,8 @@ the area removed. A Small or Medium model may move through the hole.</characteri
         <categoryLink id="98be-c4fc-87ea-aaa9" name="Armor" hidden="false" targetId="1b22-281d-d74d-e24f" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6a75-acb3-96ab-619d" name="Chrono-Capacitance Harness" publicationId="f426-d1c5-b242-a927" page="67" hidden="false" collective="false" import="true" type="upgrade">
@@ -2858,8 +2858,8 @@ Chrono Tokens may be used at the end of an activation to gain an additional acti
         <categoryLink id="7279-12fa-eff7-9e9b" name="Armor" hidden="false" targetId="1b22-281d-d74d-e24f" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7dd1-9996-3397-15e6" name="Biomech Exoskeleton" publicationId="f426-d1c5-b242-a927" page="67" hidden="false" collective="false" import="true" type="upgrade">
@@ -2878,8 +2878,8 @@ Chrono Tokens may be used at the end of an activation to gain an additional acti
         <categoryLink id="716c-8dfb-3e0f-f32c" name="Armor" hidden="false" targetId="1b22-281d-d74d-e24f" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="de68-27f7-fa53-eb3a" name="Lucky Sphere" publicationId="f426-d1c5-b242-a927" page="68" hidden="false" collective="false" import="true" type="upgrade">
@@ -2899,8 +2899,8 @@ Chrono Tokens may be used at the end of an activation to gain an additional acti
         <categoryLink id="b50a-a8c3-e14f-512d" name="Equipment" hidden="false" targetId="45e9-c9bd-8b64-d1ad" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2469-e0a8-09b0-f209" name="Medical Regenerator" publicationId="f426-d1c5-b242-a927" page="68" hidden="false" collective="false" import="true" type="upgrade">
@@ -2917,8 +2917,8 @@ Chrono Tokens may be used at the end of an activation to gain an additional acti
         <categoryLink id="ef6b-0dd5-85c8-37f7" name="Equipment" hidden="false" targetId="45e9-c9bd-8b64-d1ad" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e139-316f-69db-18a9" name="Advanced Interface Deck" publicationId="f426-d1c5-b242-a927" page="68" hidden="false" collective="false" import="true" type="upgrade">
@@ -2935,8 +2935,8 @@ Chrono Tokens may be used at the end of an activation to gain an additional acti
         <categoryLink id="45c6-7132-185b-4a88" name="Equipment" hidden="false" targetId="45e9-c9bd-8b64-d1ad" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="96f9-0278-d0eb-94ec" name="Nano-Absorber" publicationId="f426-d1c5-b242-a927" page="68" hidden="false" collective="false" import="true" type="upgrade">
@@ -2955,8 +2955,8 @@ Action: Remove a nano-contaminant area this model is in contact with and heal on
         <categoryLink id="68c8-4acc-7a4f-3495" name="Equipment" hidden="false" targetId="45e9-c9bd-8b64-d1ad" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2660-1e81-d5c5-b850" name="Radiation Fluxer" publicationId="f426-d1c5-b242-a927" page="68" hidden="false" collective="false" import="true" type="upgrade">
@@ -2975,8 +2975,8 @@ Action: Place an AoE3 Radiation Area hazard centered on this model. All models w
         <categoryLink id="2afd-1d4d-41bc-1ed7" name="Equipment" hidden="false" targetId="45e9-c9bd-8b64-d1ad" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="99ce-c8d9-29ae-beeb" name="Quantum Teleporter" publicationId="f426-d1c5-b242-a927" page="68" hidden="false" collective="false" import="true" type="upgrade">
@@ -2997,8 +2997,8 @@ Action: Place an AoE3 Radiation Area hazard centered on this model. All models w
         <categoryLink id="91e4-6a34-3f3b-8ee3" name="Equipment" hidden="false" targetId="45e9-c9bd-8b64-d1ad" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="466d-9b66-d93f-eee9" name="Clairvoyant Sensor" publicationId="f426-d1c5-b242-a927" page="68" hidden="false" collective="false" import="true" type="upgrade">
@@ -3016,8 +3016,8 @@ Counts as a Scouting Sensor. This model always passes Mark Target aptitude check
         <categoryLink id="d136-5d72-5fe5-5c83" name="Equipment" hidden="false" targetId="45e9-c9bd-8b64-d1ad" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9383-38a0-486f-cb03" name="Invulnerability Serum" publicationId="f426-d1c5-b242-a927" page="68" hidden="false" collective="false" import="true" type="upgrade">
@@ -3037,8 +3037,8 @@ Counts as a Scouting Sensor. This model always passes Mark Target aptitude check
         <categoryLink id="52bf-6170-8235-6499" name="Equipment" hidden="false" targetId="45e9-c9bd-8b64-d1ad" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2a01-600e-1c34-7dba" name="Memetic Geas" publicationId="f426-d1c5-b242-a927" page="68" hidden="false" collective="false" import="true" type="upgrade">
@@ -3055,8 +3055,8 @@ Counts as a Scouting Sensor. This model always passes Mark Target aptitude check
         <categoryLink id="2e89-c50a-76f9-4c3e" name="Equipment" hidden="false" targetId="45e9-c9bd-8b64-d1ad" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7199-66d1-f522-eeaf" name="Stasis Field" publicationId="f426-d1c5-b242-a927" page="68" hidden="false" collective="false" import="true" type="upgrade">
@@ -3073,8 +3073,8 @@ Counts as a Scouting Sensor. This model always passes Mark Target aptitude check
         <categoryLink id="c014-4145-f4a6-b75b" name="Equipment" hidden="false" targetId="45e9-c9bd-8b64-d1ad" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b46d-a162-8c81-82e4" name="Immunocyte Authenticator" publicationId="f426-d1c5-b242-a927" page="68" hidden="false" collective="false" import="true" type="upgrade">
@@ -3093,8 +3093,8 @@ Action: This model may target an Immunocyte within 8 inches and make an aptitude
         <categoryLink id="427a-cda8-340f-5538" name="Equipment" hidden="false" targetId="45e9-c9bd-8b64-d1ad" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f926-3a31-f2c4-2f72" name="Networked Barrier" publicationId="f426-d1c5-b242-a927" page="68" hidden="false" collective="false" import="true" type="upgrade">
@@ -3111,13 +3111,13 @@ Action: This model may target an Immunocyte within 8 inches and make an aptitude
         <categoryLink id="7c0f-6f5d-7f1b-91f9" name="Equipment" hidden="false" targetId="45e9-c9bd-8b64-d1ad" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="482c-0767-3661-a345" name="Hyperwave Uplink" publicationId="f426-d1c5-b242-a927" page="68" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="894a-7831-ca84-e6f8" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="894a-7831-ca84-e6f8" type="max"/>
       </constraints>
       <profiles>
         <profile id="5ae4-4600-9a70-5c50" name="Hyperwave Uplink" publicationId="f426-d1c5-b242-a927" page="68" hidden="false" typeId="22be-b182-ca50-7759" typeName="Equipment">
@@ -3135,8 +3135,8 @@ Action: This model may target an Immunocyte within 8 inches and make an aptitude
         <categoryLink id="ecba-85c9-a890-1b9b" name="Equipment" hidden="false" targetId="45e9-c9bd-8b64-d1ad" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="004e-1e8b-e37e-302a" name="Ultra-Stims" publicationId="f426-d1c5-b242-a927" page="68" hidden="false" collective="false" import="true" type="upgrade">
@@ -3156,8 +3156,8 @@ Action: This model may target an Immunocyte within 8 inches and make an aptitude
         <categoryLink id="5fc1-3c47-dbd2-e9c1" name="Equipment" hidden="false" targetId="45e9-c9bd-8b64-d1ad" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fb09-66fc-a152-4d86" name="Revival Protocol" publicationId="f426-d1c5-b242-a927" page="68" hidden="false" collective="false" import="true" type="upgrade">
@@ -3177,8 +3177,8 @@ Action: This model may target an Immunocyte within 8 inches and make an aptitude
         <categoryLink id="9c0b-cc17-6207-6450" name="Equipment" hidden="false" targetId="45e9-c9bd-8b64-d1ad" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="85f4-f8be-4b85-5195" name="Entanglement Reconstructor" publicationId="f426-d1c5-b242-a927" page="68" hidden="false" collective="false" import="true" type="upgrade">
@@ -3195,15 +3195,19 @@ Action: This model may target an Immunocyte within 8 inches and make an aptitude
         <categoryLink id="ebe1-93b6-c288-6cf6" name="Equipment" hidden="false" targetId="45e9-c9bd-8b64-d1ad" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+        <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+        <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="ebf8-fa47-23c0-890a" name="Standard Equipment" publicationId="f426-d1c5-b242-a927" page="141" hidden="false" collective="false" import="true">
       <entryLinks>
-        <entryLink id="8e9a-bb42-b8e3-c61c" name="Alloy Shield" hidden="false" collective="false" import="true" targetId="0897-70af-6776-bae2" type="selectionEntry"/>
+        <entryLink id="8e9a-bb42-b8e3-c61c" name="Alloy Shield" hidden="false" collective="false" import="true" targetId="0897-70af-6776-bae2" type="selectionEntry">
+          <costs>
+            <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="15"/>
+          </costs>
+        </entryLink>
         <entryLink id="557f-a20c-11b1-cc20" name="Descent Harness" hidden="false" collective="false" import="true" targetId="9736-49ad-0f9f-66d5" type="selectionEntry"/>
         <entryLink id="3709-13c0-cde5-ec3d" name="HardLight Emitter" hidden="false" collective="false" import="true" targetId="c263-7501-685d-b177" type="selectionEntry"/>
         <entryLink id="2a15-3873-eab2-d5ab" name="Hazard Inoculation" hidden="false" collective="false" import="true" targetId="bfb0-f6e5-7fee-7242" type="selectionEntry"/>
@@ -3218,7 +3222,11 @@ Action: This model may target an Immunocyte within 8 inches and make an aptitude
         <entryLink id="0a47-0e08-0da2-7398" name="Interface Deck" hidden="false" collective="false" import="true" targetId="a846-539a-e342-096c" type="selectionEntry"/>
         <entryLink id="fabd-d5e2-2e12-8d35" name="Smoke Canister" hidden="false" collective="false" import="true" targetId="fcf1-f06c-ec2e-5caf" type="selectionEntry"/>
         <entryLink id="1c4b-9cbb-c937-91e5" name="Defense Matrix" hidden="false" collective="false" import="true" targetId="cc37-d594-29f3-7067" type="selectionEntry"/>
-        <entryLink id="bacf-9238-0dd5-f663" name="Auto-Reloader" hidden="false" collective="false" import="true" targetId="8655-564a-ee15-652d" type="selectionEntry"/>
+        <entryLink id="bacf-9238-0dd5-f663" name="Auto-Reloader" hidden="false" collective="false" import="true" targetId="8655-564a-ee15-652d" type="selectionEntry">
+          <costs>
+            <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="15"/>
+          </costs>
+        </entryLink>
         <entryLink id="22ef-f8f6-796f-0a4b" name="Ballistic Optics" hidden="false" collective="false" import="true" targetId="6182-2e40-2dd9-a87d" type="selectionEntry"/>
         <entryLink id="e1ae-a9c1-441f-9967" name="Spare Battery" hidden="false" collective="false" import="true" targetId="3477-78f8-25c4-734d" type="selectionEntry"/>
       </entryLinks>
@@ -3240,7 +3248,11 @@ Action: This model may target an Immunocyte within 8 inches and make an aptitude
       <entryLinks>
         <entryLink id="d8ca-3250-c26e-17ff" name="Slug Gun" hidden="false" collective="false" import="true" targetId="45cb-b081-6171-155a" type="selectionEntry"/>
         <entryLink id="8932-e33b-8db9-811c" name="Scrap Shotgun" hidden="false" collective="false" import="true" targetId="379e-c31b-1fd3-3986" type="selectionEntry"/>
-        <entryLink id="6170-61eb-2d62-362a" name="Auto Carbine" hidden="false" collective="false" import="true" targetId="f97d-dea3-4746-c88f" type="selectionEntry"/>
+        <entryLink id="6170-61eb-2d62-362a" name="Auto Carbine" hidden="false" collective="false" import="true" targetId="f97d-dea3-4746-c88f" type="selectionEntry">
+          <costs>
+            <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="10"/>
+          </costs>
+        </entryLink>
         <entryLink id="e660-90e9-a4b0-b93a" name="Mechanical Bow" hidden="false" collective="false" import="true" targetId="c670-65f4-c3b2-5306" type="selectionEntry"/>
         <entryLink id="fa41-f78f-0356-3731" name="Pneumatic Jezail" hidden="false" collective="false" import="true" targetId="76b7-a2cb-2b6c-497f" type="selectionEntry"/>
         <entryLink id="96b1-84cb-3b7f-b2a0" name="Pneumatic Hailer" hidden="false" collective="false" import="true" targetId="2c06-3502-6454-de99" type="selectionEntry"/>
@@ -3268,10 +3280,26 @@ Action: This model may target an Immunocyte within 8 inches and make an aptitude
     </selectionEntryGroup>
     <selectionEntryGroup id="421e-b485-2083-047d" name="Standard Grenades" hidden="false" collective="false" import="true">
       <entryLinks>
-        <entryLink id="2ffa-77f1-b151-b0f8" name="Concussion Grenade" hidden="false" collective="false" import="true" targetId="e470-2a30-f1c3-dd4a" type="selectionEntry"/>
-        <entryLink id="e2c1-d42b-9563-92cc" name="Cryonic Grenade" hidden="false" collective="false" import="true" targetId="ce47-0865-bc53-7cdc" type="selectionEntry"/>
-        <entryLink id="d9d2-6465-32e8-eb0e" name="Thermal Grenade" hidden="false" collective="false" import="true" targetId="a742-8995-f87d-8a22" type="selectionEntry"/>
-        <entryLink id="27ce-d9c9-a90c-0306" name="Flash Charge" hidden="false" collective="false" import="true" targetId="1ffb-d439-e8e9-c46d" type="selectionEntry"/>
+        <entryLink id="2ffa-77f1-b151-b0f8" name="Concussion Grenade" hidden="false" collective="false" import="true" targetId="e470-2a30-f1c3-dd4a" type="selectionEntry">
+          <costs>
+            <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="15"/>
+          </costs>
+        </entryLink>
+        <entryLink id="e2c1-d42b-9563-92cc" name="Cryonic Grenade" hidden="false" collective="false" import="true" targetId="ce47-0865-bc53-7cdc" type="selectionEntry">
+          <costs>
+            <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="15"/>
+          </costs>
+        </entryLink>
+        <entryLink id="d9d2-6465-32e8-eb0e" name="Thermal Grenade" hidden="false" collective="false" import="true" targetId="a742-8995-f87d-8a22" type="selectionEntry">
+          <costs>
+            <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="15"/>
+          </costs>
+        </entryLink>
+        <entryLink id="27ce-d9c9-a90c-0306" name="Flash Charge" hidden="false" collective="false" import="true" targetId="1ffb-d439-e8e9-c46d" type="selectionEntry">
+          <costs>
+            <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="10"/>
+          </costs>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="4c0e-5515-95d8-e960" name="Standard Armor" hidden="false" collective="false" import="true">
@@ -3282,9 +3310,17 @@ Action: This model may target an Immunocyte within 8 inches and make an aptitude
         <entryLink id="3d64-45cb-3a4c-6b42" name="Skirmisher Frame" hidden="false" collective="false" import="true" targetId="427f-af0e-ae48-c87e" type="selectionEntry"/>
         <entryLink id="8633-919a-60b1-fc22" name="Mobility Frame" hidden="false" collective="false" import="true" targetId="4cd9-3645-cfc1-ba3b" type="selectionEntry"/>
         <entryLink id="a90b-03bb-23d1-3263" name="Light Carapace" hidden="false" collective="false" import="true" targetId="734c-9585-26ae-c93e" type="selectionEntry"/>
-        <entryLink id="5e7a-d290-79e6-8bfc" name="Armored Carapace" hidden="false" collective="false" import="true" targetId="cb74-d7e4-9123-9bd6" type="selectionEntry"/>
+        <entryLink id="5e7a-d290-79e6-8bfc" name="Armored Carapace" hidden="false" collective="false" import="true" targetId="cb74-d7e4-9123-9bd6" type="selectionEntry">
+          <costs>
+            <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="40"/>
+          </costs>
+        </entryLink>
         <entryLink id="34fd-d35f-582b-d4ed" name="Hazard Suit" hidden="false" collective="false" import="true" targetId="b498-cbfe-aecb-13e2" type="selectionEntry"/>
-        <entryLink id="81de-3e83-f1df-4ca8" name="Armored Hazard Suit" hidden="false" collective="false" import="true" targetId="19bf-25dc-a921-252e" type="selectionEntry"/>
+        <entryLink id="81de-3e83-f1df-4ca8" name="Armored Hazard Suit" hidden="false" collective="false" import="true" targetId="19bf-25dc-a921-252e" type="selectionEntry">
+          <costs>
+            <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="50"/>
+          </costs>
+        </entryLink>
         <entryLink id="5848-2d15-294f-bc15" name="Mechanized Exoskeleton" hidden="false" collective="false" import="true" targetId="2aab-4f66-77b4-e72c" type="selectionEntry"/>
         <entryLink id="ccbb-a6a3-39e7-db3a" name="Light Exoskeleton" hidden="false" collective="false" import="true" targetId="149b-961b-95f1-16fb" type="selectionEntry"/>
       </entryLinks>
@@ -3297,13 +3333,13 @@ Action: This model may target an Immunocyte within 8 inches and make an aptitude
     </selectionEntryGroup>
     <selectionEntryGroup id="caf8-be1d-1079-8519" name="Skill Choice" hidden="false" collective="false" import="true">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="926c-4167-d059-50e5" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="975d-53f9-6e9d-3c2e" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="926c-4167-d059-50e5" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="975d-53f9-6e9d-3c2e" type="min"/>
       </constraints>
       <selectionEntryGroups>
         <selectionEntryGroup id="1363-8181-069b-e277" name="Tactics Skills" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5fc-8ce0-f9c4-436b" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5fc-8ce0-f9c4-436b" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="d734-7daf-b5b8-cb5d" name="Killer Instinct" hidden="false" collective="false" import="true" targetId="157b-5c5a-2e87-d33c" type="selectionEntry"/>
@@ -3322,7 +3358,7 @@ Action: This model may target an Immunocyte within 8 inches and make an aptitude
         </selectionEntryGroup>
         <selectionEntryGroup id="b8f4-0162-c7f5-5953" name="Bio Skills" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cd3-66c4-d31e-b3ee" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cd3-66c4-d31e-b3ee" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="413e-ef52-7ce1-ea45" name="Medic" hidden="false" collective="false" import="true" targetId="4896-305d-75e0-6f76" type="selectionEntry"/>
@@ -3339,7 +3375,7 @@ Action: This model may target an Immunocyte within 8 inches and make an aptitude
         </selectionEntryGroup>
         <selectionEntryGroup id="fe2a-0abe-6e91-efb9" name="Tech Skills" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="284f-8a3f-d096-b02a" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="284f-8a3f-d096-b02a" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="77f1-4ff2-2292-8b17" name="Tech Affinity" hidden="false" collective="false" import="true" targetId="5305-770b-f57e-0147" type="selectionEntry"/>
@@ -3354,7 +3390,7 @@ Action: This model may target an Immunocyte within 8 inches and make an aptitude
         </selectionEntryGroup>
         <selectionEntryGroup id="27c1-1184-665a-668f" name="General Skills" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbf7-a5c7-7471-5eee" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbf7-a5c7-7471-5eee" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="60bb-ab8d-dfa8-0761" name="Catfall" hidden="false" collective="false" import="true" targetId="85ac-b5dc-ae5f-926b" type="selectionEntry"/>
@@ -3418,7 +3454,11 @@ Action: This model may target an Immunocyte within 8 inches and make an aptitude
     </selectionEntryGroup>
     <selectionEntryGroup id="9b20-fd1b-8694-5724" name="Artifact Grenades" hidden="false" collective="false" import="true">
       <entryLinks>
-        <entryLink id="50d2-7f20-2c89-3379" name="Waveform Collapser" hidden="false" collective="false" import="true" targetId="d2da-a71b-5f6b-a264" type="selectionEntry"/>
+        <entryLink import="true" name="Waveform Collapser" hidden="false" type="selectionEntry" id="51f-5b92-b4d1-4e5c" targetId="d2da-a71b-5f6b-a264">
+          <costs>
+            <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+          </costs>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="34c3-b426-19f7-f385" name="Artifact Melee Weapons" hidden="false" collective="false" import="true">
@@ -3436,7 +3476,7 @@ Action: This model may target an Immunocyte within 8 inches and make an aptitude
     <selectionEntryGroup id="4e06-a471-6154-d164" name="Faction Equipment" hidden="false" collective="false" import="true"/>
     <selectionEntryGroup id="6e76-de46-6b0f-5678" name="Template Primary Weapons" hidden="false" collective="false" import="true">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fea8-d300-d743-037a" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fea8-d300-d743-037a" type="max"/>
       </constraints>
       <entryLinks>
         <entryLink id="0fa2-e3c7-2e24-4f32" name="Artifact Primary Weapons" hidden="false" collective="false" import="true" targetId="043e-140f-291f-19b7" type="selectionEntryGroup"/>
@@ -3446,7 +3486,7 @@ Action: This model may target an Immunocyte within 8 inches and make an aptitude
     </selectionEntryGroup>
     <selectionEntryGroup id="a6fd-117d-4469-53ae" name="Template Grenades" hidden="false" collective="false" import="true">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baae-ad25-cd1b-1ad5" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baae-ad25-cd1b-1ad5" type="max"/>
       </constraints>
       <entryLinks>
         <entryLink id="4637-b325-be95-aee9" name="Artifact Grenades" hidden="false" collective="false" import="true" targetId="9b20-fd1b-8694-5724" type="selectionEntryGroup"/>
@@ -3456,7 +3496,7 @@ Action: This model may target an Immunocyte within 8 inches and make an aptitude
     </selectionEntryGroup>
     <selectionEntryGroup id="d117-9267-28db-740c" name="Template Melee Weapons" hidden="false" collective="false" import="true">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f32-bc2b-3bb6-297c" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f32-bc2b-3bb6-297c" type="max"/>
       </constraints>
       <entryLinks>
         <entryLink id="1760-bf3f-4d73-602e" name="Artifact Melee Weapons" hidden="false" collective="false" import="true" targetId="34c3-b426-19f7-f385" type="selectionEntryGroup"/>
@@ -3466,7 +3506,7 @@ Action: This model may target an Immunocyte within 8 inches and make an aptitude
     </selectionEntryGroup>
     <selectionEntryGroup id="a8fc-b327-ca1a-3369" name="Template Secondary Weapons" hidden="false" collective="false" import="true">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="882a-43f5-5dd2-a27f" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="882a-43f5-5dd2-a27f" type="max"/>
       </constraints>
       <entryLinks>
         <entryLink id="f35a-eff6-a0eb-9f02" name="Artifact Secondary Weapons" hidden="false" collective="false" import="true" targetId="258f-ecce-5c0a-2c4c" type="selectionEntryGroup"/>
@@ -3480,16 +3520,16 @@ Action: This model may target an Immunocyte within 8 inches and make an aptitude
           <selectionEntryGroups>
             <selectionEntryGroup id="8205-6301-6c75-fd7d" name="Level-Up Bonus" publicationId="f426-d1c5-b242-a927" page="74" hidden="false" collective="false" import="true">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89af-8fa0-525f-b596" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99cb-5bea-dcf2-ddd7" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89af-8fa0-525f-b596" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99cb-5bea-dcf2-ddd7" type="max"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry id="7be4-b320-826f-7ecd" name="Train Harder" hidden="false" collective="false" import="true" type="upgrade">
                   <selectionEntryGroups>
                     <selectionEntryGroup id="6a9b-4783-3365-2a6f" name="Roll Once" hidden="false" collective="false" import="true">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="105f-0216-d246-c70d" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce76-b463-31df-fd0a" type="max"/>
+                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="105f-0216-d246-c70d" type="min"/>
+                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce76-b463-31df-fd0a" type="max"/>
                       </constraints>
                       <entryLinks>
                         <entryLink id="f99b-268e-5681-9f1c" name="Deadlier!" hidden="false" collective="false" import="true" targetId="cc45-8cd7-6083-83cc" type="selectionEntry"/>
@@ -3507,22 +3547,22 @@ Action: This model may target an Immunocyte within 8 inches and make an aptitude
                         <modifier type="set" field="name" value="Pick One Skill"/>
                       </modifiers>
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a8c-1a73-31a3-7251" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="435d-ad81-39e2-c4a4" type="min"/>
+                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a8c-1a73-31a3-7251" type="max"/>
+                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="435d-ad81-39e2-c4a4" type="min"/>
                       </constraints>
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-                    <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                    <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="c66a-ab49-c7ba-b692" name="Natural Talent" hidden="false" collective="false" import="true" type="upgrade">
                   <selectionEntryGroups>
                     <selectionEntryGroup id="5e42-dec0-eee1-f1c3" name="Roll Twice" hidden="false" collective="false" import="true">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c811-5983-7c5b-fd09" type="min"/>
-                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1202-9799-9118-15d3" type="max"/>
+                        <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c811-5983-7c5b-fd09" type="min"/>
+                        <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1202-9799-9118-15d3" type="max"/>
                       </constraints>
                       <entryLinks>
                         <entryLink id="a0aa-db7f-7f0a-0166" name="Deadlier!" hidden="false" collective="false" import="true" targetId="cc45-8cd7-6083-83cc" type="selectionEntry"/>
@@ -3535,16 +3575,16 @@ Action: This model may target an Immunocyte within 8 inches and make an aptitude
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-                    <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0.0"/>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                    <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name=" RU" typeId="ae78-7f45-75c9-abaf" value="0.0"/>
-            <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="15.0"/>
+            <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+            <cost name="+Underdog" typeId="ecac-5616-8585-1a04" value="15"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3555,7 +3595,7 @@ Action: This model may target an Immunocyte within 8 inches and make an aptitude
     </selectionEntryGroup>
     <selectionEntryGroup id="a0a5-4c72-e24d-70f1" name="Template Armor" hidden="false" collective="false" import="true">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8635-e14b-1c93-b4b7" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8635-e14b-1c93-b4b7" type="max"/>
       </constraints>
       <entryLinks>
         <entryLink id="b430-b301-12d7-eae2" name="Artifact Armor" hidden="false" collective="false" import="true" targetId="731d-1c09-8a50-e966" type="selectionEntryGroup"/>
@@ -3565,13 +3605,435 @@ Action: This model may target an Immunocyte within 8 inches and make an aptitude
     </selectionEntryGroup>
     <selectionEntryGroup id="f7f8-a1f1-e853-6157" name="Template Equipment" hidden="false" collective="false" import="true">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85ea-e252-6118-5e66" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85ea-e252-6118-5e66" type="max"/>
       </constraints>
       <entryLinks>
         <entryLink id="f765-fed7-8e63-c0c9" name="Artifact Equipment" hidden="false" collective="false" import="true" targetId="ea80-d3a4-7963-2ed4" type="selectionEntryGroup"/>
         <entryLink id="c04f-31b1-1abb-9f58" name="Faction Equipment" hidden="false" collective="false" import="true" targetId="4e06-a471-6154-d164" type="selectionEntryGroup"/>
         <entryLink id="4a51-bda8-d157-4325" name="Standard Equipment" hidden="false" collective="false" import="true" targetId="ebf8-fa47-23c0-890a" type="selectionEntryGroup"/>
       </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Unequipped Standard Gear" hidden="false" id="362d-a2d4-f51c-b248">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapons" hidden="false" id="528-a989-cd7c-34db">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Grenades" hidden="false" id="aff1-9b6b-9851-6735">
+              <entryLinks>
+                <entryLink import="true" name="Concussion Grenade" hidden="false" type="selectionEntry" id="fbd6-53e3-f6c3-ba2a" targetId="e470-2a30-f1c3-dd4a">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Cryonic Grenade" hidden="false" type="selectionEntry" id="3db0-e19-5569-ac1c" targetId="ce47-0865-bc53-7cdc">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Flash Charge" hidden="false" type="selectionEntry" id="ef22-86c2-236-bb90" targetId="1ffb-d439-e8e9-c46d">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Thermal Grenade" hidden="false" type="selectionEntry" id="7c32-bcd4-f545-9ef9" targetId="a742-8995-f87d-8a22">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Melee Weapons" hidden="false" id="dc13-a5e7-c29b-ef50">
+              <entryLinks>
+                <entryLink id="d470-1373-14bb-48db" name="Bash" hidden="false" collective="false" import="true" targetId="1b89-fec3-134b-d36a" type="selectionEntry"/>
+                <entryLink id="b10e-69fc-33be-6fbc" name="Chaincutter" hidden="false" collective="false" import="true" targetId="ad90-870f-abab-e681" type="selectionEntry">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="add5-71e-e4a1-3410" name="Electro-Rod" hidden="false" collective="false" import="true" targetId="e861-a5ee-a610-4d5a" type="selectionEntry">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="2a05-4390-2674-7e05" name="Industrial Claws" hidden="false" collective="false" import="true" targetId="9873-aa88-525e-6203" type="selectionEntry">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="b089-168a-5d6e-c81f" name="Kinetic Gauntlet" hidden="false" collective="false" import="true" targetId="2df7-752b-ca53-576a" type="selectionEntry">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="278f-7376-4f04-a838" name="Mag Cutter" hidden="false" collective="false" import="true" targetId="d495-e84f-18ef-9740" type="selectionEntry">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="d83c-1402-1ee4-b0d" name="Progressive Edge" hidden="false" collective="false" import="true" targetId="e5ae-588f-b7a0-f569" type="selectionEntry">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="bd0b-2bbe-f9b7-aa26" name="Scrap Club" hidden="false" collective="false" import="true" targetId="ab8f-0b4c-6093-3ad5" type="selectionEntry">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="ba1a-1785-2eff-f1e3" name="Thermal Lance" hidden="false" collective="false" import="true" targetId="1ee4-c161-86f9-0861" type="selectionEntry">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Primary Weapons" hidden="false" id="96d4-7bdb-fe2e-1ac4">
+              <entryLinks>
+                <entryLink id="d1a5-4f52-3372-f58d" name="Auto Carbine" hidden="false" collective="false" import="true" targetId="f97d-dea3-4746-c88f" type="selectionEntry">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="e454-20a9-a2a1-760d" name="Canister Launcher" hidden="false" collective="false" import="true" targetId="edc3-ebe3-8cfe-51ef" type="selectionEntry">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="9a37-424a-ece7-b3ce" name="Flechette Hailer" hidden="false" collective="false" import="true" targetId="81d9-3cb3-06be-47c7" type="selectionEntry">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="465-2e56-9f3e-b6f3" name="Flechette Rifle" hidden="false" collective="false" import="true" targetId="626f-578a-f808-f023" type="selectionEntry">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="3c7a-34bb-fb35-771b" name="Flechette Shotgun" hidden="false" collective="false" import="true" targetId="6798-2b95-25e9-8d87" type="selectionEntry">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="3cb5-ed4a-ed7a-f2ca" name="Heavy Isotope Cannon" hidden="false" collective="false" import="true" targetId="927b-1213-0220-bf71" type="selectionEntry">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="8f10-d804-996d-ab12" name="Heavy Mag-Driver" hidden="false" collective="false" import="true" targetId="d64d-ea6e-54e7-5631" type="selectionEntry">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="c54c-4e6c-a190-d20f" name="Incinerator" hidden="false" collective="false" import="true" targetId="c476-1c97-b0f1-ffe8" type="selectionEntry">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="f7f0-598d-ec89-650a" name="Mag-Blitzer" hidden="false" collective="false" import="true" targetId="a9fa-dde9-0e89-c177" type="selectionEntry">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="7c8f-e0b0-9617-d1e7" name="Mag-Driver" hidden="false" collective="false" import="true" targetId="7e86-7426-755a-6f51" type="selectionEntry">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="7459-c6fd-5f6f-5f4e" name="Mechanical Bow" hidden="false" collective="false" import="true" targetId="c670-65f4-c3b2-5306" type="selectionEntry">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="569e-e296-6665-8997" name="Pneumatic Hailer" hidden="false" collective="false" import="true" targetId="2c06-3502-6454-de99" type="selectionEntry">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="1dd9-98cc-602a-3c79" name="Pneumatic Jezail" hidden="false" collective="false" import="true" targetId="76b7-a2cb-2b6c-497f" type="selectionEntry">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="3706-8b15-6b7e-ec66" name="Scrap Shotgun" hidden="false" collective="false" import="true" targetId="379e-c31b-1fd3-3986" type="selectionEntry">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="9b89-36e9-ed65-2452" name="Slug Gun" hidden="false" collective="false" import="true" targetId="45cb-b081-6171-155a" type="selectionEntry">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="55f5-7c3-46ee-cfa7" name="Snub Isotope Cannon" hidden="false" collective="false" import="true" targetId="7a58-d325-9c60-9ee6" type="selectionEntry">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Secondary Weapons" hidden="false" id="dfc4-4197-e6c9-967a">
+              <entryLinks>
+                <entryLink id="4092-1b91-4d51-4740" name="Flechette Pistol" hidden="false" collective="false" import="true" targetId="52de-d1e7-0c20-a1d2" type="selectionEntry">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="5d78-2462-d577-d4e3" name="Mag-Pulser" hidden="false" collective="false" import="true" targetId="586a-1f12-6f15-ca2e" type="selectionEntry">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="d4ed-3ca7-20c6-dffe" name="Needle Pistol" hidden="false" collective="false" import="true" targetId="24c6-f7b6-ec5c-c109" type="selectionEntry">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="2fb9-39a4-abba-8e36" name="Plasma Burner" hidden="false" collective="false" import="true" targetId="8be5-87d2-a7a4-43c3" type="selectionEntry">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="b9a7-3613-f123-5676" name="Sawed-Off Slugger" hidden="false" collective="false" import="true" targetId="7191-3845-124d-e77d" type="selectionEntry">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="a764-a2de-944b-f949" name="Scrap Pistol" hidden="false" collective="false" import="true" targetId="5935-1333-cb05-3396" type="selectionEntry">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Armor" hidden="false" id="2492-6411-5d8d-efd0">
+          <entryLinks>
+            <entryLink id="3a39-358b-ba7a-8957" name="Armored Carapace" hidden="false" collective="false" import="true" targetId="cb74-d7e4-9123-9bd6" type="selectionEntry">
+              <costs>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="8826-aa9a-5f1d-6dcb" name="Armored Hazard Suit" hidden="false" collective="false" import="true" targetId="19bf-25dc-a921-252e" type="selectionEntry">
+              <costs>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="9c62-b5e1-55d6-b8fa" name="Excursion Rig" hidden="false" collective="false" import="true" targetId="3608-9fd6-46b4-9505" type="selectionEntry">
+              <costs>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="b78a-fa10-ba73-8521" name="Gantry Runner Rig" hidden="false" collective="false" import="true" targetId="cfc4-0bba-25e0-616a" type="selectionEntry">
+              <costs>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="bd74-d436-52f7-a4b7" name="Hazard Suit" hidden="false" collective="false" import="true" targetId="b498-cbfe-aecb-13e2" type="selectionEntry">
+              <costs>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="7246-fce3-3edf-3ef3" name="Light Carapace" hidden="false" collective="false" import="true" targetId="734c-9585-26ae-c93e" type="selectionEntry">
+              <costs>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="b9cd-5df0-55b6-6484" name="Light Exoskeleton" hidden="false" collective="false" import="true" targetId="149b-961b-95f1-16fb" type="selectionEntry">
+              <costs>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="1a75-4bc3-3062-30dd" name="Mechanized Exoskeleton" hidden="false" collective="false" import="true" targetId="2aab-4f66-77b4-e72c" type="selectionEntry">
+              <costs>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="9be2-a2dc-de24-7a77" name="Mobility Frame" hidden="false" collective="false" import="true" targetId="4cd9-3645-cfc1-ba3b" type="selectionEntry">
+              <costs>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="be20-14cb-db44-87e1" name="Skirmisher Frame" hidden="false" collective="false" import="true" targetId="427f-af0e-ae48-c87e" type="selectionEntry">
+              <costs>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="f39f-1dc6-532b-c83c" name="Survival Suit" hidden="false" collective="false" import="true" targetId="2da2-8143-6fee-244b" type="selectionEntry">
+              <costs>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Equipment" hidden="false" id="7052-9a14-fdc4-a848">
+          <entryLinks>
+            <entryLink id="d252-b31a-4422-8fad" name="Alloy Shield" hidden="false" collective="false" import="true" targetId="0897-70af-6776-bae2" type="selectionEntry">
+              <costs>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="dac4-22db-1cb7-1236" name="Auto-Reloader" hidden="false" collective="false" import="true" targetId="8655-564a-ee15-652d" type="selectionEntry">
+              <costs>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="17d9-9b04-ac20-6f32" name="Ballistic Optics" hidden="false" collective="false" import="true" targetId="6182-2e40-2dd9-a87d" type="selectionEntry">
+              <costs>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="d78c-54f7-b2d3-410f" name="Comms Uplink" hidden="false" collective="false" import="true" targetId="0482-9671-7561-b1b2" type="selectionEntry">
+              <costs>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="e725-906a-e92e-887" name="Compressed Rations" hidden="false" collective="false" import="true" targetId="f6bb-d03b-0da0-5b23" type="selectionEntry">
+              <costs>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="643b-f230-521f-83a3" name="Cutter Tools" hidden="false" collective="false" import="true" targetId="0de0-6f16-2f71-3b04" type="selectionEntry">
+              <costs>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="c28c-e225-342f-94f" name="Defense Matrix" hidden="false" collective="false" import="true" targetId="cc37-d594-29f3-7067" type="selectionEntry">
+              <costs>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="357c-9c66-501e-9d69" name="Descent Harness" hidden="false" collective="false" import="true" targetId="9736-49ad-0f9f-66d5" type="selectionEntry">
+              <costs>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="4d86-98d8-a66-941e" name="HardLight Emitter" hidden="false" collective="false" import="true" targetId="c263-7501-685d-b177" type="selectionEntry">
+              <costs>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="7190-24dd-54c9-9102" name="Hazard Inoculation" hidden="false" collective="false" import="true" targetId="bfb0-f6e5-7fee-7242" type="selectionEntry">
+              <costs>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="7215-822b-7583-3bf8" name="Interface Deck" hidden="false" collective="false" import="true" targetId="a846-539a-e342-096c" type="selectionEntry">
+              <costs>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="a40c-fc6f-d08b-431" name="Magnetic Boots" hidden="false" collective="false" import="true" targetId="283a-8563-bab4-aa59" type="selectionEntry">
+              <costs>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="2bbe-c732-4f0-c58f" name="Nano-Infusion" hidden="false" collective="false" import="true" targetId="296c-8817-2de4-0824" type="selectionEntry">
+              <costs>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="5df5-349b-1ba-202c" name="Scouting Sensor" hidden="false" collective="false" import="true" targetId="d791-9369-dd26-9be4" type="selectionEntry">
+              <costs>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="db9-f026-1132-3d2d" name="Smoke Canister" hidden="false" collective="false" import="true" targetId="fcf1-f06c-ec2e-5caf" type="selectionEntry">
+              <costs>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="28ad-cc8f-11d1-35fe" name="Spare Battery" hidden="false" collective="false" import="true" targetId="3477-78f8-25c4-734d" type="selectionEntry">
+              <costs>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="7993-193e-adc7-3aa2" name="Tech Jammer" hidden="false" collective="false" import="true" targetId="ce78-32fb-a15a-6e53" type="selectionEntry">
+              <costs>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="fce3-1153-1d81-5099" name="Trauma Kit" hidden="false" collective="false" import="true" targetId="0928-e671-b727-29a6" type="selectionEntry">
+              <costs>
+                <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Unequipped Artifact Gear" hidden="false" id="86ef-b7a1-64da-6df9">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapons" hidden="false" id="f9f8-41ea-b701-f2fd">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Grenades" hidden="false" id="7a8e-44b5-a905-bf87">
+              <entryLinks>
+                <entryLink import="true" name="Waveform Collapser" hidden="false" type="selectionEntry" id="57a-afeb-b65c-3462" targetId="d2da-a71b-5f6b-a264">
+                  <costs>
+                    <cost name="RU" typeId="ae78-7f45-75c9-abaf" value="0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Melee Weapons" hidden="false" id="7211-a517-39a0-bca8">
+              <entryLinks>
+                <entryLink id="6be2-38d6-15d3-c08e" name="Graviton Hammer" hidden="false" collective="false" import="true" targetId="9883-07e6-5e29-3f4c" type="selectionEntry"/>
+                <entryLink id="6008-c979-8529-7c35" name="Monofilament Fibers" hidden="false" collective="false" import="true" targetId="8424-c889-b545-8e5f" type="selectionEntry"/>
+                <entryLink id="66f6-5d2d-7d6-621e" name="Vorpal Edge" hidden="false" collective="false" import="true" targetId="5b5d-3b2f-40d1-f543" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Primary Weapons" hidden="false" id="8960-e6c8-15f3-39eb">
+              <entryLinks>
+                <entryLink id="5e52-b231-af60-d9fd" name="Fractal Grav-Driver" hidden="false" collective="false" import="true" targetId="ca64-cee5-eaef-df56" type="selectionEntry"/>
+                <entryLink id="53db-5a0d-bbb2-d9ba" name="Graviton Emitter" hidden="false" collective="false" import="true" targetId="7734-ef84-6755-e80d" type="selectionEntry"/>
+                <entryLink id="f099-3ca2-f9ba-c172" name="Meson Vector Cannon" hidden="false" collective="false" import="true" targetId="4652-8564-c1a9-3b18" type="selectionEntry"/>
+                <entryLink id="d625-daf5-134a-decd" name="Plasma Blaster" hidden="false" collective="false" import="true" targetId="f1c7-99ba-a247-43a1" type="selectionEntry"/>
+                <entryLink id="ca33-814-4540-615a" name="Schrodinger Rifle" hidden="false" collective="false" import="true" targetId="38f6-9205-75a4-bd92" type="selectionEntry"/>
+                <entryLink id="2b4c-a00b-16fc-f38c" name="Thermal Beam" hidden="false" collective="false" import="true" targetId="3229-b240-088e-fa2c" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Secondary Weapons" hidden="false" id="d316-efe0-5d4c-f53a">
+              <entryLinks>
+                <entryLink id="acd4-4863-26bc-8658" name="Portal Device" hidden="false" collective="false" import="true" targetId="4057-52f1-aa88-ea0e" type="selectionEntry"/>
+                <entryLink id="63af-d381-e555-e6b4" name="Telekinetic Projector" hidden="false" collective="false" import="true" targetId="699d-5707-72f9-8188" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Armor" hidden="false" id="2ba2-83b2-19fe-e391">
+          <entryLinks>
+            <entryLink id="efda-2de2-53b5-5bfd" name="4D Camouflage" hidden="false" collective="false" import="true" targetId="9bc6-2298-a559-cc7d" type="selectionEntry"/>
+            <entryLink id="ac61-c699-1585-7831" name="Ancient Battlesuit" hidden="false" collective="false" import="true" targetId="c080-a128-44ac-62eb" type="selectionEntry"/>
+            <entryLink id="c029-8f51-e6cb-8eea" name="Archangel Frame" hidden="false" collective="false" import="true" targetId="6b8c-907e-e221-587c" type="selectionEntry"/>
+            <entryLink id="2bf3-4530-b988-2df0" name="Biomech Exoskeleton" hidden="false" collective="false" import="true" targetId="7dd1-9996-3397-15e6" type="selectionEntry"/>
+            <entryLink id="f050-15ca-a30a-8dc7" name="Chrono-Capacitance Harness" hidden="false" collective="false" import="true" targetId="6a75-acb3-96ab-619d" type="selectionEntry"/>
+            <entryLink id="91a3-a61e-e0a9-67cf" name="Femtotech Membrane" hidden="false" collective="false" import="true" targetId="b47c-8977-784a-4a95" type="selectionEntry"/>
+            <entryLink id="6a57-2769-fbf0-8dd9" name="Geist Frame" hidden="false" collective="false" import="true" targetId="0402-8bfa-ee4a-c96d" type="selectionEntry"/>
+            <entryLink id="3178-7ef9-4f8-1e90" name="Quantum Barrier" hidden="false" collective="false" import="true" targetId="42aa-78ab-fcb4-5908" type="selectionEntry"/>
+            <entryLink id="2190-2856-4218-2bd9" name="Regenerative Mesh" hidden="false" collective="false" import="true" targetId="cec8-0361-6328-397e" type="selectionEntry"/>
+            <entryLink id="f10a-6279-1504-3377" name="Survival Symbiote" hidden="false" collective="false" import="true" targetId="c687-4dac-880b-86b7" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Equipment" hidden="false" id="82ab-43fb-aa25-8db8">
+          <entryLinks>
+            <entryLink id="b7bd-bb74-fdcc-1285" name="Advanced Interface Deck" hidden="false" collective="false" import="true" targetId="e139-316f-69db-18a9" type="selectionEntry"/>
+            <entryLink id="9099-1ec8-bf5d-7365" name="Clairvoyant Sensor" hidden="false" collective="false" import="true" targetId="466d-9b66-d93f-eee9" type="selectionEntry"/>
+            <entryLink id="3593-fad5-6bc-4c6b" name="Entanglement Reconstructor" hidden="false" collective="false" import="true" targetId="85f4-f8be-4b85-5195" type="selectionEntry"/>
+            <entryLink id="af0d-c7f8-51d2-ff99" name="Hyperwave Uplink" hidden="false" collective="false" import="true" targetId="482c-0767-3661-a345" type="selectionEntry"/>
+            <entryLink id="5316-800c-99b0-9055" name="Immunocyte Authenticator" hidden="false" collective="false" import="true" targetId="b46d-a162-8c81-82e4" type="selectionEntry"/>
+            <entryLink id="4f36-1149-5dc5-6934" name="Invulnerability Serum" hidden="false" collective="false" import="true" targetId="9383-38a0-486f-cb03" type="selectionEntry"/>
+            <entryLink id="b556-50c0-559f-10b4" name="Lucky Sphere" hidden="false" collective="false" import="true" targetId="de68-27f7-fa53-eb3a" type="selectionEntry"/>
+            <entryLink id="c776-aee6-2a41-cb67" name="Medical Regenerator" hidden="false" collective="false" import="true" targetId="2469-e0a8-09b0-f209" type="selectionEntry"/>
+            <entryLink id="3930-7da6-7482-6a31" name="Memetic Geas" hidden="false" collective="false" import="true" targetId="2a01-600e-1c34-7dba" type="selectionEntry"/>
+            <entryLink id="494e-367a-350-787b" name="Nano-Absorber" hidden="false" collective="false" import="true" targetId="96f9-0278-d0eb-94ec" type="selectionEntry"/>
+            <entryLink id="8199-821d-3350-ec2f" name="Networked Barrier" hidden="false" collective="false" import="true" targetId="f926-3a31-f2c4-2f72" type="selectionEntry"/>
+            <entryLink id="3a0a-2fb2-54f8-b0ba" name="Quantum Teleporter" hidden="false" collective="false" import="true" targetId="99ce-c8d9-29ae-beeb" type="selectionEntry"/>
+            <entryLink id="dfdc-473e-215f-b4fc" name="Radiation Fluxer" hidden="false" collective="false" import="true" targetId="2660-1e81-d5c5-b850" type="selectionEntry"/>
+            <entryLink id="cdb3-469a-7df2-4b57" name="Revival Protocol" hidden="false" collective="false" import="true" targetId="fb09-66fc-a152-4d86" type="selectionEntry"/>
+            <entryLink id="d340-94d3-1cd-709b" name="Stasis Field" hidden="false" collective="false" import="true" targetId="7199-66d1-f522-eeaf" type="selectionEntry"/>
+            <entryLink id="77e9-d3b5-8b80-eec" name="Ultra-Stims" hidden="false" collective="false" import="true" targetId="004e-1e8b-e37e-302a" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
@@ -3935,4 +4397,5 @@ Action: This model may target an Immunocyte within 8 inches and make an aptitude
       </characteristics>
     </profile>
   </sharedProfiles>
+  <xmlns>http://www.battlescribe.net/schema/gameSystemSchema</xmlns>
 </gameSystem>
