@@ -7,7 +7,13 @@ Zone Raiders
 [![GitHub contributors](https://img.shields.io/github/contributors/BSData/zone-raiders.svg?style=flat-square)](https://github.com/BSData/zone-raiders/graphs/contributors)
 ![GitHub commit activity the past year](https://img.shields.io/github/commit-activity/y/BSData/zone-raiders.svg?style=flat-square)
 
+[![Chat on Discord](https://img.shields.io/discord/558412685981777922?style=popout-square)](https://discord.gg/KqPVhds)
 
+
+## Important ##
+[Important]: #important
+
+__The Battlescribe data editor can cause problems when merging updates. Because of this, and also to avoid duplicated effort where multiple people are working on the same files, please join us on Gitter before you commit changes to the files.__
 
 #### Contents ####
 
